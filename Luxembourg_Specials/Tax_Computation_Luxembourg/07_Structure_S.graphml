@@ -15,10 +15,9 @@
   <graph edgedefault="directed" id="G">
     <data key="d0"/>
     <node id="n0">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="47.75" width="140.01376397297713" x="-678.845448184105" y="1281.9800263153345"/>
+          <y:Geometry height="47.75" width="140.01376397297713" x="-606.9843071722639" y="1131.7249132905768"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="68.00688198648857" y="21.875">
@@ -35,7 +34,7 @@
     <node id="n1">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="55.5" width="145.0" x="-1389.2082772808617" y="1281.9800263153345"/>
+          <y:Geometry height="55.5" width="145.0" x="-1317.3471362690207" y="1131.7249132905768"/>
           <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="70.5" y="25.75">
@@ -52,7 +51,7 @@
     <node id="n2">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="55.5" width="129.40781395348836" x="-1161.0840791519831" y="1281.9800263153345"/>
+          <y:Geometry height="55.5" width="129.40781395348836" x="-1089.222938140142" y="1131.7249132905768"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="4.0" y="25.75"/>
@@ -62,7 +61,7 @@
     <node id="n3">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="55.5" width="129.40781395348836" x="-850.271301513878" y="1281.9800263153345"/>
+          <y:Geometry height="55.5" width="129.40781395348836" x="-778.410160502037" y="1131.7249132905768"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="4.0" y="25.75"/>
@@ -72,7 +71,7 @@
     <node id="n4">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="55.5" width="167.75281849206635" x="-512.8331093455637" y="1281.9800263153345"/>
+          <y:Geometry height="55.5" width="167.75281849206635" x="-440.97196833372266" y="1131.7249132905768"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="4.0" y="25.75"/>
@@ -82,7 +81,7 @@
     <node id="n5">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="55.5" width="129.40781395348836" x="-1005.6776903329304" y="1281.9800263153345"/>
+          <y:Geometry height="55.5" width="129.40781395348836" x="-933.8165493210894" y="1131.7249132905768"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="4.0" y="25.75"/>
@@ -95,7 +94,7 @@
           <y:Geometry height="100.74458788184268" width="302.116511627907" x="-1068.2946864825178" y="494.54595299383743"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="276.126953125" x="4.0" y="6.466043940921338">E. Salaire brut versé dans le cadre du régime
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="276.126953125" x="4.0" y="6.466043940921395">E. Salaire brut versé dans le cadre du régime
 d'imposition forfaitaire de l'article 137(5) LIR
 
 (l'impôt sur ce salaire étant payé par 
@@ -107,7 +106,7 @@ d'impôts)</y:NodeLabel>
     <node id="n7">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="170.99199999999996" width="512.0" x="-1164.4597704780474" y="650.408535495357"/>
+          <y:Geometry height="170.99199999999996" width="512.0" x="-1524.6868821933956" y="650.408535495357"/>
           <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="157.65625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="496.5390625" x="7.73046875" y="6.667874999999981">Article 137(5) LIR (page 143 dans la version 2020)
@@ -293,7 +292,7 @@ voitures leasing)<y:LabelModel>
           <y:Geometry height="100.74458788184273" width="307.233023255814" x="-1068.2946864825178" y="265.41449974437546"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="281.1953125" x="4.0" y="6.466043940921367">C. Prestations en cas de maladie, maternité,
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="281.1953125" x="4.0" y="6.466043940921395">C. Prestations en cas de maladie, maternité,
     accident, chômage (si pas dans la
     rémunération brute) payés par la Caisse de
     Maladie ou l'Administration de l'Emploi
@@ -520,7 +519,7 @@ Inclut les impôts retenus à la source. </y:NodeLabel>
     <node id="n32">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
-          <y:Geometry height="55.0" width="35.0" x="-430.74722184972325" y="1453.8489220871847"/>
+          <y:Geometry height="55.0" width="35.0" x="-358.8860808378822" y="1303.593809062427"/>
           <y:Fill color="#FFFFFFE6" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="173.107421875" x="-69.0537109375" y="-35.9375">Se référer aux
@@ -561,7 +560,7 @@ d'impôt.</y:NodeLabel>
           <y:Geometry height="61.0" width="809.7171942541324" x="-1742.6811897419416" y="-267.05535665936543"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="266.177734375" x="4.0" y="16.859375">Version: Sat 30 Nov 18:07</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="266.177734375" x="4.0" y="16.859375">Version: Sat 30 Nov 20:00</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -582,7 +581,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
           <y:Geometry height="48.45162790697674" width="181.44746297012966" x="-1442.8178703828803" y="291.5609797318085"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.53125" x="15.458106485064718" y="1.2726889534883412">Revenus payés
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.53125" x="15.458106485064945" y="1.2726889534883412">Revenus payés
 par la Caisse de Maladie
 ou l'Admin de l'Emploi<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -600,7 +599,7 @@ ou l'Admin de l'Emploi<y:LabelModel>
           <y:Geometry height="48.45162790697674" width="181.44746297012966" x="-1442.8178703828803" y="387.7021444206722"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="106.849609375" x="37.29892679756472" y="15.241438953488398">D'autres revenus<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="106.849609375" x="37.298926797564945" y="15.241438953488341">D'autres revenus<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -616,7 +615,7 @@ ou l'Admin de l'Emploi<y:LabelModel>
           <y:Geometry height="48.45162790697674" width="181.44746297012966" x="-1442.8178703828805" y="520.6924329812704"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="139.3046875" x="21.071387735064945" y="1.2726889534883412">Revenus obtenus pour
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="139.3046875" x="21.071387735064718" y="1.2726889534883412">Revenus obtenus pour
 travaux de ménage,
 garde d'enfants,..<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -648,7 +647,7 @@ garde d'enfants,..<y:LabelModel>
     <node id="n40">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
-          <y:Geometry height="55.0" width="35.0" x="-513.9279140462178" y="902.6600575086566"/>
+          <y:Geometry height="55.0" width="35.0" x="-442.06677303437675" y="752.4049444838988"/>
           <y:Fill color="#FFFFFFE6" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.18359375" x="-22.591796875" y="-35.9375">Justifications
@@ -672,7 +671,7 @@ garde d'enfants,..<y:LabelModel>
     <node id="n41">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="79.71446898638419" width="221.37104651162815" x="-136.04129946655223" y="768.4313890767576"/>
+          <y:Geometry height="79.71446898638419" width="221.37104651162815" x="-64.1801584547112" y="618.1762760519998"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="164.681640625" x="4.0" y="9.919734493192095">a) Salaires payés pour les
@@ -685,7 +684,7 @@ garde d'enfants,..<y:LabelModel>
     <node id="n42">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="93.0017441860465" width="221.37104651162815" x="-136.04129946655223" y="868.1634416780673"/>
+          <y:Geometry height="93.0017441860465" width="221.37104651162815" x="-64.1801584547112" y="717.9083286533096"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="202.609375" x="4.0" y="2.5946220930231902">a)  Suppléments de salaires pour
@@ -700,10 +699,10 @@ garde d'enfants,..<y:LabelModel>
     <node id="n43">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="64.80254111413365" width="221.37104651162815" x="-136.04129946655223" y="993.5747065252979"/>
+          <y:Geometry height="64.80254111413365" width="221.37104651162815" x="-64.1801584547112" y="843.3195935005401"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="133.1640625" x="4.0" y="2.4637705570667094">a) Autres exemptions
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="133.1640625" x="4.0" y="2.463770557066937">a) Autres exemptions
    (à spécifier)
 
 (case 738, 742)</y:NodeLabel>
@@ -713,7 +712,7 @@ garde d'enfants,..<y:LabelModel>
     <node id="n44">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="79.71446898638419" width="153.0" x="297.2839963045884" y="986.1187425891726"/>
+          <y:Geometry height="79.71446898638419" width="153.0" x="369.14513731642944" y="835.8636295644149"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.931640625" x="20.0341796875" y="9.919734493192209">Part du salaire
@@ -732,7 +731,7 @@ exempte d'impôts
     <node id="n45">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="55.5" width="145.0" x="-962.2146820683229" y="1088.3772476394315"/>
+          <y:Geometry height="55.5" width="145.0" x="-890.3535410564818" y="938.1221346146738"/>
           <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="92.04296875" x="26.478515625" y="11.78125">Min. forfaitaire
@@ -749,7 +748,7 @@ EUR 540<y:LabelModel>
     <node id="n46">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="55.5" width="129.40781395348836" x="-756.8725364881175" y="1088.3772476394315"/>
+          <y:Geometry height="55.5" width="129.40781395348836" x="-685.0113954762764" y="938.1221346146738"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.796875" x="4.0" y="4.796875">Majoration en
@@ -759,10 +758,9 @@ d'infirmité</y:NodeLabel>
       </data>
     </node>
     <node id="n47">
-      <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="32.483882904052734" width="58.16804885864258" x="-857.6656937675953" y="1136.1272476394315"/>
+          <y:Geometry height="32.483882904052734" width="58.16804885864258" x="-785.8045527557542" y="985.8721346146738"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="147.044921875" x="-44.43843650817871" y="36.483882904052734">doubler si
@@ -783,7 +781,7 @@ le partenaire est salarié<y:LabelModel>
     <node id="n48">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="55.5" width="221.37104651162815" x="-136.04129946655223" y="1088.3772476394315"/>
+          <y:Geometry height="55.5" width="221.37104651162815" x="-64.1801584547112" y="938.1221346146738"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="121.2578125" x="4.0" y="18.765625">b) Frais d'obtention</y:NodeLabel>
@@ -793,7 +791,7 @@ le partenaire est salarié<y:LabelModel>
     <node id="n49">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="40.00000000000006" width="221.37104651162818" x="-802.8541527671874" y="917.6600575086566"/>
+          <y:Geometry height="40.00000000000006" width="221.37104651162818" x="-730.9930117553464" y="767.4049444838988"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="194.58203125" x="4.0" y="4.03125">Frais encourus pour le maintien
@@ -804,7 +802,7 @@ et l'obtention du travail salarié</y:NodeLabel>
     <node id="n50">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="55.5" width="129.40781395348836" x="-572.7296523567409" y="1088.3772476394315"/>
+          <y:Geometry height="55.5" width="129.40781395348836" x="-500.86851134489984" y="938.1221346146738"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="87.396484375" x="4.0" y="11.78125">Max des deux
@@ -815,7 +813,7 @@ valeurs</y:NodeLabel>
     <node id="n51">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="55.5" width="221.72287909028978" x="-136.39313204521386" y="1295.891850528883"/>
+          <y:Geometry height="55.5" width="221.72287909028978" x="-64.53199103337283" y="1145.6367375041252"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="149.166015625" x="4.0" y="18.765625">c) Frais de déplacement</y:NodeLabel>
@@ -825,7 +823,7 @@ valeurs</y:NodeLabel>
     <node id="n52">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
-          <y:Geometry height="40.0" width="80.0" x="-1503.2097024152977" y="1303.641850528883"/>
+          <y:Geometry height="40.0" width="80.0" x="-1431.3485614034566" y="1153.3867375041252"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.0" y="18.0">
@@ -842,7 +840,7 @@ valeurs</y:NodeLabel>
     <node id="n53">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="55.5" width="145.0" x="-1393.2097024152977" y="1295.891850528883"/>
+          <y:Geometry height="55.5" width="145.0" x="-1321.3485614034566" y="1145.6367375041252"/>
           <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="132.173828125" x="6.4130859375" y="4.796875">Unités d'éloignement
@@ -860,7 +858,7 @@ lieu de travail<y:LabelModel>
     <node id="n54">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
-          <y:Geometry height="55.0" width="35.0" x="-1338.2097024152977" y="1521.5431004454404"/>
+          <y:Geometry height="55.0" width="35.0" x="-1266.3485614034566" y="1371.2879874206826"/>
           <y:Fill color="#FFFFFFE6" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="315.853515625" x="-140.4267578125" y="-49.90625">Se référer aux
@@ -874,10 +872,10 @@ https://impotsdirects.public.lu/fr/az/f/frais_depl.html<y:LabelModel>
           </y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.line.color" value="#000000"/>
+            <y:Property class="com.yworks.yfiles.bpmn.view.DataObjectTypeEnum" name="com.yworks.bpmn.dataObjectType" value="DATA_OBJECT_TYPE_PLAIN"/>
             <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill2" value="#d4d4d4cc"/>
             <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill" value="#ffffffe6"/>
             <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="ARTIFACT_TYPE_DATA_OBJECT"/>
-            <y:Property class="com.yworks.yfiles.bpmn.view.DataObjectTypeEnum" name="com.yworks.bpmn.dataObjectType" value="DATA_OBJECT_TYPE_PLAIN"/>
           </y:StyleProperties>
         </y:GenericNode>
       </data>
@@ -885,7 +883,7 @@ https://impotsdirects.public.lu/fr/az/f/frais_depl.html<y:LabelModel>
     <node id="n55">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="55.5" width="129.40781395348836" x="-1009.6791154673664" y="1295.891850528883"/>
+          <y:Geometry height="55.5" width="129.40781395348836" x="-937.8179744555254" y="1145.6367375041252"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="93.75390625" x="4.0" y="11.78125">Limiter aux
@@ -896,7 +894,7 @@ valeurs 0 ... 26</y:NodeLabel>
     <node id="n56">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="55.5" width="129.40781395348836" x="-1165.0855042864189" y="1295.891850528883"/>
+          <y:Geometry height="55.5" width="129.40781395348836" x="-1093.2243632745779" y="1145.6367375041252"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="82.287109375" x="4.0" y="11.78125">Retrancher 4
@@ -907,7 +905,7 @@ unités</y:NodeLabel>
     <node id="n57">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="60.99999999999994" width="175.38943023255825" x="-1188.0763124259538" y="1381.391850528883"/>
+          <y:Geometry height="60.99999999999994" width="175.38943023255825" x="-1116.2151714141128" y="1231.1367375041252"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="160.005859375" x="4.0" y="7.546875">Les 4 premières unités de
@@ -919,7 +917,7 @@ prises en compte</y:NodeLabel>
     <node id="n58">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="60.99999999999994" width="221.37104651162818" x="-900.2543429273837" y="1381.391850528883"/>
+          <y:Geometry height="60.99999999999994" width="221.37104651162818" x="-828.3932019155427" y="1231.1367375041252"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="176.142578125" x="4.0" y="7.546875">Résultat: Valeur entre EUR 0
@@ -931,7 +929,7 @@ prises en compte</y:NodeLabel>
     <node id="n59">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="84.28089561270798" width="240.5140969891308" x="-737.1053469475421" y="1530.5247037815307"/>
+          <y:Geometry height="84.28089561270798" width="240.5140969891308" x="-665.2442059357011" y="1380.269590756773"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="226.375" x="4.0" y="5.2185728063539045">P.ex. éloignement
@@ -945,7 +943,7 @@ de déplacement"</y:NodeLabel>
     <node id="n60">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="40.0" width="118.34500453857777" x="-284.38630400513" y="1303.641850528883"/>
+          <y:Geometry height="40.0" width="118.34500453857777" x="-212.52516299328897" y="1153.3867375041252"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="74.640625" x="21.852189769288884" y="4.03125">Σ
@@ -962,7 +960,7 @@ employeurs<y:LabelModel>
     <node id="n61">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="60.99999999999994" width="175.38943023255825" x="-1550.9044175315767" y="1373.641850528883"/>
+          <y:Geometry height="60.99999999999994" width="175.38943023255825" x="-1479.0432765197356" y="1223.3867375041252"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="115.287109375" x="4.0" y="14.53125">Faire un calcul par
@@ -973,7 +971,7 @@ employeur</y:NodeLabel>
     <node id="n62">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="55.5" width="145.0" x="-764.6686295113733" y="985.8247065252979"/>
+          <y:Geometry height="55.5" width="145.0" x="-692.8074884995323" y="835.5695935005401"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="105.14453125" x="4.0" y="11.78125">Frais d'obtention
@@ -984,7 +982,7 @@ effectifs</y:NodeLabel>
     <node id="n63">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
-          <y:Geometry height="40.0" width="80.0" x="-937.1828597289227" y="993.5747065252979"/>
+          <y:Geometry height="40.0" width="80.0" x="-865.3217187170817" y="843.3195935005401"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.0" y="18.0">
@@ -1001,7 +999,7 @@ effectifs</y:NodeLabel>
     <node id="n64">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="60.99999999999994" width="221.37104651162818" x="-727.5338217087908" y="1450.8489220871847"/>
+          <y:Geometry height="60.99999999999994" width="221.37104651162818" x="-655.6726806969498" y="1300.593809062427"/>
           <y:Fill color="#C0C0C0" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="166.87890625" x="4.0" y="7.546875">En général cette valeur est
@@ -1013,7 +1011,7 @@ salaire</y:NodeLabel>
     <node id="n65">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="55.5" width="167.75281849206635" x="-516.8345344799995" y="1295.891850528883"/>
+          <y:Geometry height="55.5" width="167.75281849206635" x="-444.9733934681585" y="1145.6367375041252"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="123.384765625" x="4.0" y="4.796875">Appliquer le
@@ -1025,19 +1023,18 @@ la durée de l'emploi</y:NodeLabel>
     <node id="n66">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="55.5" width="129.40781395348836" x="-854.2727266483139" y="1295.891850528883"/>
+          <y:Geometry height="55.5" width="129.40781395348836" x="-782.4115856364729" y="1145.6367375041252"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.65234375" x="4.0" y="11.781249999999886">Multiplier par
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.65234375" x="4.0" y="11.78125">Multiplier par
 EUR 99</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n67">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="55.5" width="140.01376397297713" x="-686.8551804394652" y="1295.891850528883"/>
+          <y:Geometry height="55.5" width="140.01376397297713" x="-614.9940394276242" y="1145.6367375041252"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.201171875" x="8.906296048988565" y="4.796875">Frais de
@@ -1055,7 +1052,7 @@ pour cet employeur<y:LabelModel>
     <node id="n68">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
-          <y:Geometry height="40.0" width="80.0" x="-394.45637483200926" y="783.3526504598165"/>
+          <y:Geometry height="40.0" width="80.0" x="-322.59523382016823" y="633.0975374350587"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.0" y="18.0">
@@ -1072,7 +1069,7 @@ pour cet employeur<y:LabelModel>
     <node id="n69">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="40.0" width="118.34500453857777" x="-284.38630400513" y="1005.9759770823646"/>
+          <y:Geometry height="40.0" width="118.34500453857777" x="-212.52516299328897" y="855.7208640576068"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="74.640625" x="21.852189769288884" y="4.03125">Σ
@@ -1089,7 +1086,7 @@ employeurs<y:LabelModel>
     <node id="n70">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="40.0" width="118.34500453857777" x="-284.45637483200926" y="894.6643137710905"/>
+          <y:Geometry height="40.0" width="118.34500453857777" x="-212.59523382016823" y="744.4092007463328"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="74.640625" x="21.852189769288884" y="4.03125">Σ
@@ -1106,7 +1103,7 @@ employeurs<y:LabelModel>
     <node id="n71">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="40.0" width="118.34500453857777" x="-284.45637483200926" y="783.3526504598165"/>
+          <y:Geometry height="40.0" width="118.34500453857777" x="-212.59523382016823" y="633.0975374350587"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="74.640625" x="21.852189769288884" y="4.03125">Σ
@@ -1123,7 +1120,7 @@ employeurs<y:LabelModel>
     <node id="n72">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
-          <y:Geometry height="40.0" width="80.0" x="-394.45637483200926" y="894.6643137710904"/>
+          <y:Geometry height="40.0" width="80.0" x="-322.59523382016823" y="744.4092007463327"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.0" y="18.0">
@@ -1140,7 +1137,7 @@ employeurs<y:LabelModel>
     <node id="n73">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
-          <y:Geometry height="40.0" width="80.0" x="-394.45637483200926" y="1005.9759770823646"/>
+          <y:Geometry height="40.0" width="80.0" x="-322.59523382016823" y="855.7208640576068"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.0" y="18.0">
@@ -1157,7 +1154,7 @@ employeurs<y:LabelModel>
     <node id="n74">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-          <y:Geometry height="40.0" width="80.0" x="169.2245781801272" y="1005.9759770823646"/>
+          <y:Geometry height="40.0" width="80.0" x="241.08571919196822" y="855.7208640576068"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.396484375" x="32.3017578125" y="11.015625">Σ <y:LabelModel>
@@ -1184,7 +1181,6 @@ B. D'autres contrats de travail (case 705)</y:NodeLabel>
     </node>
     <node id="n76" yfiles.foldertype="group">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
@@ -1196,7 +1192,7 @@ B. D'autres contrats de travail (case 705)</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="19" bottomF="19.172502269288998" left="0" leftF="0.0" right="0" rightF="0.0" top="14" topF="14.195380569260692"/>
+              <y:BorderInsets bottom="19" bottomF="19.172502269288998" left="22" leftF="21.77610333692155" right="0" rightF="0.0" top="14" topF="14.195380569260692"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="126.1303358547658" y="-509.77368835098326"/>
@@ -1276,7 +1272,7 @@ B. D'autres contrats de travail (case 705)</y:NodeLabel>
               <y:Geometry height="40.0" width="196.72046511627914" x="-21.276994237179338" y="-85.1243630862329"/>
               <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="131.470703125" x="32.62488099563956" y="4.03125">"Salaire net"
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="131.470703125" x="32.62488099563957" y="4.03125">"Salaire net"
 payé au contribuable<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -1290,7 +1286,7 @@ payé au contribuable<y:LabelModel>
         <node id="n76::n5">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-              <y:Geometry height="40.0" width="80.0" x="-266.66414019133344" y="-165.6243630862329"/>
+              <y:Geometry height="40.0" width="80.0" x="-244.8880368544119" y="-165.6243630862329"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="30.607421875" x="24.6962890625" y="11.015625">Split<y:LabelModel>
@@ -1309,7 +1305,7 @@ payé au contribuable<y:LabelModel>
               <y:Geometry height="40.0" width="196.72046511627914" x="-21.276994237179338" y="-20.58854913274456"/>
               <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="79.05859375" x="58.83093568313956" y="4.03125">Crédit Impôt
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="79.05859375" x="58.83093568313957" y="4.03125">Crédit Impôt
 CIS/CIP<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -1391,7 +1387,9 @@ CIS/CIP<y:LabelModel>
     <edge id="e0" source="n6" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="8.776660190516719" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="8.776660190516719" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-908.4597704780475" y="735.904535495357"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="none"/>
           <y:BendStyle smoothed="true"/>
@@ -1454,7 +1452,7 @@ CIS/CIP<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="373.7839963045884" y="642.8076094805849"/>
+            <y:Point x="445.64513731642944" y="570.3367375753104"/>
             <y:Point x="83.26750025489213" y="382.9413308286378"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
@@ -1719,7 +1717,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e24" source="n36" target="n18">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1730,7 +1727,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e25" source="n30" target="n18">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="51.508455467402996" ty="-24.702540009246206">
@@ -1744,7 +1740,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e26" source="n29" target="n23">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-71.74334483516884" ty="8.27114761816734">
@@ -1758,7 +1753,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e27" source="n25" target="n37">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1769,7 +1763,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e28" source="n26" target="n39">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1780,7 +1773,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e29" source="n39" target="n76::n5">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1794,7 +1786,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e30" source="n45" target="n46">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1805,7 +1796,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e31" source="n45" target="n47">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1816,7 +1806,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e32" source="n62" target="n49">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1827,11 +1816,10 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e33" source="n46" target="n50">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-603.0744088275105" y="1116.1272476394315"/>
+            <y:Point x="-531.2132678156695" y="965.8721346146738"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1840,7 +1828,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e34" source="n54" target="n53">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1851,7 +1838,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e35" source="n57" target="n56">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1862,7 +1848,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e36" source="n53" target="n56">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1873,7 +1858,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e37" source="n56" target="n55">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1884,7 +1868,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e38" source="n55" target="n66">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1895,7 +1878,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e39" source="n66" target="n58">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1906,7 +1888,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e40" source="n64" target="n59">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1917,7 +1898,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e41" source="n65" target="n60">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1928,7 +1908,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e42" source="n60" target="n51">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1939,7 +1918,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e43" source="n52" target="n53">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1950,7 +1928,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e44" source="n52" target="n61">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1961,7 +1938,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e45" source="n63" target="n62">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1972,11 +1948,10 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e46" source="n62" target="n50">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-508.0257453799967" y="1013.5747065252979"/>
+            <y:Point x="-436.16460436815566" y="863.3195935005401"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1985,7 +1960,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e47" source="n50" target="n48">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1996,7 +1970,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e48" source="n67" target="n64">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2007,7 +1980,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e49" source="n66" target="n67">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2018,7 +1990,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e50" source="n67" target="n65">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2029,7 +2000,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e51" source="n71" target="n41">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2040,7 +2010,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e52" source="n70" target="n42">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2051,7 +2020,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e53" source="n69" target="n43">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2062,7 +2030,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e54" source="n68" target="n71">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2073,7 +2040,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e55" source="n72" target="n70">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2084,7 +2050,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e56" source="n73" target="n69">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2095,7 +2060,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e57" source="n74" target="n44">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2106,11 +2070,10 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e58" source="n41" target="n74">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="153.6431245202382" y="808.2886235699497"/>
+            <y:Point x="281.0857191919682" y="658.0335105451919"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -2119,11 +2082,10 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e59" source="n42" target="n74">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="146.7958022812063" y="914.6643137710905"/>
+            <y:Point x="281.0857191919682" y="764.4092007463328"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -2132,7 +2094,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e60" source="n43" target="n74">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2143,11 +2104,10 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e61" source="n48" target="n74">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="131.38932724338474" y="1116.1272476394315"/>
+            <y:Point x="281.0857191919682" y="965.8721346146738"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -2156,11 +2116,10 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e62" source="n51" target="n74">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="157.06678563975402" y="1323.641850528883"/>
+            <y:Point x="281.0857191919682" y="1173.3867375041252"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -2169,7 +2128,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e63" source="n64" target="n32">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2180,7 +2138,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e64" source="n38" target="n6">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2191,7 +2148,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="n76::e7" source="n76::n8" target="n76::n6">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2202,7 +2158,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="n76::e8" source="n76::n7" target="n76::n9">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2213,7 +2168,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="n76::e9" source="n76::n9" target="n76::n10">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2224,7 +2178,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e65" source="n23" target="n17">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2235,7 +2188,6 @@ CIS/CIP<y:LabelModel>
       </data>
     </edge>
     <edge id="e66" source="n75" target="n17">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
