@@ -186,7 +186,7 @@ d'une occupation salariée"<y:LabelModel>
           <y:Geometry height="120.0" width="809.7548781204114" x="-1742.7188736082205" y="-387.05535665936543"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="763.5068359375" x="23.12402109145569" y="23.078125">Partie S
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="763.5068359375" x="4.0" y="23.078125">Partie S
 "Revenu net provenant d'une occupation salariée"</y:NodeLabel>
         </y:GenericNode>
       </data>
@@ -702,7 +702,7 @@ garde d'enfants,..<y:LabelModel>
           <y:Geometry height="64.80254111413365" width="221.37104651162815" x="-64.1801584547112" y="843.3195935005401"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="133.1640625" x="4.0" y="2.463770557066937">a) Autres exemptions
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="133.1640625" x="4.0" y="2.463770557066823">a) Autres exemptions
    (à spécifier)
 
 (case 738, 742)</y:NodeLabel>
@@ -715,7 +715,7 @@ garde d'enfants,..<y:LabelModel>
           <y:Geometry height="79.71446898638419" width="153.0" x="369.14513731642944" y="835.8636295644149"/>
           <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.931640625" x="20.0341796875" y="9.919734493192209">Part du salaire
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.931640625" x="20.0341796875" y="9.919734493192095">Part du salaire
 exempte d'impôts
 ("déductions")
 ("exemptions")<y:LabelModel>
