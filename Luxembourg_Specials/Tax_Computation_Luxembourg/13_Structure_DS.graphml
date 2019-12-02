@@ -32,14 +32,14 @@ spéciales déductibles
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="1055.1146793743192" width="1248.0464179166029" x="26.180320536533827" y="-2667.391906791792"/>
+              <y:Geometry height="1190.8885929908727" width="1437.8785687669547" x="-163.65183031381832" y="-2840.875583863912"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1248.0464179166029" x="0.0" y="0.0">Dépenses spéciales déductibles COUVERTES PAR LE MINIMUM FORFAITAIRE</y:NodeLabel>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1437.8785687669547" x="0.0" y="0.0">Dépenses spéciales déductibles COUVERTES PAR LE MINIMUM FORFAITAIRE</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="18" leftF="18.343877413769746" right="0" rightF="0.0" top="24" topF="23.626880293753857"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="14" topF="13.5698555359495"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="1302.1941442411191" y="-2347.460937499999"/>
@@ -58,28 +58,29 @@ spéciales déductibles
         <node id="n1::n0">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="372.24671689989225" x="59.572204767669916" y="-1962.52362811715"/>
+              <y:Geometry height="40.0" width="391.15164513814125" x="-148.62782690513515" y="-2005.6401724863338"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="337.5390625" x="4.0" y="4.03125">(C) Cotisations payées à titre personnel à un régime de
-sécurité sociale</y:NodeLabel>
+     sécurité sociale</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n1::n1">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="372.24671689989225" x="59.572204767669916" y="-1892.52362811715"/>
+              <y:Geometry height="40.0" width="391.15164513814125" x="-148.62782690513515" y="-1929.8899513143747"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="152.541015625" x="4.0" y="11.015625">(D) Prévoyance-viellesse</y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="152.541015625" x="4.0" y="4.03125">(D) Prévoyance-viellesse
+     (Article 111bis)</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n1::n2">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="47.5" width="372.24671689989225" x="59.572204767669916" y="-1852.52362811715"/>
+              <y:Geometry height="47.5" width="391.15164513814125" x="-148.62782690513515" y="-1889.8899513143747"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="340.0546875" x="4.0" y="10.109375">Primes versées en vert d'un contrat de prévoyance-vieillesse selon
@@ -90,7 +91,7 @@ sécurité sociale</y:NodeLabel>
         <node id="n1::n3">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-              <y:Geometry height="40.0" width="100.61093287886331" x="562.8523997495382" y="-1892.52362811715"/>
+              <y:Geometry height="40.0" width="100.61093287886331" x="562.8523997495382" y="-1930.233391572717"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="68.5703125" x="4.0" y="6.359375">Min des
@@ -101,17 +102,18 @@ deux valeurs</y:NodeLabel>
         <node id="n1::n4">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="364.8891280947255" x="59.572204767669916" y="-1775.02362811715"/>
+              <y:Geometry height="40.0" width="391.15164513814125" x="-148.62782690513515" y="-1812.3899513143747"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="136.240234375" x="4.0" y="11.015625">(E) Epargne-logement</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="136.240234375" x="4.0" y="4.03125">(E) Epargne-logement
+      (Article 111)</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n1::n5">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="32.48388290405268" width="364.8891280947255" x="59.572204767669916" y="-1735.02362811715"/>
+              <y:Geometry height="32.48388290405268" width="391.15164513814125" x="-148.62782690513515" y="-1772.3899513143747"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="311.4072265625" x="4.0" y="8.421628952026367">Cotisation versées à des caisses d'épargne-logement agrées.</y:NodeLabel>
@@ -121,7 +123,7 @@ deux valeurs</y:NodeLabel>
         <node id="n1::n6">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-              <y:Geometry height="43.75" width="100.61093287886331" x="562.8523997495382" y="-1776.89862811715"/>
+              <y:Geometry height="43.75" width="100.61093287886331" x="562.8523997495382" y="-1814.608391572717"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="68.5703125" x="4.0" y="8.234375">Min des
@@ -132,42 +134,52 @@ deux valeurs</y:NodeLabel>
         <node id="n1::n7">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="50.00122757813779" width="372.24671689989236" x="59.62021158503626" y="-2210.763226038144"/>
+              <y:Geometry height="50.00122757813779" width="391.1996519555077" x="-148.65183031381832" y="-2348.7697046286385"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="312.525390625" x="4.0" y="9.03186378906912">(B.a) Intérêts débiteurs sur prêts de consommation
-(subvention &amp; bonification déduites)</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="312.525390625" x="4.0" y="9.031863789068666">(B.a) Intérêts débiteurs sur prêts de consommation
+         (subvention &amp; bonification déduites)</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n1::n8">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="372.24671689989236" x="59.6202115850362" y="-2083.261998460006"/>
+              <y:Geometry height="40.0" width="391.15164513814125" x="-148.65183031381832" y="-2221.268477050501"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="332.646484375" x="4.0" y="11.015625">(B.b) Primes d'assurance et cotisations (si applicables)</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="238.275390625" x="4.0" y="4.03125">(B.b) Primes d'assurance et cotisations
+         (Article 111)</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n1::n9">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="47.5" width="372.34273053462493" x="59.524197950303574" y="-2043.261998460006"/>
+              <y:Geometry height="146.8131194833154" width="391.1996519555076" x="-148.65183031381832" y="-2181.268477050501"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="339.380859375" x="4.0" y="10.109375">Primes versées à titre d'assurance en cas de vie, décès, accidents,
-invalidité, respo civile; côtisations pour sociétés mutuelles</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="132.046875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="372.88671875" x="4.0" y="7.383122241657475">- Primes versées à titre d'assurance en cas de vie (contrat devant
+  porter sur 10 ans au moins), décès, accidents, invalidité, respo civile.
+- Côtisations pour sociétés de secours mutuels reconnues; dans le but 
+  d'assurer des risques de maladie, accident, incapacité de travail, 
+  infirmité, chômage, vieillesse et de décès.
+
+Il s'agit d'assurances pour risques liés à la personne ainsi que dommages
+matériels de tiers. Pour l'assurance auto seule compte la partie couvrant
+la personne. La partie de la prime pour dommages matériels n'est pas
+déductible (mais peut éventuellement être classée sous frais d'obtention
+ou dépense d'exploitation).</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n1::n10">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-              <y:Geometry height="71.04428417653389" width="222.97257983494796" x="79.74656471701428" y="-2603.680478929769"/>
+              <y:Geometry height="71.04428417653389" width="222.97257983494796" x="79.74656471701428" y="-2787.2211807596937"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.203125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="197.8671875" x="4.0" y="4.420579588267174">[] 
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.203125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="197.8671875" x="4.0" y="4.420579588266719">[] 
 Demande de majoration du plafond en
 cas de "prime unique pour
 "assurance temporaire au décès
@@ -178,7 +190,7 @@ cas de "prime unique pour
         <node id="n1::n11">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="71.04428417653389" width="372.24671689989236" x="59.62021158503626" y="-2316.2450913914736"/>
+              <y:Geometry height="71.04428417653389" width="391.15164513814125" x="-148.6278269051351" y="-2454.2515699819687"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="315.2734375" x="4.0" y="5.584642088267174">(A) Arrérages de rentes et de charges permanentes
@@ -191,7 +203,7 @@ cas de "prime unique pour
         <node id="n1::n12">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="80.64425905991993" width="165.58333333333348" x="797.7391089035534" y="-2061.045901875896"/>
+              <y:Geometry height="80.64425905991993" width="165.58333333333348" x="797.7391089035534" y="-2148.3886379574856"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="160.873046875" x="4.0" y="3.400254529959966">Total des dépenses
@@ -205,7 +217,7 @@ minimum forfaitaire
         <node id="n1::n13">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="63.583333333332575" width="121.1747219232152" x="1138.0520165299213" y="-2052.5154390126027"/>
+              <y:Geometry height="63.583333333332575" width="121.1747219232152" x="1138.0520165299213" y="-2139.858175094192"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="75.302734375" x="4.0" y="8.838541666666288">Total
@@ -217,7 +229,7 @@ minimum forfaitaire
         <node id="n1::n14">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="153.58557227606457" x="973.237344167166" y="-2220.795498216048"/>
+              <y:Geometry height="40.0" width="153.58557227606457" x="973.237344167166" y="-2308.1382342976376"/>
               <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.546875" x="4.0" y="4.03125">Minimum forfaitaire
@@ -228,10 +240,10 @@ de EUR 480</y:NodeLabel>
         <node id="n1::n15">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-              <y:Geometry height="40.0" width="100.61093287886331" x="999.7246638657665" y="-2040.7237723459361"/>
+              <y:Geometry height="40.0" width="100.61093287886331" x="999.7246638657665" y="-2128.0665084275256"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.484375" x="9.563278939431711" y="4.03125">Max des
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.484375" x="9.563278939431598" y="4.03125">Max des
 deux valeurs<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -245,7 +257,7 @@ deux valeurs<y:LabelModel>
         <node id="n1::n16">
           <data key="d6">
             <y:SVGNode>
-              <y:Geometry height="32.483882904052734" width="58.16804885864258" x="1068.654867584588" y="-2191.1102592971592"/>
+              <y:Geometry height="32.483882904052734" width="58.16804885864258" x="1068.654867584588" y="-2278.4529953787487"/>
               <y:Fill color="#CCCCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="61.0" x="-1.415975570678711" y="36.483882904052734">à doubler<y:LabelModel>
@@ -265,10 +277,10 @@ deux valeurs<y:LabelModel>
         <node id="n1::n17">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="63.58333333333269" width="270.80470176798826" x="914.6277794212041" y="-2324.7562867056563"/>
+              <y:Geometry height="63.58333333333269" width="270.80470176798826" x="914.6277794212041" y="-2412.0990227872458"/>
               <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="226.92578125" x="21.93946025899413" y="8.838541666666515">Intégré dans le barême de l'impôt
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="226.92578125" x="21.939460258994245" y="8.838541666666515">Intégré dans le barême de l'impôt
 sur les salaires et non mentionné sur
 la fiche de retenue d'impôt.<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
@@ -283,10 +295,10 @@ la fiche de retenue d'impôt.<y:LabelModel>
         <node id="n1::n18">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-              <y:Geometry height="40.0" width="100.61093287886331" x="660.7259543958106" y="-2039.511998460006"/>
+              <y:Geometry height="40.0" width="100.61093287886331" x="660.7259543958106" y="-2126.8547345415955"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.396484375" x="42.60722425193171" y="11.015625">Σ <y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.396484375" x="42.6072242519316" y="11.015625">Σ <y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -299,7 +311,7 @@ la fiche de retenue d'impôt.<y:LabelModel>
         <node id="n1::n19">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="47.5" width="372.34273053462493" x="59.572204767669916" y="-2160.761998460006"/>
+              <y:Geometry height="47.5" width="391.24765877287393" x="-148.65183031381832" y="-2298.768477050501"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.921875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="343.31640625" x="4.0" y="4.2890625">En relation économique avec des prêts de consommation (voitures,
@@ -311,7 +323,7 @@ dépenses d'exploitation, frais d'obtention.</y:NodeLabel>
         <node id="n1::n20">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-              <y:Geometry height="40.0" width="100.61093287886331" x="574.7038854503035" y="-2145.801503303924"/>
+              <y:Geometry height="40.0" width="100.61093287886331" x="574.7038854503035" y="-2283.8079818944193"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.921875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="68.5703125" x="16.02031018943171" y="0.5390625">Min des
@@ -329,7 +341,7 @@ deux valeurs
         <node id="n1::n21">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-              <y:Geometry height="40.0" width="58.16804885864258" x="486.5358365916609" y="-2145.801503303924"/>
+              <y:Geometry height="40.0" width="58.16804885864258" x="348.330631255875" y="-2283.8079818944193"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.396484375" x="21.38578224182129" y="11.015625">Σ <y:LabelModel>
@@ -345,21 +357,21 @@ deux valeurs
         <node id="n1::n22">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="153.58557227606457" x="816.9520900255202" y="-1849.0150111006446"/>
+              <y:Geometry height="40.0" width="176.33347324484816" x="816.9520900255202" y="-1886.7247745562115"/>
               <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.87109375" x="4.0" y="4.03125">Plafond de
-de EUR 3200</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="130.3984375" x="4.0" y="11.015625">Plafond de EUR 3200</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n1::n23">
           <data key="d6">
             <y:SVGNode>
-              <y:Geometry height="32.483882904052734" width="58.16804885864258" x="912.3696134429422" y="-1821.1584732150102"/>
+              <y:Geometry height="32.483882904052734" width="58.16804885864258" x="981.7567664550256" y="-1864.9024515252595"/>
               <y:Fill color="#CCCCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="61.0" x="-1.415975570678711" y="36.483882904052734">à doubler<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.197265625" x="-41.51460838317871" y="36.483882904052734">à doubler en cas
+d'imposition commune<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -376,7 +388,7 @@ de EUR 3200</y:NodeLabel>
         <node id="n1::n24">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-              <y:Geometry height="40.0" width="58.16804885864258" x="474.1148620235392" y="-1892.52362811715"/>
+              <y:Geometry height="40.0" width="58.16804885864258" x="395.9935648895066" y="-1930.233391572717"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.396484375" x="21.38578224182129" y="11.015625">Σ <y:LabelModel>
@@ -392,19 +404,20 @@ de EUR 3200</y:NodeLabel>
         <node id="n1::n25">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="51.468479909990265" width="176.33347324484816" x="816.9520900255202" y="-1729.8051243064456"/>
+              <y:Geometry height="63.5833333333328" width="176.33347324484816" x="816.9520900255202" y="-1773.0565783293932"/>
               <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="158.2421875" x="4.0" y="2.781114954995246">Plafond de
-de EUR 672
-(EUR 1344 de 18..40 ans)</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="177.490234375" x="4.0" y="1.854166666666515">Plafond de EUR 672
+
+(EUR 1344 si contribuable
+âgé de 18-40 ans accomplis)</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
         <node id="n1::n26">
           <data key="d6">
             <y:SVGNode>
-              <y:Geometry height="32.483882904052734" width="58.16804885864258" x="981.7567664550256" y="-1695.6986103215254"/>
+              <y:Geometry height="32.483882904052734" width="58.16804885864258" x="981.7567664550256" y="-1733.4083737770923"/>
               <y:Fill color="#CCCCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="132.478515625" x="-37.15523338317871" y="36.483882904052734">majorer pour chaque
@@ -425,7 +438,7 @@ membre de la famille<y:LabelModel>
         <node id="n1::n27">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="153.58557227606457" x="143.44068742960837" y="-2502.6361947532346"/>
+              <y:Geometry height="40.0" width="153.58557227606457" x="143.44068742960837" y="-2686.1768965831593"/>
               <y:Fill color="#CC99FF" color2="#CC99FF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="74.236328125" x="4.0" y="4.03125">Plafond de
@@ -436,7 +449,7 @@ de EUR 672</y:NodeLabel>
         <node id="n1::n28">
           <data key="d6">
             <y:SVGNode>
-              <y:Geometry height="32.483882904052734" width="58.16804885864258" x="238.85821084703036" y="-2472.9509558343457"/>
+              <y:Geometry height="32.483882904052734" width="58.16804885864258" x="238.85821084703036" y="-2656.4916576642704"/>
               <y:Fill color="#CCCCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="132.478515625" x="-37.15523338317871" y="36.483882904052734">majorer pour chaque
@@ -457,7 +470,7 @@ membre de la famille<y:LabelModel>
         <node id="n1::n29">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-              <y:Geometry height="40.0" width="58.16804885864258" x="474.1148620235392" y="-1775.02362811715"/>
+              <y:Geometry height="40.0" width="58.16804885864258" x="394.24828657606594" y="-1812.733391572717"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.396484375" x="21.38578224182129" y="11.015625">Σ <y:LabelModel>
@@ -473,7 +486,7 @@ membre de la famille<y:LabelModel>
         <node id="n1::n30">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.userMessage">
-              <y:Geometry height="62.169121822941634" width="222.97257983494796" x="536.0679932053952" y="-2513.7207556647054"/>
+              <y:Geometry height="62.169121822941634" width="222.97257983494796" x="536.0679932053952" y="-2697.26145749463"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="197.3828125" x="12.794883667473982" y="8.131435911470817">Majoration selon
@@ -491,7 +504,7 @@ LIR n° 111/1 du 2017-11-02<y:LabelModel>
         <node id="n1::n31">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.decision">
-              <y:Geometry height="40.0" width="103.75" x="373.2025893188279" y="-2502.6361947532346"/>
+              <y:Geometry height="40.0" width="103.75" x="373.2025893188279" y="-2686.1768965831593"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="56.001953125" x="23.8740234375" y="11.015625">Majorer?<y:LabelModel>
@@ -507,7 +520,7 @@ LIR n° 111/1 du 2017-11-02<y:LabelModel>
         <node id="n1::n32">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="40.0" width="153.58557227606457" x="804.6852069367194" y="-2502.6361947532346"/>
+              <y:Geometry height="40.0" width="153.58557227606457" x="804.6852069367194" y="-2686.1768965831593"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="94.603515625" x="4.0" y="11.015625">Plafond effectif</y:NodeLabel>
@@ -517,7 +530,7 @@ LIR n° 111/1 du 2017-11-02<y:LabelModel>
         <node id="n1::n33">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="63.58333333333269" width="270.80470176798826" x="746.0756421907575" y="-2607.304088998038"/>
+              <y:Geometry height="63.58333333333269" width="270.80470176798826" x="746.0756421907575" y="-2790.8447908279627"/>
               <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
               <y:BorderStyle hasColor="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="255.98828125" x="7.408210258994131" y="15.822916666666515">Sur le formulaire, le plafond (case 1470)
@@ -528,6 +541,49 @@ est toujours le plafond non encore majoré<y:LabelModel>
                   <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
                 </y:ModelParameter>
               </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n1::n34">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.userMessage">
+              <y:Geometry height="40.0" width="58.16804885864258" x="274.2450931377636" y="-2221.268477050501"/>
+              <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.396484375" x="21.38578224182129" y="11.015625">Σ <y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n1::n35">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.userMessage">
+              <y:Geometry height="40.0" width="58.16804885864258" x="272.5478216416894" y="-2343.76909083957"/>
+              <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.396484375" x="21.38578224182129" y="11.015625">Σ <y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n1::n36">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.process">
+              <y:Geometry height="40.0" width="129.7001384762798" x="425.7512135442706" y="-2283.8079818944193"/>
+              <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="119.72265625" x="4.0" y="4.03125">Total
+(cases 1468, 1469)</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -841,7 +897,7 @@ de EUR 1200</y:NodeLabel>
                   <y:Geometry height="40.0" width="58.16804885864258" x="491.53982503166293" y="-1277.8118813074143"/>
                   <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.396484375" x="21.38578224182129" y="11.015625">Σ <y:LabelModel>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.396484375" x="21.385782241821346" y="11.015625">Σ <y:LabelModel>
                       <y:SmartNodeLabelModel distance="4.0"/>
                     </y:LabelModel>
                     <y:ModelParameter>
@@ -944,7 +1000,7 @@ de l'année-2</y:NodeLabel>
                   <y:Geometry height="51.468479909990265" width="103.75" x="456.8016892607754" y="-937.6765257632155"/>
                   <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
                   <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="75.66015625" x="14.044921875" y="16.749864954995246">≤ EUR 120?<y:LabelModel>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="75.66015625" x="14.044921875" y="16.749864954995132">≤ EUR 120?<y:LabelModel>
                       <y:SmartNodeLabelModel distance="4.0"/>
                     </y:LabelModel>
                     <y:ModelParameter>
@@ -1177,7 +1233,7 @@ aux années suivantes
     <node id="n4">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="105.67673231218123" width="499.8261125717049" x="774.4006258814318" y="-2834.3344409431975"/>
+          <y:Geometry height="105.67673231218123" width="499.8261125717049" x="631.5649367888992" y="-3009.0669439708845"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="474.01708984375" x="12.904511363977463" y="15.916491156090615">Ne sont à déclarer que les dépenses qui ne sont à considérer
@@ -1208,17 +1264,17 @@ déductibles"<y:LabelModel>
     <node id="n6">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="61.0" width="809.7171942541324" x="-86.83420733339005" y="-2850.2307522666615"/>
+          <y:Geometry height="61.0" width="809.7171942541324" x="-229.66989642592262" y="-3024.9632552943485"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="266.177734375" x="4.0" y="16.859375">Version: Sat 30 Nov 23:42</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="268.853515625" x="4.0" y="16.859375">Version: Mon  2 Dec 15:32</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n7">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="61.0" width="809.7171942541324" x="-86.83420733339005" y="-2789.2307522666615"/>
+          <y:Geometry height="61.0" width="809.7171942541324" x="-229.66989642592262" y="-2963.9632552943485"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="50.5625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="660.669921875" x="4.0" y="5.21875">Des erreurs et inconsistances sont possibles dans ce diagramme.
@@ -1229,7 +1285,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
     <node id="n8">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="120.0" width="809.7548781204114" x="-86.85304926652952" y="-2970.2307522666615"/>
+          <y:Geometry height="120.0" width="809.7548781204114" x="-229.68873835906209" y="-3144.9632552943485"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="327.6865234375" x="4.0" y="23.078125">Partie DS
@@ -1240,7 +1296,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
     <node id="n9">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
-          <y:Geometry height="40.0" width="80.0" x="-70.08132439347389" y="-2300.7229493032064"/>
+          <y:Geometry height="40.0" width="80.0" x="-258.02197455493786" y="-2438.7294278937015"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.0" y="18.0">
@@ -1257,7 +1313,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
     <node id="n10">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
-          <y:Geometry height="40.0" width="80.0" x="-70.08132439347389" y="-2205.7626122490747"/>
+          <y:Geometry height="40.0" width="80.0" x="-258.6518303138183" y="-2343.76909083957"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.0" y="18.0">
@@ -1274,7 +1330,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
     <node id="n11">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
-          <y:Geometry height="40.0" width="80.0" x="-70.08132439347389" y="-2083.261998460006"/>
+          <y:Geometry height="40.0" width="80.0" x="-258.6518303138183" y="-2221.268477050501"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.0" y="18.0">
@@ -1291,7 +1347,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
     <node id="n12">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
-          <y:Geometry height="40.0" width="80.0" x="-70.08132439347389" y="-1962.52362811715"/>
+          <y:Geometry height="40.0" width="80.0" x="-258.6518303138183" y="-2000.233391572717"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.0" y="18.0">
@@ -1308,7 +1364,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
     <node id="n13">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
-          <y:Geometry height="40.0" width="80.0" x="-70.08132439347389" y="-1892.52362811715"/>
+          <y:Geometry height="40.0" width="80.0" x="-258.6518303138183" y="-1930.233391572717"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.0" y="18.0">
@@ -1325,7 +1381,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
     <node id="n14">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.onPageReference">
-          <y:Geometry height="40.0" width="80.0" x="-70.08132439347389" y="-1776.89862811715"/>
+          <y:Geometry height="40.0" width="80.0" x="-258.6518303138183" y="-1812.733391572717"/>
           <y:Fill color="#99CCFF" color2="#00FF00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="38.0" y="18.0">
@@ -1445,8 +1501,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="650.7483271663074" y="-1942.52362811715"/>
-            <y:Point x="711.0314208352422" y="-1945.0761196207156"/>
+            <y:Point x="711.0314208352422" y="-1985.6401724863338"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1526,12 +1581,10 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e6" source="n1::n8" target="n1::n21">
+    <edge id="n1::e6" source="n1::n8" target="n1::n34">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="472.87599569429494" y="-2063.261998460006"/>
-          </y:Path>
+          <y:Path sx="0.0" sy="0.0" tx="-11.286614076631963" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="crows_foot_many" target="standard"/>
           <y:BendStyle smoothed="true"/>
@@ -1542,7 +1595,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="711.0314208352422" y="-2125.801503303924"/>
+            <y:Point x="711.0314208352422" y="-2263.8079818944193"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1550,17 +1603,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e8" source="n1::n21" target="n1::n20">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n1::e9" source="n1::n1" target="n1::n24">
+    <edge id="n1::e8" source="n1::n1" target="n1::n24">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1570,7 +1613,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e10" source="n1::n24" target="n1::n3">
+    <edge id="n1::e9" source="n1::n24" target="n1::n3">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1580,11 +1623,11 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e11" source="n1::n3" target="n1::n18">
+    <edge id="n1::e10" source="n1::n3" target="n1::n18">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="711.0314208352422" y="-1872.52362811715"/>
+            <y:Point x="711.0314208352422" y="-1910.233391572717"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1592,11 +1635,11 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e12" source="n1::n22" target="n1::n3">
+    <edge id="n1::e11" source="n1::n22" target="n1::n3">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="613.1578661889699" y="-1828.8949351901688"/>
+            <y:Point x="613.1578661889699" y="-1866.6046986457357"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1604,11 +1647,11 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e13" source="n1::n25" target="n1::n6">
+    <edge id="n1::e12" source="n1::n25" target="n1::n6">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="613.1578661889699" y="-1703.5551482071598"/>
+            <y:Point x="613.1578661889699" y="-1741.2649116627267"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1616,11 +1659,11 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e14" source="n1::n6" target="n1::n18">
+    <edge id="n1::e13" source="n1::n6" target="n1::n18">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="711.0314208352423" y="-1755.02362811715"/>
+            <y:Point x="711.0314208352423" y="-1792.733391572717"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1628,7 +1671,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e15" source="n1::n27" target="n1::n28">
+    <edge id="n1::e14" source="n1::n27" target="n1::n28">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1638,7 +1681,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e16" source="n1::n18" target="n1::n12">
+    <edge id="n1::e15" source="n1::n18" target="n1::n12">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1648,19 +1691,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e17" source="n1::n7" target="n1::n21">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="464.2921420882669" y="-2185.762612249075"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="crows_foot_many" target="standard"/>
-          <y:BendStyle smoothed="true"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n1::e18" source="n1::n4" target="n1::n29">
+    <edge id="n1::e16" source="n1::n4" target="n1::n29">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1670,7 +1701,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e19" source="n1::n29" target="n1::n6">
+    <edge id="n1::e17" source="n1::n29" target="n1::n6">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1680,11 +1711,11 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e20" source="n1::n11" target="n1::n18">
+    <edge id="n1::e18" source="n1::n11" target="n1::n18">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="711.0314208352422" y="-2280.7229493032064"/>
+            <y:Point x="711.0314208352422" y="-2418.7294278937015"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1692,7 +1723,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e21" source="n1::n27" target="n1::n31">
+    <edge id="n1::e19" source="n1::n27" target="n1::n31">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1702,11 +1733,11 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e22" source="n1::n10" target="n1::n31">
+    <edge id="n1::e20" source="n1::n10" target="n1::n31">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="425.0775893188279" y="-2568.1583368415018"/>
+            <y:Point x="425.0775893188279" y="-2751.6990386714265"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1714,13 +1745,13 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e23" source="n1::n31" target="n1::n30">
+    <edge id="n1::e21" source="n1::n31" target="n1::n30">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="25.767578125" x="4.976454064921654" y="-8.984339284484577">OUI<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="25.767578125" x="4.976454064921654" y="-8.98426963003385">OUI<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1732,7 +1763,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e24" source="n1::n30" target="n1::n32">
+    <edge id="n1::e22" source="n1::n30" target="n1::n32">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1742,16 +1773,16 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e25" source="n1::n31" target="n1::n32">
+    <edge id="n1::e23" source="n1::n31" target="n1::n32">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="425.0775893188279" y="-2388.096477810731"/>
-            <y:Point x="881.4779930747517" y="-2388.096477810731"/>
+            <y:Point x="425.0775893188279" y="-2571.6371796406556"/>
+            <y:Point x="881.4779930747517" y="-2571.6371796406556"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.3984375" x="-15.699205114765846" y="35.28942543676749">NON<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.3984375" x="-15.699205114765846" y="35.28949509121776">NON<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1763,13 +1794,13 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e26" source="n1::n32" target="n1::n20">
+    <edge id="n1::e24" source="n1::n32" target="n1::n20">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1016.661765339074" y="-2482.6361947532346"/>
-            <y:Point x="1016.661765339074" y="-2368.096477810731"/>
-            <y:Point x="625.0093518897352" y="-2368.096477810731"/>
+            <y:Point x="1016.661765339074" y="-2666.1768965831593"/>
+            <y:Point x="1016.661765339074" y="-2506.102956401226"/>
+            <y:Point x="625.0093518897352" y="-2506.102956401226"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -2012,7 +2043,7 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n1::e27" source="n1::n32" target="n1::n33">
+    <edge id="n1::e25" source="n1::n32" target="n1::n33">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="14.900665479830877"/>
@@ -2077,7 +2108,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e2" source="n14" target="n1::n4">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2087,7 +2117,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e3" source="n13" target="n1::n1">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2097,7 +2126,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e4" source="n12" target="n1::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2107,7 +2135,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e5" source="n11" target="n1::n8">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2117,7 +2144,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e6" source="n10" target="n1::n7">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2127,7 +2153,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e7" source="n9" target="n1::n11">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2137,7 +2162,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e8" source="n15" target="n2::n1::n1">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2147,7 +2171,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e9" source="n16" target="n2::n1::n3">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2157,7 +2180,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e10" source="n17" target="n2::n1::n4">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2167,7 +2189,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="n2::e0" source="n2::n3" target="n2::n0::n1">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2177,7 +2198,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="n2::e1" source="n2::n4" target="n2::n0::n3">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2187,7 +2207,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="n2::e2" source="n2::n5" target="n2::n0::n4">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2197,7 +2216,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e11" source="n18" target="n2::n2::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2207,7 +2225,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e12" source="n19" target="n2::n2::n1">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="-8.553813462365156" ty="0.0"/>
@@ -2217,7 +2234,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e13" source="n20" target="n2::n2::n2">
-      <data key="d9"/>
       <data key="d10">
         <y:QuadCurveEdge straightness="0.1">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2227,7 +2243,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="n2::n2::e14" source="n2::n2::n1" target="n2::n2::n10">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2238,7 +2253,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="n2::n2::e15" source="n2::n2::n2" target="n2::n2::n10">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2249,7 +2263,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e14" source="n2::n0::n8" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -2262,11 +2275,10 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e15" source="n1::n13" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1395.798593470291" y="-2020.7237723459364"/>
+            <y:Point x="1395.798593470291" y="-2108.066508427526"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -2275,7 +2287,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e16" source="n2::n2::n11" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -2288,7 +2299,6 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
       </data>
     </edge>
     <edge id="e17" source="n2::n1::n8" target="n3">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -2299,6 +2309,61 @@ Diagramme qui n'est pas à être interprété comme conseil légal!</y:NodeLabel
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="true"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n1::e26" source="n1::n7" target="n1::n35">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n1::e27" source="n1::n35" target="n1::n21">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n1::e28" source="n1::n34" target="n1::n21">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n1::e29" source="n1::n21" target="n1::n36">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n1::e30" source="n1::n36" target="n1::n20">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
