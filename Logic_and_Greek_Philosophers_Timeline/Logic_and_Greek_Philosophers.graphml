@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
-  <!--Created by yEd 3.16.1-->
+  <!--Created by yEd 3.19-->
   <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
   <key for="port" id="d1" yfiles.type="portgraphics"/>
   <key for="port" id="d2" yfiles.type="portgeometry"/>
@@ -175,35 +175,36 @@ Neoplatonic Philosopher
     </node>
     <node id="n9">
       <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="-6219.853365303072"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+        <y:GenericNode configuration="com.yworks.flowchart.annotation">
+          <y:Geometry height="130.58469823385747" width="413.66463562357967" x="860.4456471405172" y="-6519.59936539201"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="246.666015625" x="15.5419921875" y="10.90625">~4'000 BCE
-Development of Writing in Mesopotamia<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="405.40234375" x="4.0" y="7.417349116928563">▶ Writing is formalized (for economic transactions: taxes, debt.
+   and money) into "Mesopotamian cuneiform".
+▶ Actually the first writing anywhere.
+    ▶ ~3'200 BCE: Egypt.
+    ▶ ~1'200 BCE: China.
+▶ External memory is no longer pictures, but abstract symbols.
+▶ Large-scale organization across time &amp; space becomes possible.
+▶ Another software upgrade!</y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
     <node id="n10">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="119.60276504694536" width="413.66463562357967" x="1093.0629591905697" y="-6252.779747826546"/>
+          <y:Geometry height="89.51481516312947" width="384.0122999494106" x="860.4456471405172" y="-7213.752594446679"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="381.71875" x="4.0" y="1.9263825234729666">Development of Writing in Mesopotamia
-▶ Writing is formalized (for economic transactions: taxes, debt
-   and money) into "Mesopotamian cuneiform"
-▶ Actually the first writing anywhere
-    ▶ ~3'200 BCE: Egypt
-    ▶ ~1'200 BCE: China
-▶ External memory is no longer pictures, but abstract symbols
-▶ Another software upgrade!</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="343.544921875" x="4.0" y="7.835532581564621">▶ Big brain, possibly with some peculiar feedback loops.
+▶ Better construction of objects.
+▶ Better reasoning about objects.
+▶ Better reasoning about others.
+▶ Possible to use external memory.</y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
             <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
@@ -213,200 +214,24 @@ Development of Writing in Mesopotamia<y:LabelModel>
     </node>
     <node id="n11">
       <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000005" y="-6568.488615423972"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+        <y:GenericNode configuration="com.yworks.flowchart.annotation">
+          <y:Geometry height="61.56360545509074" width="384.01229994941036" x="860.4456471405172" y="-7072.254905849467"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.40625" x="61.171875" y="3.921875">~12'000 BCE
-Agriculture invented in
-Western Asia and Mexico<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="190.984375" x="4.0" y="7.828677727545255">▶ This is a software upgrade!
+▶ Reasoning about knowledge.
+▶ Reasoning about reasoning.</y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
     <node id="n12">
       <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="71.63240758156462" width="277.75" x="535.0000000000005" y="-6939.744532950659"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="242.48828125" x="17.630859375" y="5.8787037907823105">~200'000 BCE
-(0.001 galactic years ago)
-Homo sapiens sapiens evolves
-during the Middle Paleolithic in Ethiopia<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n13">
-      <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="89.51481516312947" width="384.0122999494106" x="1093.0629591905697" y="-6948.685736741441"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="339.73046875" x="4.0" y="7.835532581564621">▶ Big brain, possibly with some peculiar feedback loops
-▶ Better construction of objects
-▶ Better reasoning about objects
-▶ Better reasoning about others
-▶ Possible to use external memory</y:NodeLabel>
-          <y:StyleProperties>
-            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-          </y:StyleProperties>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n14">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000005" y="-6684.700365464272"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="188.51171875" x="44.619140625" y="3.921875">~75'000 BCE
-Main "Out of Africa" expansion
-of modern humans<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n15">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000005" y="-6803.281245416683"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="159.84765625" x="58.951171875" y="10.90625">~100'000 BCE
-Development of language<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n16">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="61.56360545509074" width="384.01229994941036" x="1093.0629591905697" y="-6807.1880481442295"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="187.169921875" x="4.0" y="7.828677727545255">▶ This is a software upgrade!
-▶ Reasoning about knowledge
-▶ Reasoning about reasoning</y:NodeLabel>
-          <y:StyleProperties>
-            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-          </y:StyleProperties>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n17">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000005" y="-6452.276865383672"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.294921875" x="71.7275390625" y="3.921875">~10'000 BCE
-Ice age declared over
-Interglacial begins<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n18">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="-6336.065115343372"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="180.90625" x="48.421875" y="10.90625">~5'600 BCE
-Black Sea empties (probably)<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n19">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000003" y="-6103.641615262772"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="102.34375" x="87.703125" y="10.90625">~3'300 BCE
-Bronze invented<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n20">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="-5733.149231114005"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="161.98046875" x="57.884765625" y="10.90625">~2'400 BCE
-Abacus invented in Sumer<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n21">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="-5616.9374810737045"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="194.681640625" x="41.5341796875" y="10.90625">~1'800 BCE
-Epic of Gilgamesh written down<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n22">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="59.90069126173637" width="413.66463562357967" x="1093.0629591905697" y="-5620.012826704573"/>
+          <y:Geometry height="59.90069126173637" width="300.10146289528143" x="859.4472895780707" y="-5900.4370398798765"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="283.84375" x="4.0" y="6.997220630868469">▶ Gilgamesh was king in Sumer/Mesopotamia 
@@ -419,29 +244,10 @@ Epic of Gilgamesh written down<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n23">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="89.5148151631297" width="277.75" x="535.0000000000002" y="-5500.725731033404"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="197.763671875" x="39.9931640625" y="14.819907581564621">~ 1'642..1540 BCE
-Minoan civilization destroyed by
-Cretan volcanic eruption
-(on Thera/Santorini)<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n24">
+    <node id="n13">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="96.66041667223988" width="413.6646356235799" x="1093.0629591905695" y="-5504.298531787959"/>
+          <y:Geometry height="96.66041667223988" width="332.54808367479563" x="859.4472895780705" y="-5796.859369359814"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="321.126953125" x="4.0" y="11.40833333611954">▶ Minoan civilization lasted from
@@ -456,31 +262,14 @@ Cretan volcanic eruption
         </y:GenericNode>
       </data>
     </node>
-    <node id="n25">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000003" y="-4985.283127010431"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="212.318359375" x="32.7158203125" y="10.90625"> ~1'200 BCE
-Iron invented, probably in Anatolia<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n26">
+    <node id="n14">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="47.15648062559501" width="413.6646356235801" x="1093.0629591905695" y="-4981.9863673232285"/>
+          <y:Geometry height="47.15648062559501" width="332.54808367479563" x="859.4472895780705" y="-5263.5716403441875"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="314.037109375" x="4.0" y="7.609490312797789">▶ The earliest bloomery smelting of iron is found at
-   Tell Hammeh, Jordan ~ 930 BC</y:NodeLabel>
+   Tell Hammeh, Jordan ~930 BCE</y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
             <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
@@ -488,30 +277,13 @@ Iron invented, probably in Anatolia<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n27">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="80.99499398928185" width="277.75" x="535.0000000000003" y="-4872.077074838262"/>
-          <y:Fill color="#FFCC00" color2="#C0C0C0" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="168.607421875" x="54.5712890625" y="24.528746994640642"> ~1'200-1'150 BCE
-"Late Bronze Age Collapse"<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n28">
+    <node id="n15">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="183.32612148338774" width="413.66463562357944" x="1093.0629591905697" y="-4923.242638585316"/>
+          <y:Geometry height="167.10281109363075" width="413.66463562357944" x="859.4472895780706" y="-5198.328251993855"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="157.65625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="396.478515625" x="4.0" y="12.834935741693698">▶ Mycenean civilization destroyed. 
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="157.65625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="396.478515625" x="4.0" y="4.7232805468156585">▶ Mycenean civilization destroyed. 
 ▶ Literacy lost, trade routes destroyed.
 ▶ According to Robert Drews: "Within a period of forty to fifty 
    years at the end of the thirteenth and the beginning of the
@@ -530,44 +302,7 @@ Iron invented, probably in Anatolia<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n29">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="67.37249699464098" width="306.17955894533765" x="189.08019736763157" y="-4865.265826340941"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="274.31640625" x="15.931576347668795" y="3.7487484973207756">~1'184 BCE
-Troy "VII" destroyed
-(probably the one Homer was talking about).
-N.B. Homer possibly lived ~ -700<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n30">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000001" y="-4453.620506392582"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="253.59765625" x="12.076171875" y="3.921875"> ~800 BCE
-Greek Civlization starts t to expands over
-Mediterranean<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n31">
+    <node id="n16">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000001" y="-3959.7754634360986"/>
@@ -584,7 +319,7 @@ Permanent Greek settlement at Massalia<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n32">
+    <node id="n17">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="67.37249699464019" width="727.8846833011789" x="1093.0629591905692" y="-3966.5867119334184"/>
@@ -601,7 +336,7 @@ Permanent Greek settlement at Massalia<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n33">
+    <node id="n18">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="813.5196819584144" y="-3150.9561502888396"/>
@@ -618,7 +353,7 @@ Permanent Greek settlement at Massalia<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n34">
+    <node id="n19">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="166.08985642186553" width="701.231971789925" x="1093.0629591905692" y="-3214.0010784997726"/>
@@ -642,7 +377,7 @@ The paradoxes of Zeno of Elea depend in large part on the uncertain interpretati
         </y:GenericNode>
       </data>
     </node>
-    <node id="n35">
+    <node id="n20">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000003" y="-1668.3238422858283"/>
@@ -659,7 +394,7 @@ Celtic tribes invade Italy, sack Rome<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n36">
+    <node id="n21">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="-859.6810139519457"/>
@@ -676,7 +411,7 @@ Alexander the Great's Empire<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n37">
+    <node id="n22">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="-360.87890242449026"/>
@@ -694,7 +429,7 @@ City of Alexandria<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n38">
+    <node id="n23">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="-56.26429182535236"/>
@@ -712,7 +447,7 @@ Ptolemy 1st "Soter" (the Savior) (maybe)<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n39">
+    <node id="n24">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="202.72011647046912" width="741.9158214893889" x="1201.378378380272" y="-130.74935006058692"/>
@@ -737,7 +472,7 @@ Ptolemy 1st "Soter" (the Savior) (maybe)<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n40">
+    <node id="n25">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="501.90098571288"/>
@@ -755,7 +490,7 @@ southern Greece, attack Delphi<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n41">
+    <node id="n26">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="1819.5313854912877"/>
@@ -773,7 +508,7 @@ Spain, France, the old Phenician empire.<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n42">
+    <node id="n27">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="227.5" x="791.2955158906416" y="2327.650684073845"/>
@@ -790,7 +525,7 @@ Spain, France, the old Phenician empire.<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n43">
+    <node id="n28">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="66.780214516613" width="771.1213041972132" x="1109.565360378189" y="2314.260576815538"/>
@@ -806,7 +541,7 @@ Spain, France, the old Phenician empire.<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n44">
+    <node id="n29">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="106.0" width="328.7490589050401" x="902.8899242353365" y="963.7162037569801"/>
@@ -827,7 +562,7 @@ off the Greek island of Antikythera)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n45">
+    <node id="n30">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="72.81697253762047" width="771.1213041972132" x="1268.7529078327918" y="980.3077174881698"/>
@@ -844,7 +579,7 @@ off the Greek island of Antikythera)<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n46">
+    <node id="n31">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="-208.5715971249213"/>
@@ -862,7 +597,7 @@ Rivalry of the "Diadochi"
         </y:GenericNode>
       </data>
     </node>
-    <node id="n47">
+    <node id="n32">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="72.81697253762047" width="277.75" x="535.0000000000002" y="2052.445819466564"/>
@@ -881,7 +616,7 @@ conquest of Ptolmaic Egypt.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n48">
+    <node id="n33">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.94084593755485" x="902.8899242353366" y="155.79420348193378"/>
@@ -898,7 +633,7 @@ conquest of Ptolmaic Egypt.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n49">
+    <node id="n34">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="95.32370670267937" width="707.4002510165058" x="1201.378378380272" y="128.1323501305941"/>
@@ -917,7 +652,7 @@ conquest of Ptolmaic Egypt.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n50">
+    <node id="n35">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="813.5196819584144" y="-2456.1250042460892"/>
@@ -934,7 +669,7 @@ conquest of Ptolmaic Egypt.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n51">
+    <node id="n36">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="903.8307701728913" y="-1970.3545978033767"/>
@@ -951,7 +686,7 @@ conquest of Ptolmaic Egypt.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n52">
+    <node id="n37">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="903.8307701728913" y="-2076.556353104556"/>
@@ -968,7 +703,7 @@ conquest of Ptolmaic Egypt.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n53">
+    <node id="n38">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="903.8307701728912" y="-529.0284647938524"/>
@@ -985,13 +720,13 @@ conquest of Ptolmaic Egypt.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n54">
+    <node id="n39">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="39.999999999999886" width="541.6118439614147" x="1201.3783783802717" y="-529.0284647938524"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="525.279296875" x="4.0" y="11.015624999999943">▶ Earliest voyage to Britain, the Baltic, and the Arctic Circle for which there is a record</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="525.279296875" x="4.0" y="11.015625">▶ Earliest voyage to Britain, the Baltic, and the Arctic Circle for which there is a record</y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
             <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
@@ -999,7 +734,7 @@ conquest of Ptolmaic Egypt.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n55">
+    <node id="n40">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="813.5196819584144" y="-3416.7360809084503"/>
@@ -1016,7 +751,7 @@ conquest of Ptolmaic Egypt.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n56">
+    <node id="n41">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="129.25055872818837" width="701.231971789925" x="1093.0629591905692" y="-3461.3613602725445"/>
@@ -1037,7 +772,7 @@ conquest of Ptolmaic Egypt.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n57">
+    <node id="n42">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="158.21958261436225" width="775.2672815434089" x="1093.0629591905692" y="-2515.2347955532705"/>
@@ -1060,7 +795,7 @@ conquest of Ptolmaic Egypt.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n58">
+    <node id="n43">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="77.87353115438395" width="277.7499999999999" x="535.0000000000005" y="-2182.5791398744655"/>
@@ -1079,7 +814,7 @@ Peloponnesian League led by Sparta<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n59">
+    <node id="n44">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="91.15800464908898" width="277.75000000000006" x="535.0000000000003" y="-1913.8950082443605"/>
@@ -1099,7 +834,7 @@ with disastrous results.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n60">
+    <node id="n45">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="39.999999999999886" width="191.84082200214152" x="904.9103591718206" y="-2023.4554754539663"/>
@@ -1116,7 +851,7 @@ with disastrous results.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n61">
+    <node id="n46">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="121.83988829909481" width="215.51751744605076" x="1515.6577686090673" y="-2011.2745419529242"/>
@@ -1138,7 +873,7 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n62">
+    <node id="n47">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="150.42118585209005" width="848.829260278671" x="1349.084376409851" y="-1414.2181683698718"/>
@@ -1161,7 +896,7 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n63">
+    <node id="n48">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="69.41108460450141" width="616.8034999871354" x="1252.2757316366055" y="-923.9617984357257"/>
@@ -1178,7 +913,7 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n64">
+    <node id="n49">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="903.8307701728912" y="-1010.1687586444815"/>
@@ -1195,13 +930,13 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n65">
+    <node id="n50">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="100.17589976763134" width="616.8034999871354" x="1252.2757316366053" y="-1040.2567085282972"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="597.84765625" x="4.0" y="6.181699883815668">▶ Successor to Aristotle in the Peripatetic school
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="87.8125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="597.84765625" x="4.0" y="6.1816998838157815">▶ Successor to Aristotle in the Peripatetic school
 ▶ Came to Athens at a young age and initially studied in Plato's school. After Plato's
    death, he attached himself to Aristotle. Aristotle designated him as his successor at the Lyceum.
    Theophrastus presided over the Peripatetic school for 36 years, during which time
@@ -1214,7 +949,7 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n66">
+    <node id="n51">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="813.5196819584144" y="-2295.4761324875453"/>
@@ -1231,7 +966,7 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n67">
+    <node id="n52">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="58.749999999999886" width="473.1749990653775" x="1244.109100429585" y="-2304.8511324875453"/>
@@ -1248,10 +983,10 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n68">
+    <node id="n53">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="40.0" width="194.0" x="815.9620815399796" y="-4174.216857648746"/>
+          <y:Geometry height="40.0" width="194.0" x="815.9620815399796" y="-4431.921074733799"/>
           <y:Fill color="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="105.419921875" x="44.2900390625" y="4.03125">Thales of Miletus
@@ -1265,28 +1000,27 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n69">
+    <node id="n54">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="125.05176384480183" width="718.6183284030012" x="1093.0629591905692" y="-4216.7427395711475"/>
+          <y:Geometry height="125.05176384480183" width="718.6183284030012" x="1055.1253718175994" y="-4474.446956656201"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="115.75" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="709.146484375" x="4.0" y="4.650881922400913">From Wikipedia:
 ▶ Thales of Miletus was a pre-Socratic Greek philosopher, mathematician and astronomer from Miletus in Asia Minor,
    current day Milet in Turkey.
-▶ One of the Seven Sages of Greece (even early-6th-century BC philosophers, statesmen, and law-givers who
+▶ One of the "Seven Sages of Greece" (seven early-6th-century BC philosophers, statesmen, and law-givers who
    were renowned in the following centuries for their wisdom.)
 ▶ Many, most notably Aristotle, regard him as the first philosopher in the Greek tradition and he is otherwise
    historically recognised as the first individual in Western civilisation known to have entertained and engaged in
    scientific thought, (i.e. empiricism).</y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
           </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n70">
+    <node id="n55">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="100.17589976763134" width="504.5" x="1201.3783783802717" y="-301.9345142659976"/>
@@ -1305,7 +1039,7 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n71">
+    <node id="n56">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="902.8899242353366" y="692.8431639382463"/>
@@ -1322,7 +1056,7 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n72">
+    <node id="n57">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="39.999999999999886" width="194.0" x="902.8899242353366" y="-450.1686278097472"/>
@@ -1339,7 +1073,7 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n73">
+    <node id="n58">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="80.55877840129631" width="352.9766981007501" x="1201.3783783802717" y="-470.4480170103954"/>
@@ -1357,13 +1091,13 @@ played an important role in the development of logic in antiquity.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n74">
+    <node id="n59">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="185.01268867429792" width="212.01346833011803" x="1201.378378380272" y="620.3368196010974"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="171.625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="680.400390625" x="4.0" y="6.693844337149017">▶ "Second Founder of Stoicism"
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="171.625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="680.400390625" x="4.0" y="6.693844337148903">▶ "Second Founder of Stoicism"
 ▶ Over a hundred works in logic
 From Wikipedia:
 ▶ Chrysippus developed a system that became known as Stoic logic and included a deductive system, Stoic
@@ -1382,7 +1116,7 @@ From Wikipedia:
         </y:GenericNode>
       </data>
     </node>
-    <node id="n75">
+    <node id="n60">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="66.780214516613" width="277.75" x="535.0000000000002" y="1929.4734952206193"/>
@@ -1401,7 +1135,7 @@ Great Roman Civil War (49–45 BCE)<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n76">
+    <node id="n61">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="46.75654350439436" width="277.75" x="535.0000000000002" y="1540.829127322208"/>
@@ -1418,7 +1152,7 @@ Roman Late Republic<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n77">
+    <node id="n62">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="46.75654350439436" width="277.75" x="535.0000000000002" y="2194.823253925072"/>
@@ -1435,7 +1169,7 @@ United Roman Empire<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n78">
+    <node id="n63">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="46.75654350439436" width="277.75" x="535.0000000000002" y="2525.596570718223"/>
@@ -1452,47 +1186,10 @@ Roman Empire split<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n79">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="60.05876299096053" width="277.75" x="535.0000000000002" y="-5351.754863698106"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="136.333984375" x="70.7080078125" y="14.060631495480266"> ~1'500 BCE
-Babylonian arithmetic<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n80">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="75.60713402786723" width="277.74999999999983" x="535.0000000000005" y="-5987.429865222472"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="198.126953125" x="39.811523437499886" y="7.866067013933389">~2'900–2'800 BCE 
-Early Dynastic I period of Sumer
-first urban civilization in
-southern Mesopotamia.
-<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n81">
+    <node id="n64">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="59.90069126173637" width="413.6646356235801" x="1093.0629591905692" y="-5351.596791968881"/>
+          <y:Geometry height="59.90069126173637" width="332.54808367479563" x="859.4472895780705" y="-5645.5934064153125"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="308.2890625" x="4.0" y="6.997220630868469">▶ Sexagesimal (base 60), positional system
@@ -1505,7 +1202,7 @@ southern Mesopotamia.
         </y:GenericNode>
       </data>
     </node>
-    <node id="n82">
+    <node id="n65">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="-3542.8532819952525"/>
@@ -1523,47 +1220,10 @@ begins<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n83">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="53.75" width="277.75" x="535.0000000000003" y="-5849.360981154305"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="243.021484375" x="17.3642578125" y="3.921875">~2'570 BCE
-Sphinx &amp; Great Pyramid of Giza
-built under Pharaoh Kafra (4th dynasty)<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n84">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="60.05876299096053" width="277.75" x="535.0000000000002" y="-5232.240048534976"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="242.107421875" x="17.8212890625" y="0.09188149548026558"> ~1'340 BCE
-Amenhotep IV (Akhenaten)
-Forced monotheism revering Aten.
-This religion is "erased" after his death.<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n85">
+    <node id="n66">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="658.875" y="-4169.216857648746"/>
+          <y:Geometry height="30.0" width="30.0" x="658.875" y="-4426.921074733799"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.0" y="13.0">
@@ -1578,7 +1238,7 @@ This religion is "erased" after his death.<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n86">
+    <node id="n67">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="815.9620815399796" y="-3625.2204830820547"/>
@@ -1595,7 +1255,7 @@ This religion is "erased" after his death.<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n87">
+    <node id="n68">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="143.5219834203649" width="727.8846833011789" x="1093.0629591905692" y="-3676.9814747922373"/>
@@ -1617,7 +1277,7 @@ This religion is "erased" after his death.<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n88">
+    <node id="n69">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="-3620.2204830820547"/>
@@ -1635,7 +1295,7 @@ This religion is "erased" after his death.<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n89">
+    <node id="n70">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000005" y="-3411.7360809084503"/>
@@ -1653,7 +1313,7 @@ This religion is "erased" after his death.<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n90">
+    <node id="n71">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="442.17193604801696" y="-3530.9782819952525"/>
@@ -1672,7 +1332,7 @@ of Library of Alexandria)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n91">
+    <node id="n72">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000005" y="-3145.956150288839"/>
@@ -1690,7 +1350,7 @@ of Library of Alexandria)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n92">
+    <node id="n73">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="148.14945277256174" x="985.0137956072886" y="-3278.846115598645"/>
@@ -1707,7 +1367,7 @@ of Library of Alexandria)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n93">
+    <node id="n74">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="-2451.1250042460892"/>
@@ -1725,7 +1385,7 @@ of Library of Alexandria)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n94">
+    <node id="n75">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="-2290.4761324875453"/>
@@ -1743,7 +1403,7 @@ of Library of Alexandria)<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n95">
+    <node id="n76">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="60.625" width="277.75" x="535.0000000000003" y="-1772.9253292110402"/>
@@ -1762,7 +1422,7 @@ Athens.<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n96">
+    <node id="n77">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000005" y="-2018.4554754539663"/>
@@ -1780,7 +1440,7 @@ Athens.<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n97">
+    <node id="n78">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="-1512.2181683698718"/>
@@ -1798,7 +1458,7 @@ Athens.<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n98">
+    <node id="n79">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="-594.0284647938524"/>
@@ -1816,7 +1476,7 @@ Athens.<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n99">
+    <node id="n80">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="-445.16862780974725"/>
@@ -1834,7 +1494,7 @@ Athens.<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n100">
+    <node id="n81">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="458.2606847725614" y="-2158.6423742972734"/>
@@ -1851,7 +1511,7 @@ Athens.<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n101">
+    <node id="n82">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="446.91859095687903" y="-847.8060139519457"/>
@@ -1868,7 +1528,7 @@ Athens.<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n102">
+    <node id="n83">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="403.31381517170445" y="-184.57278713263847"/>
@@ -1886,7 +1546,7 @@ till 50 BCE<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n103">
+    <node id="n84">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000003" y="286.11791018461315"/>
@@ -1904,7 +1564,7 @@ till 50 BCE<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n104">
+    <node id="n85">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="697.8431639382462"/>
@@ -1922,7 +1582,7 @@ till 50 BCE<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n105">
+    <node id="n86">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="1001.7162037569799"/>
@@ -1939,7 +1599,7 @@ till 50 BCE<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n106">
+    <node id="n87">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="448.44956117470554" y="1549.2073990744052"/>
@@ -1956,7 +1616,7 @@ till 50 BCE<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n107">
+    <node id="n88">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="1748.826837705563"/>
@@ -1974,7 +1634,7 @@ till 50 BCE<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n108">
+    <node id="n89">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="448.44956117470554" y="2203.2015256772693"/>
@@ -1991,7 +1651,7 @@ till 50 BCE<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n109">
+    <node id="n90">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000003" y="2332.650684073845"/>
@@ -2009,7 +1669,7 @@ till 50 BCE<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n110">
+    <node id="n91">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000003" y="2453.721570718223"/>
@@ -2027,46 +1687,7 @@ till 50 BCE<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n111">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="80.99499398928174" width="277.75" x="535.0000000000001" y="-4591.17498251536"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="249.5546875" x="14.09765625" y="10.559996994640642"> ~1000 BCE
-Ionians come from the Asia Minor, set
-up the great religious sanctuary of Delos
-around three centuries later.<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n112">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="80.99499398928174" width="277.75" x="535.0000000000001" y="-4731.626028676811"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="212.365234375" x="32.6923828125" y="3.575621994640642"> ~1'100 BCE ... 700 BCE
-First Cycladic cities built, including
-four on Kea (Ioulis, Korissia,
-Piessa and Karthaia) and Zagora
-on Andros<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n113">
+    <node id="n92">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="160.79420348193378"/>
@@ -2084,7 +1705,7 @@ on Andros<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n114">
+    <node id="n93">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="902.8899242353366" y="281.11791018461315"/>
@@ -2101,7 +1722,7 @@ on Andros<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n115">
+    <node id="n94">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="95.32370670267937" width="771.1213041972132" x="1201.378378380272" y="253.45605683327346"/>
@@ -2120,7 +1741,7 @@ on Andros<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n116">
+    <node id="n95">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000005" y="-2822.9233260274104"/>
@@ -2138,7 +1759,7 @@ on Andros<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n117">
+    <node id="n96">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="813.5196819584144" y="-2827.9233260274104"/>
@@ -2155,7 +1776,7 @@ on Andros<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n118">
+    <node id="n97">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000005" y="-2990.331823320058"/>
@@ -2172,7 +1793,7 @@ First-generation Sophists<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n119">
+    <node id="n98">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="129.25055872818848" width="701.231971789925" x="1093.0629591905692" y="-3028.0821026841522"/>
@@ -2193,7 +1814,7 @@ condemnations made by Socrates through Plato in his Dialogues.</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n120">
+    <node id="n99">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="121.81643585710617" width="701.231971789925" x="1093.0629591905692" y="-2868.8315439559638"/>
@@ -2214,7 +1835,7 @@ of naturalism.</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n121">
+    <node id="n100">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="64.37017553011765" width="277.75" x="535.0000000000002" y="-2663.3100395911224"/>
@@ -2233,7 +1854,7 @@ under Cleisthenes<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n122">
+    <node id="n101">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="171.7803125455871" width="701.231971789925" x="1093.0629591905692" y="-2717.0151080988576"/>
@@ -2257,26 +1878,7 @@ were at least 150,000 Athenians, around 50,000 aliens, and more than 100,000 sla
         </y:GenericNode>
       </data>
     </node>
-    <node id="n123">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="67.37249699464019" width="277.75" x="535.0" y="-4279.7684997601655"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="192.63671875" x="42.556640625" y="3.748748497319866"> ~650 BCE
-Lacedaemon ("Sparta") rises to
-become the dominant military
-land-power in ancient Greece<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n124">
+    <node id="n102">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="60.625" width="277.75" x="535.0000000000002" y="-1321.8768591679739"/>
@@ -2295,7 +1897,7 @@ cripples Sparta.<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n125">
+    <node id="n103">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="84.28300464908898" width="277.75" x="535.0000000000003" y="366.1198058509158"/>
@@ -2315,7 +1917,7 @@ Pyrrhus fights Carthago in Sicily
         </y:GenericNode>
       </data>
     </node>
-    <node id="n126">
+    <node id="n104">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="1109.8737776322278"/>
@@ -2333,7 +1935,7 @@ Carthago fight for supremacy<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n127">
+    <node id="n105">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="184.6828565961673" x="1244.109100429585" y="-1965.354597803377"/>
@@ -2350,7 +1952,7 @@ Carthago fight for supremacy<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n128">
+    <node id="n106">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="184.6828565961673" x="1244.109100429585" y="-1820.7264235682735"/>
@@ -2367,7 +1969,7 @@ Carthago fight for supremacy<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n129">
+    <node id="n107">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="58.75" width="388.7747459464065" x="1515.6577686090677" y="-1835.1014235682735"/>
@@ -2383,7 +1985,7 @@ Becomes the "Skeptical School"</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n130">
+    <node id="n108">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="184.6828565961673" x="1244.109100429585" y="-1751.304474127207"/>
@@ -2400,7 +2002,7 @@ Becomes the "Skeptical School"</y:NodeLabel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n131">
+    <node id="n109">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="40.0" width="294.51391182885095" x="1515.6577686090677" y="-1756.304474127207"/>
@@ -2415,13 +2017,13 @@ Crates (c. 269–266 BC). Also: Aristotle, Heraclides, Eudoxus, Philip of Opus, 
         </y:GenericNode>
       </data>
     </node>
-    <node id="n132">
+    <node id="n110">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="77.57838637492819" width="321.47071742408593" x="736.7728539767588" y="-1204.4396828135214"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="320.822265625" x="0.32422589954296654" y="8.851693187464093">335 BC onwards
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="320.822265625" x="0.32422589954296654" y="8.851693187464207">335 BC onwards
 "Peripatetic School" of Athens when
 Aristotle began teaching in the "Lyceum"
 (a gymnasium in Athens dedicated to Apollo Lyceus)<y:LabelModel>
@@ -2435,7 +2037,7 @@ Aristotle began teaching in the "Lyceum"
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n133">
+    <node id="n111">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="-958.7054907002157"/>
@@ -2453,7 +2055,7 @@ Aristotle began teaching in the "Lyceum"
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n134">
+    <node id="n112">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0" y="-4076.3711605424223"/>
@@ -2471,7 +2073,7 @@ Africa under pay of Paharoh Necho II<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n135">
+    <node id="n113">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.0" x="815.9620815399797" y="-3810.4971235462745"/>
@@ -2488,7 +2090,7 @@ Africa under pay of Paharoh Necho II<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n136">
+    <node id="n114">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="176.13888257711926" width="727.8846833011789" x="1093.0629591905692" y="-3876.1672861540674"/>
@@ -2513,7 +2115,7 @@ Africa under pay of Paharoh Necho II<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n137">
+    <node id="n115">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.875" y="-3805.4971235462745"/>
@@ -2531,10 +2133,10 @@ Africa under pay of Paharoh Necho II<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n138">
+    <node id="n116">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="40.0" width="194.0" x="815.9620815399796" y="-4362.947644876945"/>
+          <y:Geometry height="40.0" width="194.0" x="815.9620815399796" y="-4636.747047874635"/>
           <y:Fill color="#CC99FF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="98.359375" x="47.8203125" y="4.03125">Homer the Poet
@@ -2548,10 +2150,10 @@ Africa under pay of Paharoh Necho II<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n139">
+    <node id="n117">
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="658.8750000000001" y="-4357.947644876945"/>
+          <y:Geometry height="30.0" width="30.0" x="658.8750000000001" y="-4631.747047874635"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.0" y="13.0">
@@ -2566,7 +2168,7 @@ Africa under pay of Paharoh Necho II<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n140">
+    <node id="n118">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="203.90537430568065" x="897.9372370824964" y="-266.84656438218195"/>
@@ -2583,7 +2185,7 @@ Africa under pay of Paharoh Necho II<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n141">
+    <node id="n119">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="203.90537430568065" x="1069.1875675056472" y="-184.57278713263847"/>
@@ -2600,26 +2202,7 @@ Africa under pay of Paharoh Necho II<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n142">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.data">
-          <y:Geometry height="60.05876299096053" width="277.75" x="535.0000000000003" y="-5112.725233371846"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="248.58203125" x="14.583984375" y="0.09188149548026558">~1250 BCE
-A "Moses-like figure" may have existed
-somewhere in the southern Transjordan.
-(according to William G. Dever)<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n143">
+    <node id="n120">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="53.75" width="194.94084593755474" x="902.8899242353366" y="848.9985604151589"/>
@@ -2638,7 +2221,7 @@ Plato's Academy enters
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n144">
+    <node id="n121">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="48.49614042409439" width="504.5" x="1201.378378380272" y="851.6254902031117"/>
@@ -2649,11 +2232,12 @@ Arcesilaus was followed by Lacydes of Cyrene (241–215 BC), Evander and Telecle
 (jointly) (205 – c. 165 BC), and Hegesinus (c. 160 BC).</y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
           </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n145">
+    <node id="n122">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="860.8735604151589"/>
@@ -2671,7 +2255,7 @@ Arcesilaus was followed by Lacydes of Cyrene (241–215 BC), Evander and Telecle
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n146">
+    <node id="n123">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="1321.4505287276686" y="-1681.304474127207"/>
@@ -2688,7 +2272,7 @@ Arcesilaus was followed by Lacydes of Cyrene (241–215 BC), Evander and Telecle
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n147">
+    <node id="n124">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="53.75" width="184.6828565961673" x="902.8899242353365" y="1326.4005621436172"/>
@@ -2707,7 +2291,7 @@ Plato's Academy enters
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n148">
+    <node id="n125">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="40.0" width="184.6828565961673" x="902.8899242353366" y="1672.5856708266024"/>
@@ -2725,7 +2309,7 @@ Destruction of the Academy<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n149">
+    <node id="n126">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="53.75" width="462.7086274942012" x="1130.625" y="1665.7106708266024"/>
@@ -2741,7 +2325,7 @@ Academy, as well as the Lyceum</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n150">
+    <node id="n127">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="53.125" width="294.51391182885095" x="1130.625" y="1326.7130621436172"/>
@@ -2757,7 +2341,7 @@ Philo of Larissa ("the last undisputed head of the Academy," c. 110–84 BC).</y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n151">
+    <node id="n128">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="448.44956117470554" y="1121.7487776322278"/>
@@ -2774,7 +2358,7 @@ Philo of Larissa ("the last undisputed head of the Academy," c. 110–84 BC).</y
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n152">
+    <node id="n129">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.data">
           <y:Geometry height="53.75" width="277.75" x="535.0000000000002" y="1241.7813515074756"/>
@@ -2791,7 +2375,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n153">
+    <node id="n130">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="1617.5856708266024"/>
@@ -2808,7 +2392,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n154">
+    <node id="n131">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="1338.2755621436172"/>
@@ -2826,7 +2410,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n155">
+    <node id="n132">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="658.8750000000002" y="1677.5856708266024"/>
@@ -2844,7 +2428,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n156">
+    <node id="n133">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="40.0" width="194.94084593755485" x="903.3603472041139" y="-715.9824685338097"/>
@@ -2861,7 +2445,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n157">
+    <node id="n134">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="125.30326310434361" width="628.0914932833623" x="1201.8488013490492" y="-758.6341000859815"/>
@@ -2882,7 +2466,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n158">
+    <node id="n135">
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="184.6828565961673" x="908.4893418748077" y="-775.9824685338097"/>
@@ -2899,6 +2483,470 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
+    <node id="n136">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="79.91787812232906" width="259.6222393627128" x="544.063880318644" y="-7208.954125926279"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="246.302734375" x="6.659752493856445" y="10.021439061164529">~200'000 BCE
+(0.001 galactic years ago)
+Homo sapiens sapiens evolves
+during the Middle Paleolithic in Ethiopia.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n137">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="53.75" width="259.62223936271266" x="544.0638803186441" y="-7068.348103121922"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="163.662109375" x="47.98006499385633" y="10.90625">~100'000 BCE
+Development of language.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n138">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="53.75" width="259.6222393627129" x="544.063880318644" y="-6953.909958439894"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="188.51171875" x="35.555260306356445" y="3.921875">~75'000 BCE
+Main "Out of Africa" expansion
+of modern humans.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n139">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="53.75000000000091" width="259.6222393627128" x="544.0638803186441" y="-6839.471813757866"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="159.220703125" x="50.20076811885633" y="3.921875">~12'000 BCE
+Agriculture invented in
+Western Asia and Mexico.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n140">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="53.75" width="259.6222393627128" x="544.0638803186441" y="-6725.033669075837"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="139.10546875" x="60.25838530635633" y="3.921875">~10'000 BCE
+Ice age declared over!
+Interglacial begins.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n141">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="68.7253634366989" width="259.62223936271266" x="544.0638803186441" y="-6610.595524393809"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="235.287109375" x="12.167564993856331" y="4.4251817183494495">~7'200 BCE
+Black Sea basin fills rapidly with water
+from the Mediterranean (possibly).
+"Black Sea deluge hypothesis".<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n142">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="53.75000000000091" width="259.62223936271266" x="544.0638803186441" y="-6481.182016275082"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="250.48046875" x="4.570885306356331" y="10.90625">~4'000 BCE
+Development of Writing in Mesopotamia.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n143">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="53.75000000000091" width="259.6222393627128" x="544.0638803186441" y="-6366.743871593053"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="106.158203125" x="76.73201811885633" y="10.90625000000091">~3'300 BCE
+Bronze invented.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n144">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="75.60713402786678" width="259.6222393627128" x="544.0638803186441" y="-6252.305726911024"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="194.587890625" x="32.51717436885633" y="7.866067013933389">~2'900–2'800 BCE 
+Early Dynastic period of Sumer.
+First urban civilization in
+southern Mesopotamia.
+<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n145">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="53.75000000000091" width="259.6222393627128" x="544.063880318644" y="-6119.419626671775"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="246.8359375" x="6.393150931356445" y="3.921875">~2'570 BCE
+Sphinx &amp; Great Pyramid of Giza
+built under Pharaoh Kafra (4th dynasty).<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n146">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="53.75000000000091" width="259.6222393627128" x="544.0638803186441" y="-6008.390660460393"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="165.794921875" x="46.91365874385633" y="10.90625000000091">~2'400 BCE
+Abacus invented in Sumer.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n147">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="53.75000000000091" width="259.6222393627128" x="544.0638803186441" y="-5897.36169424901"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="198.49609375" x="30.56307280635633" y="10.90625000000091">~1'800 BCE
+Epic of Gilgamesh written down.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n148">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="75.60713402786678" width="259.6222393627131" x="544.0638803186439" y="-5786.332728037627"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="197.763671875" x="30.92928374385656" y="7.866067013933389">~ 1'642..1540 BCE
+Minoan civilization destroyed by
+Cretan volcanic eruption
+(on Thera/Santorini.)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n149">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="75.60713402786678" width="259.6222393627131" x="544.0638803186439" y="-5653.446627798378"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="196.697265625" x="31.46248686885656" y="21.83481701393339"> ~1'500 BCE
+Babylonian arithmetic invented.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n150">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="75.60713402786678" width="259.622239362713" x="544.063880318644" y="-5528.230074214027"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="242.107421875" x="8.757408743856445" y="7.866067013933389"> ~1'340 BCE
+Amenhotep IV (Akhenaten)
+imposes monotheism revering Aten.
+This religion is "erased" after his death.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n151">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="75.60713402786678" width="259.6222393627129" x="544.0638803186441" y="-5403.013520629675"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="248.58203125" x="5.520104056356445" y="7.866067013933389">~1'250 BCE
+A "Moses-like figure" may have existed
+somewhere in the southern Transjordan.
+(according to William G. Dever)<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n152">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="75.60713402786678" width="259.6222393627129" x="544.0638803186441" y="-5277.796967045324"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="212.318359375" x="23.651939993856445" y="21.83481701393339"> ~1'200 BCE
+Iron invented, probably in Anatolia<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n153">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="75.60713402786678" width="259.6222393627129" x="544.0638803186437" y="-5152.5804134609725"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="168.607421875" x="45.507408743856445" y="21.83481701393339"> ~1'200-1'150 BCE
+"Late Bronze Age Collapse"<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n154">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="75.60713402786678" width="259.6222393627129" x="214.03913642879598" y="-5152.5804134609725"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="250.78515625" x="4.418541556356445" y="7.866067013933389">~1'184 BCE
+Troy "VII" destroyed. This is probably the
+one Homer was talking about.
+N.B. Homer possibly lived ~ -700<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n155">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="95.57428527679804" width="259.6222393627129" x="544.0638803186437" y="-5027.363859876621"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="73.84375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="216.408203125" x="21.607018118856445" y="10.865267638399018"> ~1'100-700 BCE
+First Cycladic cities built, including:
+four on Kea (Ioulis, Korissia, Piessa
+and Karthaia)
+and Zagora on Andros.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n156">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="75.60713402786678" width="259.6222393627129" x="544.0638803186437" y="-4882.180155043338"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="249.5546875" x="5.033775931356445" y="7.866067013933389"> ~1'000 BCE
+Ionians come from the Asia Minor, set
+up the great religious sanctuary of Delos
+around three centuries later.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n157">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="75.60713402786678" width="259.6222393627129" x="544.0638803186437" y="-4756.963601458987"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="208.251953125" x="25.685143118856445" y="14.850442013933389"> ~800 BCE
+Greek Civlization starts to expand
+over the Mediterranean.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n158">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="75.60713402786678" width="259.6222393627129" x="544.0638803186437" y="-4552.137628318151"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="192.63671875" x="33.492760306356445" y="7.866067013933389"> ~650 BCE
+Lacedaemon ("Sparta") rises to
+become the dominant military
+land-power in ancient Greece.<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
     <edge id="e0" source="n7" target="n8">
       <data key="d10">
         <y:PolyLineEdge>
@@ -2909,7 +2957,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e1" source="n9" target="n10">
+    <edge id="e1" source="n136" target="n10">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2919,7 +2967,27 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e2" source="n12" target="n13">
+    <edge id="e2" source="n137" target="n11">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="129.7266072336472" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n136" target="n137">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n16" target="n17">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2929,7 +2997,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e3" source="n15" target="n16">
+    <edge id="e5" source="n18" target="n19">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2939,187 +3007,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e4" source="n12" target="n15">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e5" source="n15" target="n14">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e6" source="n14" target="n11">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e7" source="n11" target="n17">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e8" source="n17" target="n18">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e9" source="n18" target="n9">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e10" source="n9" target="n19">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e11" source="n19" target="n80">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e12" source="n20" target="n21">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e13" source="n21" target="n22">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e14" source="n21" target="n23">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e15" source="n23" target="n24">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e16" source="n25" target="n26">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e17" source="n27" target="n28">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e18" source="n25" target="n27">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e19" source="n27" target="n112">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e20" source="n31" target="n32">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e21" source="n33" target="n34">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e22" source="n97" target="n124">
+    <edge id="e6" source="n78" target="n102">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-1.1368683772161603E-13" ty="16.09847669691476"/>
@@ -3129,7 +3017,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e23" source="n36" target="n98">
+    <edge id="e7" source="n21" target="n79">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3139,7 +3027,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e24" source="n38" target="n39">
+    <edge id="e8" source="n23" target="n24">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3149,7 +3037,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e25" source="n42" target="n43">
+    <edge id="e9" source="n27" target="n28">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3159,7 +3047,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e26" source="n44" target="n45">
+    <edge id="e10" source="n29" target="n30">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3169,7 +3057,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n135" target="n136">
+    <edge id="e11" source="n113" target="n114">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3179,7 +3067,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e28" source="n48" target="n49">
+    <edge id="e12" source="n33" target="n34">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3189,7 +3077,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e29" source="n37" target="n46">
+    <edge id="e13" source="n22" target="n31">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3199,7 +3087,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e30" source="n53" target="n54">
+    <edge id="e14" source="n38" target="n39">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3209,7 +3097,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e31" source="n93" target="n50">
+    <edge id="e15" source="n74" target="n35">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3219,7 +3107,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e32" source="n55" target="n56">
+    <edge id="e16" source="n40" target="n41">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3229,7 +3117,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e33" source="n33" target="n55">
+    <edge id="e17" source="n18" target="n40">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3247,7 +3135,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e34" source="n127" target="n61">
+    <edge id="e18" source="n105" target="n46">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3257,7 +3145,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e35" source="n60" target="n127">
+    <edge id="e19" source="n45" target="n105">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3269,7 +3157,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e36" source="n55" target="n92">
+    <edge id="e20" source="n40" target="n73">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-37.83437532604512" ty="-8.195540387642268"/>
@@ -3287,7 +3175,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e37" source="n33" target="n92">
+    <edge id="e21" source="n18" target="n73">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-49.302464126062205" ty="15.001041010369136"/>
@@ -3305,7 +3193,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e38" source="n50" target="n57">
+    <edge id="e22" source="n35" target="n42">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3315,7 +3203,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e39" source="n3" target="n0">
+    <edge id="e23" source="n3" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="57.744147800441965" ty="-1.2029997460549566">
@@ -3337,7 +3225,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e40" source="n0" target="n132">
+    <edge id="e24" source="n0" target="n110">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -3357,7 +3245,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e41" source="n0" target="n51">
+    <edge id="e25" source="n0" target="n36">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3375,7 +3263,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e42" source="n89" target="n91">
+    <edge id="e26" source="n70" target="n72">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="15.0" tx="0.0" ty="0.0"/>
@@ -3385,7 +3273,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e43" source="n64" target="n65">
+    <edge id="e27" source="n49" target="n50">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3395,7 +3283,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e44" source="n5" target="n6">
+    <edge id="e28" source="n5" target="n6">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3405,7 +3293,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e45" source="n3" target="n63">
+    <edge id="e29" source="n3" target="n48">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3415,7 +3303,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e46" source="n66" target="n67">
+    <edge id="e30" source="n51" target="n52">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="56.60274532649123" ty="0.0"/>
@@ -3425,7 +3313,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e47" source="n0" target="n66">
+    <edge id="e31" source="n0" target="n51">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-60.087959467902124" ty="2.083979942276528">
@@ -3440,7 +3328,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e48" source="n51" target="n66">
+    <edge id="e32" source="n36" target="n51">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-60.284487167360595" sy="0.0" tx="-34.38713468501692" ty="-0.08477337654881012">
@@ -3454,7 +3342,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e49" source="n64" target="n0">
+    <edge id="e33" source="n49" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="34.37976163418273" ty="-3.327034852078441">
@@ -3477,7 +3365,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e50" source="n64" target="n132">
+    <edge id="e34" source="n49" target="n110">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -3498,7 +3386,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e51" source="n68" target="n69">
+    <edge id="e35" source="n53" target="n54">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3508,7 +3396,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e52" source="n140" target="n70">
+    <edge id="e36" source="n118" target="n55">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3518,7 +3406,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e53" source="n72" target="n140">
+    <edge id="e37" source="n57" target="n118">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3536,7 +3424,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e54" source="n71" target="n74">
+    <edge id="e38" source="n56" target="n59">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3546,7 +3434,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e55" source="n140" target="n71">
+    <edge id="e39" source="n118" target="n56">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -3561,7 +3449,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e56" source="n41" target="n75">
+    <edge id="e40" source="n26" target="n60">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3571,7 +3459,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e57" source="n4" target="n107">
+    <edge id="e41" source="n4" target="n88">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3581,7 +3469,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e58" source="n75" target="n47">
+    <edge id="e42" source="n60" target="n32">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3591,7 +3479,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e59" source="n76" target="n153">
+    <edge id="e43" source="n61" target="n130">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3601,37 +3489,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e60" source="n80" target="n83">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e61" source="n23" target="n79">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e62" source="n79" target="n84">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e63" source="n79" target="n81">
+    <edge id="e44" source="n58" target="n57">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3641,17 +3499,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e64" source="n73" target="n72">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e65" source="n31" target="n137">
+    <edge id="e45" source="n16" target="n115">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="2.2737367544323206E-13" ty="0.0"/>
@@ -3661,47 +3509,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e66" source="n27" target="n29">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="none"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e67" source="n83" target="n20">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e68" source="n84" target="n142">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e69" source="n139" target="n123">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e70" source="n85" target="n134">
+    <edge id="e46" source="n66" target="n112">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="26.849791492905297"/>
@@ -3711,7 +3519,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e71" source="n85" target="n68">
+    <edge id="e47" source="n66" target="n53">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3721,7 +3529,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e72" source="n86" target="n87">
+    <edge id="e48" source="n67" target="n68">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3731,7 +3539,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e73" source="n137" target="n88">
+    <edge id="e49" source="n115" target="n69">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3741,7 +3549,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e74" source="n88" target="n86">
+    <edge id="e50" source="n69" target="n67">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3751,7 +3559,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e75" source="n137" target="n135">
+    <edge id="e51" source="n115" target="n113">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3761,7 +3569,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e76" source="n88" target="n82">
+    <edge id="e52" source="n69" target="n65">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3771,7 +3579,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e77" source="n82" target="n89">
+    <edge id="e53" source="n65" target="n70">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3781,7 +3589,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e78" source="n90" target="n82">
+    <edge id="e54" source="n71" target="n65">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3791,7 +3599,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e79" source="n89" target="n55">
+    <edge id="e55" source="n70" target="n40">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3801,7 +3609,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e80" source="n93" target="n94">
+    <edge id="e56" source="n74" target="n75">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3811,7 +3619,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e81" source="n91" target="n33">
+    <edge id="e57" source="n72" target="n18">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3821,7 +3629,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e82" source="n94" target="n58">
+    <edge id="e58" source="n75" target="n43">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-2.0626144531625116E-13" ty="13.002552435004706"/>
@@ -3831,7 +3639,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e83" source="n94" target="n66">
+    <edge id="e59" source="n75" target="n51">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3841,7 +3649,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e84" source="n95" target="n35">
+    <edge id="e60" source="n76" target="n20">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3851,7 +3659,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e85" source="n58" target="n96">
+    <edge id="e61" source="n43" target="n77">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="2.2737367544323206E-13" ty="0.0"/>
@@ -3861,7 +3669,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e86" source="n59" target="n95">
+    <edge id="e62" source="n44" target="n76">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3871,7 +3679,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e87" source="n96" target="n59">
+    <edge id="e63" source="n77" target="n44">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="2.2737367544323206E-13" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3881,7 +3689,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e88" source="n96" target="n51">
+    <edge id="e64" source="n77" target="n36">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3891,7 +3699,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e89" source="n35" target="n97">
+    <edge id="e65" source="n20" target="n78">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3901,7 +3709,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e90" source="n97" target="n0">
+    <edge id="e66" source="n78" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3911,7 +3719,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e91" source="n98" target="n99">
+    <edge id="e67" source="n79" target="n80">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3921,7 +3729,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e92" source="n98" target="n53">
+    <edge id="e68" source="n79" target="n38">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-78.40133244852007" ty="0.0"/>
@@ -3931,7 +3739,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e93" source="n99" target="n37">
+    <edge id="e69" source="n80" target="n22">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3941,7 +3749,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e94" source="n72" target="n99">
+    <edge id="e70" source="n57" target="n80">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3951,7 +3759,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e95" source="n100" target="n58">
+    <edge id="e71" source="n81" target="n43">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3961,7 +3769,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e96" source="n101" target="n36">
+    <edge id="e72" source="n82" target="n21">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3971,7 +3779,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e97" source="n46" target="n38">
+    <edge id="e73" source="n31" target="n23">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3981,7 +3789,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e98" source="n46" target="n102">
+    <edge id="e74" source="n31" target="n83">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-62.06824006345141" sy="12.123809992282844" tx="0.0" ty="0.0"/>
@@ -3991,7 +3799,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e99" source="n113" target="n48">
+    <edge id="e75" source="n92" target="n33">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4001,7 +3809,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e100" source="n103" target="n125">
+    <edge id="e76" source="n84" target="n103">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4011,7 +3819,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e101" source="n40" target="n104">
+    <edge id="e77" source="n25" target="n85">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4021,7 +3829,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e102" source="n104" target="n71">
+    <edge id="e78" source="n85" target="n56">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4031,7 +3839,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e103" source="n105" target="n126">
+    <edge id="e79" source="n86" target="n104">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-2.2737367544323206E-13" sy="-1.4210854715202004E-14" tx="0.0" ty="0.0"/>
@@ -4041,7 +3849,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e104" source="n105" target="n44">
+    <edge id="e80" source="n86" target="n29">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4051,7 +3859,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e105" source="n106" target="n76">
+    <edge id="e81" source="n87" target="n61">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4061,7 +3869,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e106" source="n107" target="n41">
+    <edge id="e82" source="n88" target="n26">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-1.1368683772161603E-13" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4071,7 +3879,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e107" source="n47" target="n77">
+    <edge id="e83" source="n32" target="n62">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4081,7 +3889,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e108" source="n108" target="n77">
+    <edge id="e84" source="n89" target="n62">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4091,7 +3899,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e109" source="n77" target="n109">
+    <edge id="e85" source="n62" target="n90">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4101,7 +3909,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e110" source="n109" target="n110">
+    <edge id="e86" source="n90" target="n91">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4111,7 +3919,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e111" source="n110" target="n78">
+    <edge id="e87" source="n91" target="n63">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4121,7 +3929,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e112" source="n7" target="n110">
+    <edge id="e88" source="n7" target="n91">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4131,7 +3939,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e113" source="n42" target="n109">
+    <edge id="e89" source="n27" target="n90">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4141,7 +3949,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e114" source="n140" target="n141">
+    <edge id="e90" source="n118" target="n119">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="1.1724693748675747">
@@ -4153,7 +3961,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e115" source="n111" target="n30">
+    <edge id="e91" source="n92" target="n84">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4163,27 +3971,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e116" source="n112" target="n111">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e117" source="n113" target="n103">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e118" source="n103" target="n114">
+    <edge id="e92" source="n84" target="n93">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4193,7 +3981,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e119" source="n114" target="n115">
+    <edge id="e93" source="n93" target="n94">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4203,7 +3991,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e120" source="n116" target="n117">
+    <edge id="e94" source="n95" target="n96">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4213,7 +4001,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e121" source="n91" target="n118">
+    <edge id="e95" source="n72" target="n97">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4223,7 +4011,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e122" source="n118" target="n116">
+    <edge id="e96" source="n97" target="n95">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4233,7 +4021,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e123" source="n118" target="n119">
+    <edge id="e97" source="n97" target="n98">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="109.5599158866446" sy="-0.4089091046075737" tx="0.0" ty="0.0"/>
@@ -4243,7 +4031,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e124" source="n117" target="n120">
+    <edge id="e98" source="n96" target="n99">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4253,7 +4041,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e125" source="n116" target="n121">
+    <edge id="e99" source="n95" target="n100">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4263,7 +4051,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e126" source="n121" target="n93">
+    <edge id="e100" source="n100" target="n74">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4273,7 +4061,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e127" source="n121" target="n122">
+    <edge id="e101" source="n100" target="n101">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4283,17 +4071,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e128" source="n123" target="n85">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e129" source="n96" target="n60">
+    <edge id="e102" source="n77" target="n45">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4303,7 +4081,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e130" source="n96" target="n52">
+    <edge id="e103" source="n77" target="n37">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4313,7 +4091,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e131" source="n52" target="n50">
+    <edge id="e104" source="n37" target="n35">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4327,7 +4105,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e132" source="n60" target="n50">
+    <edge id="e105" source="n45" target="n35">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="12.161510297725272">
@@ -4349,7 +4127,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e133" source="n51" target="n50">
+    <edge id="e106" source="n36" target="n35">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4363,7 +4141,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e134" source="n51" target="n128">
+    <edge id="e107" source="n36" target="n106">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4376,7 +4154,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e135" source="n128" target="n129">
+    <edge id="e108" source="n106" target="n107">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4386,7 +4164,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e136" source="n128" target="n130">
+    <edge id="e109" source="n106" target="n108">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4404,7 +4182,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e137" source="n130" target="n131">
+    <edge id="e110" source="n108" target="n109">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4414,7 +4192,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e138" source="n0" target="n1">
+    <edge id="e111" source="n0" target="n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4424,7 +4202,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e139" source="n0" target="n62">
+    <edge id="e112" source="n0" target="n47">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4437,7 +4215,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e140" source="n0" target="n2">
+    <edge id="e113" source="n0" target="n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4450,7 +4228,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e141" source="n133" target="n64">
+    <edge id="e114" source="n111" target="n49">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-75.29271642455262" ty="0.0"/>
@@ -4460,17 +4238,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e142" source="n30" target="n139">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e143" source="n139" target="n138">
+    <edge id="e115" source="n117" target="n116">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4480,7 +4248,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e144" source="n134" target="n31">
+    <edge id="e116" source="n112" target="n16">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4490,7 +4258,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e145" source="n98" target="n5">
+    <edge id="e117" source="n79" target="n5">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4500,7 +4268,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e146" source="n133" target="n3">
+    <edge id="e118" source="n111" target="n3">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-95.20554554352384" ty="0.0"/>
@@ -4510,7 +4278,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e147" source="n124" target="n133">
+    <edge id="e119" source="n102" target="n111">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4520,7 +4288,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e148" source="n133" target="n36">
+    <edge id="e120" source="n111" target="n21">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4530,7 +4298,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e149" source="n142" target="n25">
+    <edge id="e121" source="n103" target="n25">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4540,7 +4308,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e150" source="n125" target="n40">
+    <edge id="e122" source="n104" target="n129">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4550,17 +4318,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e151" source="n126" target="n152">
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="e152" source="n143" target="n144">
+    <edge id="e123" source="n120" target="n121">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4570,7 +4328,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e153" source="n104" target="n145">
+    <edge id="e124" source="n85" target="n122">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4580,7 +4338,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e154" source="n145" target="n105">
+    <edge id="e125" source="n122" target="n86">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4590,7 +4348,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e155" source="n145" target="n143">
+    <edge id="e126" source="n122" target="n120">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4600,7 +4358,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e156" source="n130" target="n146">
+    <edge id="e127" source="n108" target="n123">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4610,7 +4368,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e157" source="n147" target="n148">
+    <edge id="e128" source="n124" target="n125">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4620,7 +4378,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e158" source="n148" target="n149">
+    <edge id="e129" source="n125" target="n126">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4630,7 +4388,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e159" source="n147" target="n150">
+    <edge id="e130" source="n124" target="n127">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4640,7 +4398,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e160" source="n100" target="n95">
+    <edge id="e131" source="n81" target="n76">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4652,7 +4410,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e161" source="n101" target="n46">
+    <edge id="e132" source="n82" target="n31">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-32.862757355627195" ty="0.0">
@@ -4664,7 +4422,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e162" source="n102" target="n47">
+    <edge id="e133" source="n83" target="n32">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4676,7 +4434,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e163" source="n151" target="n126">
+    <edge id="e134" source="n128" target="n104">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4686,7 +4444,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e164" source="n152" target="n154">
+    <edge id="e135" source="n129" target="n131">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4696,7 +4454,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e165" source="n153" target="n155">
+    <edge id="e136" source="n130" target="n132">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4706,7 +4464,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e166" source="n106" target="n47">
+    <edge id="e137" source="n87" target="n32">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4718,7 +4476,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e167" source="n151" target="n152">
+    <edge id="e138" source="n128" target="n129">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4730,7 +4488,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e168" source="n44" target="n153">
+    <edge id="e139" source="n29" target="n130">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4743,7 +4501,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e169" source="n155" target="n107">
+    <edge id="e140" source="n132" target="n88">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4753,7 +4511,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e170" source="n154" target="n76">
+    <edge id="e141" source="n131" target="n61">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4763,7 +4521,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e171" source="n154" target="n147">
+    <edge id="e142" source="n131" target="n124">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4773,7 +4531,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e172" source="n155" target="n148">
+    <edge id="e143" source="n132" target="n125">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-56.98728295565684" ty="0.0"/>
@@ -4783,8 +4541,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e173" source="n38" target="n113">
-      <data key="d9"/>
+    <edge id="e144" source="n23" target="n92">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4794,8 +4551,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e174" source="n156" target="n157">
-      <data key="d9"/>
+    <edge id="e145" source="n133" target="n134">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4805,8 +4561,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e175" source="n158" target="n156">
-      <data key="d9"/>
+    <edge id="e146" source="n135" target="n133">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4816,8 +4571,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e176" source="n98" target="n156">
-      <data key="d9"/>
+    <edge id="e147" source="n79" target="n133">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-88.76158462434319" ty="0.0"/>
@@ -4827,8 +4581,7 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e177" source="n72" target="n156">
-      <data key="d9"/>
+    <edge id="e148" source="n57" target="n133">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -4845,6 +4598,325 @@ Scipio Aemilianus destroys Carthago<y:LabelModel>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e149" source="n138" target="n139">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e150" source="n139" target="n140">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e151" source="n140" target="n141">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e152" source="n141" target="n142">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e153" source="n142" target="n9">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e154" source="n142" target="n143">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e155" source="n143" target="n144">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e156" source="n144" target="n145">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e157" source="n145" target="n146">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e158" source="n146" target="n147">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e159" source="n147" target="n148">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e160" source="n148" target="n149">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e161" source="n149" target="n150">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e162" source="n150" target="n151">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e163" source="n147" target="n12">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e164" source="n148" target="n13">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e165" source="n149" target="n64">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e166" source="n152" target="n14">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e167" source="n151" target="n152">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e168" source="n152" target="n153">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e169" source="n154" target="n153">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e170" source="n137" target="n138">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e171" source="n153" target="n15">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e172" source="n153" target="n155">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e173" source="n155" target="n156">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e174" source="n156" target="n157">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e175" source="n157" target="n117">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e176" source="n117" target="n158">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e177" source="n158" target="n66">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
