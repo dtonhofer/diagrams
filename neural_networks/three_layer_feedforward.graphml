@@ -419,20 +419,20 @@ two classes.
     <node id="n34">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="77.0" width="791.9316735759044" x="-2064.725335764624" y="-3516.2839310999398"/>
+          <y:Geometry height="77.0" width="644.3168451523748" x="-2064.725335764624" y="-3516.2839310999398"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="527.2594604492188" x="4.0" xml:space="preserve" y="16.070018768310547">3-Layer Feedforward Neural Network</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="563.16943359375" x="40.57370577931238" xml:space="preserve" y="16.070018768310547">3-Layer Feedforward Neural Network</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n35">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="77.0" width="558.2148541114059" x="-1272.7936621887197" y="-3516.2839310999398"/>
+          <y:Geometry height="77.0" width="584.8553589275089" x="-1420.4084906122494" y="-3516.2839310999398"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="310.7796630859375" x="4.0" xml:space="preserve" y="16.070018768310547">Version of 2025-01-25</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="395.259521484375" x="94.79791872156693" xml:space="preserve" y="16.070018768310547">Version of 2025-01-25 20:00</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -831,11 +831,11 @@ containing a scalar from real-valued interval
           <y:Geometry height="170.53229496021208" width="414.1214195816756" x="2032.113841638315" y="-1665.259545949352"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="137.4754180908203" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="323.1986083984375" x="4.0" xml:space="preserve" y="16.528438434695772">          [1,2,3]  [1,2,3]
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="137.4754180908203" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="331.59857177734375" x="4.0" xml:space="preserve" y="16.528438434695772">          [1,2,3]  [1,2,3]
 loss = f(W       ,b       ,x, y)
 
                [i]   [i]
-on can regard W   , b    as parameters
+one can regard W   , b    as parameters
 for computing the loss for the (x,y)
 example
 </y:NodeLabel>
@@ -978,18 +978,6 @@ The processing chain for a single training example (x,y)
     <node id="n82">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="103.9595958355057" width="284.7792704275121" x="-668.4431339140779" y="-3351.72404257123"/>
-          <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="85.71992492675781" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="243.99969482421875" x="4.0" xml:space="preserve" y="9.11983545437397">               λ[0]
-The input x ∈ ℝ  
-The ouptut y ∈ {0,1}</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n83">
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="649.6490483040285" width="686.3985170772307" x="-684.5788080773134" y="-3217.764446735724"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
@@ -1014,7 +1002,7 @@ mean error over the batch.</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n84">
+    <node id="n83">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="256.2368645291528" width="722.0198009314909" x="-2043.5759059268844" y="-2912.594163334565"/>
@@ -1031,7 +1019,7 @@ and we have λ   = 1 for this architecture)</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n85">
+    <node id="n84">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="90.93861519228284" width="722.0198009314909" x="-2045.3533064573885" y="-3208.482088583261"/>
@@ -1042,7 +1030,7 @@ and we have λ   = 1 for this architecture)</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n86">
+    <node id="n85">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="270.29230769230793" width="378.09279827897103" x="-665.1037744594555" y="-3049.9446368665967"/>
@@ -1061,28 +1049,28 @@ Y = &lt;y   , y   , .... , y   &gt;
         </y:GenericNode>
       </data>
     </node>
-    <node id="n87">
+    <node id="n86">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="114.57643093333309" width="120.9743236074271" x="-2064.725335764624" y="-3439.2839310999398"/>
+          <y:Geometry height="77.0" width="120.9743236074271" x="-835.5531316847405" y="-3516.2839310999398"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="25" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="38.05012893676758" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="74.05027770996094" x="4.0" xml:space="preserve" y="38.26315099828298">CC-BY</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.05990600585938" x="16.45720880078386" xml:space="preserve" y="16.070018768310547">CC-BY</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n88">
+    <node id="n87">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="114.57643093333309" width="1229.1722040798832" x="-1943.751012157197" y="-3439.2839310999398"/>
+          <y:Geometry height="114.57643093333309" width="1350.14652768731" x="-2064.725335764624" y="-3439.2839310999398"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="25" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="72.10025787353516" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1157.5794677734375" x="4.0" xml:space="preserve" y="21.238086529899192">Location: 
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="25" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="72.10025787353516" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1157.5794677734375" x="4.0" xml:space="preserve" y="21.238086529899192">Available at:
 https://github.com/dtonhofer/diagrams/neural_networks/three_layer_feedforward.(png|graphml)</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n89">
+    <node id="n88">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="300.5882541114056" width="700.9375" x="-673.2524538838345" y="-1976.6353200604135"/>
@@ -1093,7 +1081,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n90">
+    <node id="n89">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="98.00027254641884" width="239.5" x="-610.2524538838345" y="-1857.9929726473977"/>
@@ -1105,7 +1093,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n91">
+    <node id="n90">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="98.00027254641884" width="125.0" x="-145.82694513051888" y="-1857.9929726473977"/>
@@ -1116,7 +1104,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n92">
+    <node id="n91">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="107.0" x="-315.2524538838345" y="-1847.4928363741883"/>
@@ -1127,7 +1115,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n93">
+    <node id="n92">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="28.75" width="125.0" x="-324.2524538838345" y="-1749.1450174410506"/>
@@ -1137,7 +1125,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n94">
+    <node id="n93">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="28.75" width="125.0" x="-553.0024538838345" y="-1749.1450174410506"/>
@@ -1147,7 +1135,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n95">
+    <node id="n94">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="55.125545092838365" width="125.0" x="-145.82694513051888" y="-1749.1450174410506"/>
@@ -1158,7 +1146,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n96">
+    <node id="n95">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="30.0" x="-246.06495388383462" y="-2385.364856076557"/>
@@ -1168,7 +1156,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n97">
+    <node id="n96">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456237" width="61.25" x="-307.3149538838346" y="-2319.669763303119"/>
@@ -1179,7 +1167,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n98">
+    <node id="n97">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.2438151041672" width="30.0" x="-400.75245388383456" y="-2385.291670855203"/>
@@ -1189,7 +1177,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n99">
+    <node id="n98">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="61.25" x="-462.00245388383456" y="-2319.669763303119"/>
@@ -1200,7 +1188,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n100">
+    <node id="n99">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.09308887112456" width="30.0" x="-246.06495388383462" y="-2318.974670529681"/>
@@ -1210,7 +1198,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n101">
+    <node id="n100">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456197" width="30.0" x="-400.75245388383456" y="-2319.669763303119"/>
@@ -1220,7 +1208,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n102">
+    <node id="n101">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="30.0" x="-878.9608593215002" y="-2385.712402463276"/>
@@ -1230,7 +1218,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n103">
+    <node id="n102">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.0930888711245" width="61.25" x="-940.2108593215002" y="-2319.3222169164"/>
@@ -1241,7 +1229,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n104">
+    <node id="n103">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.09308887112456" width="30.0" x="-878.9608593215002" y="-2319.3222169164"/>
@@ -1251,7 +1239,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n105">
+    <node id="n104">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="107.0" x="139.86761030274386" y="-1847.4928363741883"/>
@@ -1262,7 +1250,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n106">
+    <node id="n105">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.06250000000023" width="159.62754376657836" x="113.55383841945468" y="-1753.8012674410506"/>
@@ -1272,7 +1260,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n107">
+    <node id="n106">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="30.0" x="209.05511030274374" y="-2385.364856076557"/>
@@ -1282,7 +1270,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n108">
+    <node id="n107">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456237" width="61.25" x="147.80511030274374" y="-2319.669763303119"/>
@@ -1293,7 +1281,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n109">
+    <node id="n108">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.09308887112456" width="30.0" x="209.05511030274374" y="-2318.974670529681"/>
@@ -1303,7 +1291,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n110">
+    <node id="n109">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="64.99999999999996" width="205.36105570291767" x="-708.3219156212356" y="-2384.669763303119"/>
@@ -1314,7 +1302,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n111">
+    <node id="n110">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456223" width="61.25" x="-769.5719156212356" y="-2319.669763303119"/>
@@ -1325,7 +1313,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n112">
+    <node id="n111">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="43.26212732095496" x="-708.3219156212356" y="-2319.669763303119"/>
@@ -1335,7 +1323,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n113">
+    <node id="n112">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="117.91514157824895" x="-665.0597883002804" y="-2319.669763303119"/>
@@ -1345,7 +1333,7 @@ of layer 2<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n114">
+    <node id="n113">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="43.26212732095496" x="-547.1446467220314" y="-2319.669763303119"/>
@@ -1356,7 +1344,7 @@ weights into neuron λ</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n115">
+    <node id="n114">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="300.5882541114056" width="700.9375" x="359.0501744893222" y="-1975.78611398571"/>
@@ -1367,7 +1355,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n116">
+    <node id="n115">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="98.00027254641884" width="239.5" x="422.0501744893222" y="-1857.1437665726942"/>
@@ -1379,7 +1367,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n117">
+    <node id="n116">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="98.00027254641884" width="125.0" x="886.4756832426378" y="-1857.1437665726942"/>
@@ -1390,7 +1378,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n118">
+    <node id="n117">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="107.0" x="717.0501744893222" y="-1846.6436302994848"/>
@@ -1401,7 +1389,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n119">
+    <node id="n118">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="28.75" width="125.0" x="708.0501744893222" y="-1748.2958113663472"/>
@@ -1411,7 +1399,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n120">
+    <node id="n119">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="28.75" width="125.0" x="479.3001744893222" y="-1748.2958113663472"/>
@@ -1421,7 +1409,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n121">
+    <node id="n120">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="55.125545092838365" width="125.0" x="886.4756832426378" y="-1748.2958113663472"/>
@@ -1432,7 +1420,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n122">
+    <node id="n121">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="30.0" x="786.237674489322" y="-2240.1748594861665"/>
@@ -1442,7 +1430,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n123">
+    <node id="n122">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.2438151041672" width="43.26212732095496" x="412.10052518388136" y="-2384.442464780499"/>
@@ -1452,7 +1440,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n124">
+    <node id="n123">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543723" width="30.0" x="786.237674489322" y="-2173.7846739392908"/>
@@ -1462,7 +1450,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n125">
+    <node id="n124">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543723" width="30.0" x="605.8001634970792" y="-2173.7846739392908"/>
@@ -1472,7 +1460,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n126">
+    <node id="n125">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456223" width="61.25" x="350.85052518388136" y="-2318.820557228415"/>
@@ -1483,7 +1471,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n127">
+    <node id="n126">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="43.26212732095496" x="412.10052518388136" y="-2318.820557228415"/>
@@ -1493,7 +1481,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n128">
+    <node id="n127">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="30.0" x="605.8001634970792" y="-2240.174859486166"/>
@@ -1503,7 +1491,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n129">
+    <node id="n128">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="61.375" x="544.4251634970792" y="-2173.7846739392908"/>
@@ -1513,7 +1501,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n130">
+    <node id="n129">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="61.375" x="724.862674489322" y="-2173.7846739392908"/>
@@ -1523,7 +1511,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n131">
+    <node id="n130">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="30.0" x="1263.3139928342796" y="-2239.325653411463"/>
@@ -1533,7 +1521,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n132">
+    <node id="n131">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543723" width="30.0" x="1263.3139928342796" y="-2172.9354678645873"/>
@@ -1543,7 +1531,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n133">
+    <node id="n132">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="61.375" x="1201.9389928342796" y="-2172.9354678645873"/>
@@ -1553,7 +1541,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n134">
+    <node id="n133">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="30.0" x="1740.3903111792372" y="-2230.0600454773194"/>
@@ -1563,7 +1551,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n135">
+    <node id="n134">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543723" width="30.0" x="1740.3903111792372" y="-2163.6698599304436"/>
@@ -1573,7 +1561,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n136">
+    <node id="n135">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="64.99999999999996" width="91.37500000000006" x="1679.0153111792372" y="-2124.9175615750055"/>
@@ -1583,7 +1571,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n137">
+    <node id="n136">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="61.375" x="1679.0153111792372" y="-2163.6698599304436"/>
@@ -1593,7 +1581,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n138">
+    <node id="n137">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="30.0" x="2254.862051429153" y="-2239.3256534114626"/>
@@ -1603,7 +1591,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n139">
+    <node id="n138">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543723" width="30.0" x="2254.862051429153" y="-2172.935467864587"/>
@@ -1613,7 +1601,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n140">
+    <node id="n139">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="64.99999999999996" width="91.37500000000006" x="2193.487051429153" y="-2134.1831695091496"/>
@@ -1623,7 +1611,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n141">
+    <node id="n140">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="61.375" x="2193.487051429153" y="-2172.9354678645877"/>
@@ -1633,7 +1621,7 @@ of layer 3<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y
         </y:GenericNode>
       </data>
     </node>
-    <node id="n142">
+    <node id="n141">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="300.5882541114056" width="700.9375" x="-1614.2614030880793" y="-964.2351021718129"/>
@@ -1644,7 +1632,7 @@ Number of computing elements: λ^[1]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n143">
+    <node id="n142">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="98.00027254641896" width="239.5" x="-1551.2614030880793" y="-845.2452083720782"/>
@@ -1656,7 +1644,7 @@ Number of computing elements: λ^[1]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n144">
+    <node id="n143">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="98.00027254641884" width="125.0" x="-1086.8358943347637" y="-845.245208372078"/>
@@ -1667,7 +1655,7 @@ Number of computing elements: λ^[1]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n145">
+    <node id="n144">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="107.0" x="-796.9589530880802" y="-834.7450720988686"/>
@@ -1678,7 +1666,7 @@ Number of computing elements: λ^[1]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n146">
+    <node id="n145">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="187.0" x="-2040.5126353493526" y="-834.7450720988686"/>
@@ -1689,7 +1677,7 @@ Number of computing elements: λ^[1]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n147">
+    <node id="n146">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="107.0" x="-1252.7986487114215" y="-834.7450720988686"/>
@@ -1700,7 +1688,7 @@ Number of computing elements: λ^[1]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n148">
+    <node id="n147">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="28.75" width="125.0" x="-1265.2614030880793" y="-736.7447995524496"/>
@@ -1710,7 +1698,7 @@ Number of computing elements: λ^[1]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n149">
+    <node id="n148">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="28.75" width="125.0" x="-1494.0114030880793" y="-736.7447995524496"/>
@@ -1721,7 +1709,7 @@ columnwise addition of bias<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n150">
+    <node id="n149">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="55.125545092838365" width="125.0" x="-1086.8358943347637" y="-736.7447995524496"/>
@@ -1733,7 +1721,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n151">
+    <node id="n150">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="61.25" x="-2066.595206138478" y="-1307.2695454145182"/>
@@ -1744,7 +1732,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n152">
+    <node id="n151">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="187.0" x="1421.8502646331197" y="-836.984463720448"/>
@@ -1755,7 +1743,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n153">
+    <node id="n152">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="98.00027254641884" width="485.75" x="1746.2556374697108" y="-846.6353939189535"/>
@@ -1766,7 +1754,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n154">
+    <node id="n153">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="199.29005208333638" x="2446.379850902079" y="-836.9844637204477"/>
@@ -1777,7 +1765,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n155">
+    <node id="n154">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="65.69509277343775" width="177.9151415782494" x="-2005.3452061384776" y="-1372.2695454145182"/>
@@ -1787,7 +1775,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n156">
+    <node id="n155">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="30.0" x="-2005.3452061384776" y="-1307.2695454145182"/>
@@ -1797,7 +1785,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n157">
+    <node id="n156">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456237" width="61.25" x="-1240.5114030880793" y="-1307.2695454145182"/>
@@ -1808,7 +1796,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n158">
+    <node id="n157">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="64.99999999999996" width="205.36105570291767" x="-1614.319735647761" y="-1372.2695454145182"/>
@@ -1819,7 +1807,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n159">
+    <node id="n158">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.2438151041672" width="30.0" x="-1311.7614030880793" y="-1372.8914529666022"/>
@@ -1829,7 +1817,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n160">
+    <node id="n159">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="61.25" x="-1373.0114030880793" y="-1307.2695454145182"/>
@@ -1840,7 +1828,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n161">
+    <node id="n160">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456223" width="61.25" x="-1675.569735647761" y="-1307.2695454145182"/>
@@ -1851,7 +1839,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n162">
+    <node id="n161">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="43.26212732095496" x="-1614.319735647761" y="-1307.2695454145182"/>
@@ -1861,7 +1849,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n163">
+    <node id="n162">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="117.91514157824895" x="-1571.0576083268058" y="-1307.2695454145182"/>
@@ -1871,7 +1859,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n164">
+    <node id="n163">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="43.26212732095496" x="-1453.142466748557" y="-1307.2695454145182"/>
@@ -1882,7 +1870,7 @@ weights into neuron λ</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n165">
+    <node id="n164">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456197" width="30.0" x="-1311.7614030880793" y="-1307.2695454145182"/>
@@ -1892,7 +1880,7 @@ weights into neuron λ</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n166">
+    <node id="n165">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="153.00145358090185" width="339.47059730050887" x="1376.302465982865" y="-1440.6596880619577"/>
@@ -1912,7 +1900,7 @@ interval [0+ε .. 1-ε], ε &gt; 0, small</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n167">
+    <node id="n166">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="91.18913527851453" width="217.6418970822283" x="-2055.833583890467" y="-743.6705808521842"/>
@@ -1925,7 +1913,7 @@ considered as
         </y:GenericNode>
       </data>
     </node>
-    <node id="n168">
+    <node id="n167">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.06250000000023" width="159.62754376657836" x="-823.2727249713694" y="-741.053503165731"/>
@@ -1935,7 +1923,7 @@ considered as
         </y:GenericNode>
       </data>
     </node>
-    <node id="n169">
+    <node id="n168">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="159.44131564986742" width="700.9375" x="635.2573917965286" y="-663.2993016736879"/>
@@ -1951,7 +1939,7 @@ act   (.) = σ(.) , i.e. the "standard sigmoid"</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n170">
+    <node id="n169">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.06250000000023" width="159.62754376657836" x="1435.5364927498306" y="-743.6404411740293"/>
@@ -1961,7 +1949,7 @@ act   (.) = σ(.) , i.e. the "standard sigmoid"</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n171">
+    <node id="n170">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="38.06250000000023" width="224.07114216712216" x="1907.78256638615" y="-1325.7207344810558"/>
@@ -1975,7 +1963,7 @@ act   (.) = σ(.) , i.e. the "standard sigmoid"</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n172">
+    <node id="n171">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="95.87687596816954" width="414.1214195816756" x="2369.65166715291" y="-1383.5351104492252"/>
@@ -1992,7 +1980,7 @@ containing m scalars from real-valued interval
         </y:GenericNode>
       </data>
     </node>
-    <node id="n173">
+    <node id="n172">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="170.53229496021208" width="414.1214195816756" x="2338.9641671529093" y="-709.1094637204477"/>
@@ -2013,7 +2001,7 @@ example batch
         </y:GenericNode>
       </data>
     </node>
-    <node id="n174">
+    <node id="n173">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="300.5882541114056" width="700.9375" x="-457.4103511650027" y="-963.8875557850935"/>
@@ -2024,7 +2012,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n175">
+    <node id="n174">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="98.00027254641884" width="239.5" x="-394.4103511650027" y="-845.2452083720775"/>
@@ -2036,7 +2024,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n176">
+    <node id="n175">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="98.00027254641884" width="125.0" x="70.01515758831295" y="-845.2452083720775"/>
@@ -2047,7 +2035,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n177">
+    <node id="n176">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="107.0" x="-99.41035116500268" y="-834.7450720988681"/>
@@ -2058,7 +2046,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n178">
+    <node id="n177">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.2438151041672" width="30.0" x="-184.91035116500274" y="-1372.5439065798828"/>
@@ -2068,7 +2056,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n179">
+    <node id="n178">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="61.25" x="-246.16035116500274" y="-1306.9219990277988"/>
@@ -2079,7 +2067,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n180">
+    <node id="n179">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456197" width="30.0" x="-184.91035116500274" y="-1306.9219990277988"/>
@@ -2089,7 +2077,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n181">
+    <node id="n180">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.0930888711245" width="61.25" x="-862.9790238772047" y="-1306.5744526410804"/>
@@ -2100,7 +2088,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n182">
+    <node id="n181">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="107.0" x="351.44995818072687" y="-835.7877112590253"/>
@@ -2111,7 +2099,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n183">
+    <node id="n182">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.06250000000023" width="159.62754376657836" x="325.1361862974377" y="-740.2042970910275"/>
@@ -2121,7 +2109,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n184">
+    <node id="n183">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="64.99999999999996" width="205.36105570291767" x="-492.47981290240375" y="-1371.9219990277988"/>
@@ -2132,7 +2120,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n185">
+    <node id="n184">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456223" width="61.25" x="-553.7298129024038" y="-1306.9219990277988"/>
@@ -2143,7 +2131,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n186">
+    <node id="n185">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="43.26212732095496" x="-492.47981290240375" y="-1306.9219990277988"/>
@@ -2153,7 +2141,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n187">
+    <node id="n186">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="117.91514157824895" x="-449.21768558144856" y="-1306.9219990277988"/>
@@ -2163,7 +2151,7 @@ Number of computing elements: λ^[2]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n188">
+    <node id="n187">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="43.26212732095496" x="-331.3025440031996" y="-1306.9219990277988"/>
@@ -2174,7 +2162,7 @@ weights into neuron λ</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n189">
+    <node id="n188">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="300.5882541114056" width="700.9375" x="635.2573917965286" y="-963.8875557850935"/>
@@ -2185,7 +2173,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n190">
+    <node id="n189">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="98.00027254641884" width="239.5" x="698.2573917965286" y="-846.2878475322348"/>
@@ -2197,7 +2185,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n191">
+    <node id="n190">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="98.00027254641884" width="125.0" x="1162.6829005498441" y="-846.2878475322348"/>
@@ -2208,7 +2196,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n192">
+    <node id="n191">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="107.0" x="993.2573917965285" y="-835.7877112590254"/>
@@ -2219,7 +2207,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n193">
+    <node id="n192">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.2438151041672" width="43.26212732095496" x="731.5698698120425" y="-1373.5865457400396"/>
@@ -2229,7 +2217,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n194">
+    <node id="n193">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543723" width="30.0" x="877.2947106542337" y="-1162.9287548988314"/>
@@ -2239,7 +2227,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n195">
+    <node id="n194">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456223" width="61.25" x="670.3198698120425" y="-1307.9646381879556"/>
@@ -2250,7 +2238,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n196">
+    <node id="n195">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="43.26212732095496" x="731.5698698120425" y="-1307.9646381879556"/>
@@ -2260,7 +2248,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n197">
+    <node id="n196">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="30.0" x="877.2947106542337" y="-1229.3189404457066"/>
@@ -2270,7 +2258,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n198">
+    <node id="n197">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="61.375" x="815.9197106542338" y="-1162.9287548988314"/>
@@ -2280,7 +2268,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n199">
+    <node id="n198">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="61.375" x="955.0386417965286" y="-1163.2763012855503"/>
@@ -2290,7 +2278,7 @@ Number of computing elements: λ^[3]</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n200">
+    <node id="n199">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="64.99999999999996" width="239.290141578249" x="1395.7051938439952" y="-1124.5240029301126"/>
@@ -2301,7 +2289,7 @@ A</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n201">
+    <node id="n200">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="61.375" x="1395.7051938439952" y="-1163.2763012855503"/>
@@ -2311,7 +2299,7 @@ A</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n202">
+    <node id="n201">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="64.99999999999996" width="239.29014157824946" x="1869.4855666805856" y="-1115.2583949959685"/>
@@ -2321,7 +2309,7 @@ A</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n203">
+    <node id="n202">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="61.375" x="1869.4855666805856" y="-1154.0106933514066"/>
@@ -2331,7 +2319,7 @@ A</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n204">
+    <node id="n203">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="177.9151415782494" x="2487.754806154623" y="-1229.6664868324256"/>
@@ -2341,7 +2329,7 @@ A</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n205">
+    <node id="n204">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="64.99999999999996" width="239.29014157824946" x="2426.379806154622" y="-1124.5240029301126"/>
@@ -2351,7 +2339,7 @@ A</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n206">
+    <node id="n205">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="61.375" x="2426.379806154622" y="-1163.2763012855503"/>
@@ -2361,7 +2349,7 @@ A</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n207">
+    <node id="n206">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="65.0" width="210.26497395833394" x="-2021.5201223285196" y="-1467.2695454145182"/>
@@ -2376,7 +2364,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n208">
+    <node id="n207">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="117.91514157824895" x="-1975.3452061384771" y="-1307.2695454145182"/>
@@ -2386,7 +2374,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n209">
+    <node id="n208">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="30.0" x="-1857.4300645602282" y="-1307.2695454145182"/>
@@ -2396,7 +2384,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n210">
+    <node id="n209">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="65.69509277343775" width="177.9151415782494" x="-1179.2614030880798" y="-1371.9219990277988"/>
@@ -2406,7 +2394,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n211">
+    <node id="n210">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="30.0" x="-1179.2614030880798" y="-1306.9219990277988"/>
@@ -2416,7 +2404,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n212">
+    <node id="n211">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="117.91514157824895" x="-1149.2614030880793" y="-1306.9219990277988"/>
@@ -2426,7 +2414,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n213">
+    <node id="n212">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="30.0" x="-1031.3462615098304" y="-1306.9219990277988"/>
@@ -2436,7 +2424,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n214">
+    <node id="n213">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="65.69509277343775" width="177.9151415782494" x="-801.7290238772051" y="-1372.2695454145178"/>
@@ -2446,7 +2434,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n215">
+    <node id="n214">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="30.0" x="-801.7290238772051" y="-1307.2695454145178"/>
@@ -2456,7 +2444,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n216">
+    <node id="n215">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="117.91514157824895" x="-771.7290238772047" y="-1307.2695454145182"/>
@@ -2466,7 +2454,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n217">
+    <node id="n216">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="30.0" x="-653.8138822989557" y="-1307.2695454145182"/>
@@ -2476,7 +2464,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n218">
+    <node id="n217">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="28.75" width="125.0" x="-104.94759678834475" y="-727.7450720988681"/>
@@ -2486,7 +2474,7 @@ arranged as a single matrix<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n219">
+    <node id="n218">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="28.75" width="125.0" x="-333.69759678834475" y="-727.7450720988681"/>
@@ -2497,7 +2485,7 @@ columnwise addition of bias<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n220">
+    <node id="n219">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="55.125545092838365" width="125.0" x="73.47791196497087" y="-727.7450720988681"/>
@@ -2509,7 +2497,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n221">
+    <node id="n220">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456237" width="61.25" x="-113.95194513051894" y="-1307.6170918012367"/>
@@ -2520,7 +2508,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n222">
+    <node id="n221">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="65.69509277343775" width="177.9151415782494" x="-52.70194513051939" y="-1372.2695454145173"/>
@@ -2530,7 +2518,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n223">
+    <node id="n222">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="30.0" x="-52.70194513051939" y="-1307.2695454145173"/>
@@ -2540,7 +2528,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n224">
+    <node id="n223">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="117.91514157824895" x="-22.701945130518936" y="-1307.2695454145178"/>
@@ -2550,7 +2538,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n225">
+    <node id="n224">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="30.0" x="95.21319644773001" y="-1307.2695454145178"/>
@@ -2560,7 +2548,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n226">
+    <node id="n225">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.0930888711245" width="61.25" x="285.4298873916024" y="-1307.2695454145178"/>
@@ -2571,7 +2559,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n227">
+    <node id="n226">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="65.69509277343775" width="177.9151415782494" x="346.67988739160194" y="-1372.9646381879552"/>
@@ -2581,7 +2569,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n228">
+    <node id="n227">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="30.0" x="346.67988739160194" y="-1307.9646381879552"/>
@@ -2591,7 +2579,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n229">
+    <node id="n228">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.78818164456243" width="117.91514157824895" x="376.6798873916024" y="-1307.9646381879556"/>
@@ -2601,7 +2589,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n230">
+    <node id="n229">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="183.7881816445622" width="30.0" x="494.59502896985134" y="-1307.9646381879556"/>
@@ -2611,7 +2599,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n231">
+    <node id="n230">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="28.75" width="125.0" x="987.7201461731863" y="-728.7877112590254"/>
@@ -2621,7 +2609,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n232">
+    <node id="n231">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="28.75" width="125.0" x="758.9701461731863" y="-728.7877112590254"/>
@@ -2632,7 +2620,7 @@ columnwise addition of bias<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n233">
+    <node id="n232">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="55.125545092838365" width="125.0" x="1166.145654926502" y="-728.7877112590254"/>
@@ -2644,7 +2632,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n234">
+    <node id="n233">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="177.9151415782494" x="1016.4136417965286" y="-1229.3189404457066"/>
@@ -2654,7 +2642,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n235">
+    <node id="n234">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="65.69509277343775" width="177.9151415782494" x="1457.0801938439947" y="-1228.9713940589877"/>
@@ -2664,7 +2652,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n236">
+    <node id="n235">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.404751968718756" width="30.0" x="1457.0801938439947" y="-1162.9287548988314"/>
@@ -2674,7 +2662,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n237">
+    <node id="n236">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.404751968718756" width="117.91514157824895" x="1487.0801938439952" y="-1162.9287548988314"/>
@@ -2684,7 +2672,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n238">
+    <node id="n237">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="30.0" x="1604.9953354222441" y="-1163.2763012855503"/>
@@ -2694,7 +2682,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n239">
+    <node id="n238">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.404751968718756" width="30.0" x="1016.4136417965284" y="-1162.7549817054714"/>
@@ -2704,7 +2692,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n240">
+    <node id="n239">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.404751968718756" width="117.91514157824895" x="1046.4136417965287" y="-1162.7549817054714"/>
@@ -2714,7 +2702,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n241">
+    <node id="n240">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="30.0" x="1164.328783374778" y="-1163.1025280921904"/>
@@ -2724,7 +2712,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n242">
+    <node id="n241">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.404751968718756" width="30.0" x="1930.8605666805856" y="-1153.6631469646877"/>
@@ -2734,7 +2722,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n243">
+    <node id="n242">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.404751968718756" width="117.91514157824895" x="1960.8605666805856" y="-1153.6631469646877"/>
@@ -2744,7 +2732,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n244">
+    <node id="n243">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="30.0" x="2078.7757082588346" y="-1154.0106933514066"/>
@@ -2754,7 +2742,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n245">
+    <node id="n244">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="65.69509277343775" width="177.9151415782494" x="1930.8605666805856" y="-1219.7057861248445"/>
@@ -2764,7 +2752,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n246">
+    <node id="n245">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.404751968718756" width="30.0" x="2487.754806154622" y="-1163.1025280921908"/>
@@ -2774,7 +2762,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n247">
+    <node id="n246">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.404751968718756" width="117.91514157824895" x="2517.754806154623" y="-1163.1025280921908"/>
@@ -2784,7 +2772,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n248">
+    <node id="n247">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.40475196871853" width="30.0" x="2635.669947732872" y="-1163.1025280921908"/>
@@ -2794,7 +2782,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n249">
+    <node id="n248">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="244.375" width="320.46875" x="2810.6691164177837" y="-953.4844637204476"/>
@@ -2805,7 +2793,7 @@ applied elementwise<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Labe
         </y:GenericNode>
       </data>
     </node>
-    <node id="n250">
+    <node id="n249">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="262.00904947916706" x="2839.8989666782" y="-836.9844637204477"/>
@@ -2817,7 +2805,7 @@ in LOSS</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n251">
+    <node id="n250">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="77.0" width="235.05208333333394" x="3188.630887251119" y="-836.9844637204477"/>
@@ -2827,7 +2815,7 @@ in LOSS</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n252">
+    <node id="n251">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="64.99999999999996" width="91.37500000000006" x="3260.469428917786" y="-1124.5240029301126"/>
@@ -2837,7 +2825,7 @@ in LOSS</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n253">
+    <node id="n252">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543723" width="30.0" x="3321.844428917786" y="-1163.2763012855507"/>
@@ -2847,7 +2835,7 @@ in LOSS</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n254">
+    <node id="n253">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="66.39018554687561" width="30.0" x="3321.844428917786" y="-1229.666486832426"/>
@@ -2857,7 +2845,7 @@ in LOSS</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n255">
+    <node id="n254">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
           <y:Geometry height="38.75229835543769" width="61.375" x="3260.469428917786" y="-1163.2763012855507"/>
@@ -2867,7 +2855,7 @@ in LOSS</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n256">
+    <node id="n255">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="95.87687596816954" width="414.1214195816756" x="3403.0785637009576" y="-1191.838590091917"/>
@@ -2884,25 +2872,26 @@ containing a scalar from real-valued interval
         </y:GenericNode>
       </data>
     </node>
-    <node id="n257">
+    <node id="n256">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.annotation">
           <y:Geometry height="321.6113400530503" width="414.1214195816756" x="3481.1759914177883" y="-959.2901337469729"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="290.0187530517578" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="365.19842529296875" x="4.0" xml:space="preserve" y="15.796293500646243">       [1,2,3]  [1,2,3]
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="309.086669921875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="365.19842529296875" x="4.0" xml:space="preserve" y="6.262335065587649">       [1,2,3]  [1,2,3]
 J = f(W       ,b       ,X, Y)
 
-feed.forward view:
+feed-forward view:
+------------------
 
                 [i]   [i]
 one can regard W   , b    as parameters
 for computing J for the (X,Y) example batch
 
 backpropagation view:
-
+---------------------
             
-one can the (X,Y) example batch as
+one regard can the (X,Y) example batch as
                             [i]   [i]
 parameters for optimizing  W   , b
 </y:NodeLabel>
@@ -2910,6 +2899,18 @@ parameters for optimizing  W   , b
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
             <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
           </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n257">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="103.9595958355057" width="284.7792704275121" x="-668.4431339140779" y="-3351.72404257123"/>
+          <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="85.71992492675781" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="231.9997100830078" x="4.0" xml:space="preserve" y="9.11983545437397">               λ[0]
+The input x ∈ ℝ  
+The label y ∈ {0,1}</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -2953,7 +2954,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e4" source="n39" target="n90">
+    <edge id="e4" source="n39" target="n89">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-29.303891764754724" ty="-1.671287349171961"/>
@@ -2963,7 +2964,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e5" source="n117" target="n46">
+    <edge id="e5" source="n116" target="n46">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2973,7 +2974,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e6" source="n105" target="n116">
+    <edge id="e6" source="n104" target="n115">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3003,7 +3004,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e9" source="n131" target="n63">
+    <edge id="e9" source="n130" target="n63">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3013,7 +3014,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n91" target="n105">
+    <edge id="e10" source="n90" target="n104">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3094,7 +3095,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n90" target="n92">
+    <edge id="e18" source="n89" target="n91">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3104,7 +3105,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e19" source="n92" target="n91">
+    <edge id="e19" source="n91" target="n90">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3114,7 +3115,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e20" source="n9" target="n90">
+    <edge id="e20" source="n9" target="n89">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3124,7 +3125,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n8" target="n92">
+    <edge id="e21" source="n8" target="n91">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3144,7 +3145,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e23" source="n6" target="n105">
+    <edge id="e23" source="n6" target="n104">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3154,7 +3155,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e24" source="n5" target="n90">
+    <edge id="e24" source="n5" target="n89">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3165,7 +3166,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e25" source="n116" target="n118">
+    <edge id="e25" source="n115" target="n117">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3175,7 +3176,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e26" source="n118" target="n117">
+    <edge id="e26" source="n117" target="n116">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3185,7 +3186,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n4" target="n116">
+    <edge id="e27" source="n4" target="n115">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3195,7 +3196,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e28" source="n3" target="n118">
+    <edge id="e28" source="n3" target="n117">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3205,7 +3206,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e29" source="n2" target="n116">
+    <edge id="e29" source="n2" target="n115">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3216,7 +3217,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e30" source="n68" target="n134">
+    <edge id="e30" source="n68" target="n133">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3226,7 +3227,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e31" source="n136" target="n48">
+    <edge id="e31" source="n135" target="n48">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3246,7 +3247,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e33" source="n69" target="n138">
+    <edge id="e33" source="n69" target="n137">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3256,7 +3257,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e34" source="n140" target="n49">
+    <edge id="e34" source="n139" target="n49">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3266,7 +3267,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e35" source="n146" target="n143">
+    <edge id="e35" source="n145" target="n142">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3276,7 +3277,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e36" source="n144" target="n145">
+    <edge id="e36" source="n143" target="n144">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3286,7 +3287,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e37" source="n143" target="n147">
+    <edge id="e37" source="n142" target="n146">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3296,7 +3297,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e38" source="n147" target="n144">
+    <edge id="e38" source="n146" target="n143">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3306,7 +3307,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e39" source="n145" target="n175">
+    <edge id="e39" source="n144" target="n174">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-29.303891764754724" ty="-1.671287349171961"/>
@@ -3316,7 +3317,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e40" source="n191" target="n152">
+    <edge id="e40" source="n190" target="n151">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3326,7 +3327,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e41" source="n182" target="n190">
+    <edge id="e41" source="n181" target="n189">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3336,7 +3337,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e42" source="n152" target="n153">
+    <edge id="e42" source="n151" target="n152">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3346,7 +3347,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e43" source="n153" target="n154">
+    <edge id="e43" source="n152" target="n153">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3356,7 +3357,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e44" source="n235" target="n166">
+    <edge id="e44" source="n234" target="n165">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3366,7 +3367,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e45" source="n176" target="n182">
+    <edge id="e45" source="n175" target="n181">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3376,7 +3377,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e46" source="n154" target="n173">
+    <edge id="e46" source="n153" target="n172">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3386,7 +3387,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e47" source="n24" target="n143">
+    <edge id="e47" source="n24" target="n142">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3397,7 +3398,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e48" source="n23" target="n143">
+    <edge id="e48" source="n23" target="n142">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3407,7 +3408,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e49" source="n22" target="n147">
+    <edge id="e49" source="n22" target="n146">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3417,7 +3418,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e50" source="n21" target="n146">
+    <edge id="e50" source="n21" target="n145">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3427,7 +3428,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e51" source="n175" target="n177">
+    <edge id="e51" source="n174" target="n176">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3437,7 +3438,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e52" source="n177" target="n176">
+    <edge id="e52" source="n176" target="n175">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3447,7 +3448,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e53" source="n20" target="n175">
+    <edge id="e53" source="n20" target="n174">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3457,7 +3458,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e54" source="n15" target="n177">
+    <edge id="e54" source="n15" target="n176">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3476,7 +3477,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e55" source="n19" target="n145">
+    <edge id="e55" source="n19" target="n144">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3486,7 +3487,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e56" source="n14" target="n182">
+    <edge id="e56" source="n14" target="n181">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3496,7 +3497,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e57" source="n18" target="n175">
+    <edge id="e57" source="n18" target="n174">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3507,7 +3508,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e58" source="n190" target="n192">
+    <edge id="e58" source="n189" target="n191">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3517,7 +3518,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e59" source="n192" target="n191">
+    <edge id="e59" source="n191" target="n190">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3527,7 +3528,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e60" source="n17" target="n190">
+    <edge id="e60" source="n17" target="n189">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3537,7 +3538,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e61" source="n16" target="n192">
+    <edge id="e61" source="n16" target="n191">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3547,7 +3548,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e62" source="n25" target="n190">
+    <edge id="e62" source="n25" target="n189">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3558,7 +3559,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e63" source="n171" target="n245">
+    <edge id="e63" source="n170" target="n244">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3568,7 +3569,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e64" source="n202" target="n153">
+    <edge id="e64" source="n201" target="n152">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3578,7 +3579,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e65" source="n152" target="n200">
+    <edge id="e65" source="n151" target="n199">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3588,7 +3589,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e66" source="n205" target="n154">
+    <edge id="e66" source="n204" target="n153">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3598,7 +3599,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e67" source="n207" target="n155">
+    <edge id="e67" source="n206" target="n154">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3608,7 +3609,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e68" source="n204" target="n172">
+    <edge id="e68" source="n203" target="n171">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3618,7 +3619,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e69" source="n250" target="n251">
+    <edge id="e69" source="n249" target="n250">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3628,7 +3629,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e70" source="n251" target="n252">
+    <edge id="e70" source="n250" target="n251">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3638,7 +3639,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e71" source="n154" target="n250">
+    <edge id="e71" source="n153" target="n249">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3648,7 +3649,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e72" source="n253" target="n256">
+    <edge id="e72" source="n252" target="n255">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3658,7 +3659,7 @@ parameters for optimizing  W   , b
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e73" source="n251" target="n257">
+    <edge id="e73" source="n250" target="n256">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
