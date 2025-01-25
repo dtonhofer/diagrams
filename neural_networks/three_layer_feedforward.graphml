@@ -1065,8 +1065,8 @@ Y = &lt;y   , y   , .... , y   &gt;
           <y:Geometry height="114.57643093333309" width="1350.14652768731" x="-2064.725335764624" y="-3439.2839310999398"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="25" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="72.10025787353516" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="1157.5794677734375" x="4.0" xml:space="preserve" y="21.238086529899192">Available at:
-https://github.com/dtonhofer/diagrams/neural_networks/three_layer_feedforward.(png|graphml)</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="25" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="72.10025787353516" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="826.7530517578125" x="4.0" xml:space="preserve" y="21.238086529899192">Available at:
+https://github.com/dtonhofer/diagrams/tree/master/neural_networks</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>

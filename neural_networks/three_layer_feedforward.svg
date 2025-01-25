@@ -1833,7 +1833,7 @@
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,2082,3532)" stroke-linecap="butt">
       <path fill="none" d="M-2064.7253 -3439.2839 L-714.5788 -3439.2839 L-714.5788 -3324.7075 L-2064.7253 -3324.7075 Z" clip-path="url(#clipPath2)"/>
       <text x="-2058.7253" font-size="25px" y="-3389.3208" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Available at:</text>
-      <text x="-2058.7253" font-size="25px" y="-3355.2705" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">https://github.com/dtonhofer/diagrams/neural_networks/three_layer_feedforward.(png|graphml)</text>
+      <text x="-2058.7253" font-size="25px" y="-3355.2705" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">https://github.com/dtonhofer/diagrams/tree/master/neural_networks</text>
     </g>
     <g fill="url(#linearGradient84)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,2082,3532)" stroke="url(#linearGradient84)">
       <path d="M-673.2524 -1976.6354 L27.685 -1976.6354 L27.685 -1676.0471 L-673.2524 -1676.0471 Z" stroke="none" clip-path="url(#clipPath2)"/>
