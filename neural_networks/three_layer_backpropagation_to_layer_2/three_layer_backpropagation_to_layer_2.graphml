@@ -73,7 +73,7 @@ in a 3-layer neural network performing logistic regression</y:NodeLabel>
               <y:Geometry height="77.0" width="856.1791882116142" x="6864.705439209208" y="-3383.863053446093"/>
               <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="395.259521484375" x="230.4598333636195" xml:space="preserve" y="16.070018768310547">Version of 2025-02-02 19:45</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="395.259521484375" x="230.4598333636195" xml:space="preserve" y="16.070018768310547">Version of 2025-02-02 20:30</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -104,7 +104,7 @@ in a 3-layer neural network performing logistic regression</y:NodeLabel>
               <y:Geometry height="114.57643093333309" width="977.1535118190413" x="6864.705439209208" y="-3306.863053446093"/>
               <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="25" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="72.10025787353516" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="826.7530517578125" x="4.0" xml:space="preserve" y="21.238086529899192">Available at:
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="25" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="72.10025787353516" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="826.7530517578125" x="4.0" xml:space="preserve" y="21.238086529898737">Available at:
 https://github.com/dtonhofer/diagrams/tree/master/neural_networks</y:NodeLabel>
             </y:GenericNode>
           </data>
@@ -131,7 +131,7 @@ act   (_) = sigma(_)</y:NodeLabel>
               <y:Geometry height="276.0296007127047" width="367.5937972798581" x="2344.4463106167677" y="-2148.9571322199963"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="3.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="249.161714553833" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="299.20245361328125" x="34.19567183328854" xml:space="preserve" y="13.433943079435949">Multiplication along (e):
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="249.161714553833" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="299.20245361328125" x="34.19567183328854" xml:space="preserve" y="13.433943079435721">Multiplication along (e):
 
                        [2](e)
 At each cell of each DZ
@@ -145,7 +145,7 @@ elementwise by the (λ   x 1) matrix
 at place (e) from the matrix below
 
 (or use the dot product after transposing
-the column from DIFF_ACT2 </y:NodeLabel>
+the column picked from DIFF_ACT2)</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -171,7 +171,7 @@ act   (_)</y:NodeLabel>
               <y:Geometry height="143.02639026586854" width="133.54313395212193" x="3455.447093432198" y="-2316.6196374409474"/>
               <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="118.40880012512207" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.00086975097656" x="10.771132100572686" xml:space="preserve" y="12.308795070373208">Multiplication
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="118.40880012512207" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.00086975097656" x="10.771132100572686" xml:space="preserve" y="12.308795070373435">Multiplication
 stemming from
 differentiation
 into
@@ -217,7 +217,7 @@ Z</y:NodeLabel>
                   <y:Geometry height="304.689518792986" width="330.2004545012526" x="4102.830697629972" y="-3411.2104716037043"/>
                   <y:Fill color="#FF9900" color2="#FF9900" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="232.81760025024414" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="306.40252685546875" x="11.898963822891801" xml:space="preserve" y="35.93595927137085">             [3](e)
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="232.81760025024414" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="306.40252685546875" x="11.898963822892256" xml:space="preserve" y="35.93595927137085">             [3](e)
 The matrix DZ       of
 
     ∂      [3](e) |
@@ -240,7 +240,7 @@ architecture, i.e. a scalar.</y:NodeLabel>
                   <y:Geometry height="52.69981025485731" width="421.9109121029021" x="4056.975468829147" y="-3070.9102599679804"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="93.75452831707571" xml:space="preserve" y="8.005790823839561">                            [2]
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="93.75452831707571" xml:space="preserve" y="8.005790823840016">                            [2]
 layer 2 neuron, j ∈ {1,...,λ   }</y:NodeLabel>
                 </y:GenericNode>
               </data>
@@ -251,8 +251,8 @@ layer 2 neuron, j ∈ {1,...,λ   }</y:NodeLabel>
                   <y:Geometry height="408.01837891646596" width="52.51413333333312" x="4004.4613354958146" y="-3019.131264041192"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="277.60223388671875" x="7.912952363078148" xml:space="preserve" y="65.20807251487349">                                  [1]
-layer 1 neuron index, i ∈ {1,...,λ   }</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="7.912952363077693" xml:space="preserve" y="86.80826172385787">                            [1]
+layer 1 neuron, i ∈ {1,...,λ   }</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -262,7 +262,7 @@ layer 1 neuron index, i ∈ {1,...,λ   }</y:NodeLabel>
                   <y:Geometry height="123.1272543048758" width="52.51413333333312" x="4004.4613354958146" y="-2611.112885124726"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="69.37645721435547" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.00028991699219" x="6.256921708170921" xml:space="preserve" y="26.87539854525994">1 row
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="69.37645721435547" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.00028991699219" x="6.2569217081704664" xml:space="preserve" y="26.875398545260396">1 row
 for
 bias
 value</y:NodeLabel>
@@ -285,7 +285,7 @@ value</y:NodeLabel>
                   <y:Geometry height="123.1272543048758" width="130.80921262079028" x="4202.465779411901" y="-2611.112885124726"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.200347900390625" x="41.804432360199826" xml:space="preserve" y="51.39157000064324">scalar</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.200347900390625" x="41.804432360199826" xml:space="preserve" y="51.391570000643696">scalar</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -345,7 +345,7 @@ value</y:NodeLabel>
                   <y:Geometry height="123.1272543048758" width="130.80921262079028" x="4056.8543905125443" y="-2611.112885124726"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.200347900390625" x="41.804432360199826" xml:space="preserve" y="51.39157000064324">scalar</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.200347900390625" x="41.804432360199826" xml:space="preserve" y="51.391570000643696">scalar</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -355,7 +355,7 @@ value</y:NodeLabel>
                   <y:Geometry height="123.1272543048758" width="130.80921262079028" x="4348.077168311258" y="-2611.112885124726"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.200347900390625" x="41.804432360199826" xml:space="preserve" y="51.39157000064324">scalar</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.200347900390625" x="41.804432360199826" xml:space="preserve" y="51.391570000643696">scalar</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -375,7 +375,7 @@ value</y:NodeLabel>
                   <y:Geometry height="21.734865032771722" width="422.0319904195035" x="4056.9149296708456" y="-2755.1344098933046"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="209.01599520975196" y="8.867432516385634"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="209.01599520975196" y="8.867432516386089"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -385,7 +385,7 @@ value</y:NodeLabel>
                   <y:Geometry height="530.2248188932731" width="14.802176278566094" x="4187.663603133335" y="-3018.2104497131236"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283274" y="263.1124094466368"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283274" y="263.1124094466363"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -395,7 +395,7 @@ value</y:NodeLabel>
                   <y:Geometry height="530.2248188932731" width="14.802176278566094" x="4333.274992032691" y="-3018.2104497131236"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283274" y="263.1124094466368"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283274" y="263.1124094466363"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -470,7 +470,7 @@ a (λ   x 1) matrix (column vector)</y:NodeLabel>
                   <y:Geometry height="52.69981025485731" width="421.9109121029021" x="2873.208602799564" y="-3088.079018813825"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="93.75452831707616" xml:space="preserve" y="8.005790823839561">                            [2]
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="93.75452831707616" xml:space="preserve" y="8.005790823840016">                            [2]
 layer 2 neuron, j ∈ {1,...,λ   }</y:NodeLabel>
                 </y:GenericNode>
               </data>
@@ -481,8 +481,8 @@ layer 2 neuron, j ∈ {1,...,λ   }</y:NodeLabel>
                   <y:Geometry height="408.01837891646596" width="52.51413333333312" x="2820.6944694662307" y="-3036.3000228870364"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="277.60223388671875" x="7.912952363077693" xml:space="preserve" y="65.20807251487349">                                  [1]
-layer 1 neuron index, i ∈ {1,...,λ   }</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="7.912952363077693" xml:space="preserve" y="86.80826172385787">                            [1]
+layer 1 neuron, i ∈ {1,...,λ   }</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -492,7 +492,7 @@ layer 1 neuron index, i ∈ {1,...,λ   }</y:NodeLabel>
                   <y:Geometry height="123.1272543048758" width="52.51413333333312" x="2820.6944694662307" y="-2628.2816439705703"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="69.37645721435547" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.00028991699219" x="6.2569217081704664" xml:space="preserve" y="26.87539854526017">1 row
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="69.37645721435547" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.00028991699219" x="6.2569217081704664" xml:space="preserve" y="26.875398545260396">1 row
 for
 bias
 value</y:NodeLabel>
@@ -505,7 +505,7 @@ value</y:NodeLabel>
                   <y:Geometry height="122.286659735807" width="130.80921262079255" x="3164.310302281675" y="-2627.4410494015015"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.4046063103965" y="59.1433298679035"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.40460631039605" y="59.1433298679035"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -515,7 +515,7 @@ value</y:NodeLabel>
                   <y:Geometry height="122.286659735807" width="130.80921262079255" x="3164.3103022816713" y="-3035.379208558968"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.4046063103965" y="59.1433298679035"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.40460631039605" y="59.1433298679035"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -525,7 +525,7 @@ value</y:NodeLabel>
                   <y:Geometry height="18.671425785861402" width="421.91091210290097" x="2873.208602799564" y="-2913.0925488231605"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="208.95545605145026" y="7.335712892930587"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="208.9554560514507" y="7.335712892930587"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -535,7 +535,7 @@ value</y:NodeLabel>
                   <y:Geometry height="21.734865032771722" width="421.9109121029019" x="2873.1480636412634" y="-2772.3031687391485"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="208.95545605145116" y="8.867432516386089"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="208.9554560514507" y="8.867432516385634"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -545,7 +545,7 @@ value</y:NodeLabel>
                   <y:Geometry height="530.2248188932731" width="14.802176278566094" x="3003.8967371037515" y="-3035.379208558968"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283274" y="263.11240944663655"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283274" y="263.1124094466363"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -555,7 +555,7 @@ value</y:NodeLabel>
                   <y:Geometry height="530.2248188932731" width="14.802176278566094" x="3149.5081260031084" y="-3035.379208558968"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283274" y="263.11240944663655"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283274" y="263.1124094466363"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -933,8 +933,8 @@ layer 2 neuron, j ∈ {1,...,λ   }</y:NodeLabel>
                   <y:Geometry height="408.01837891646596" width="52.51413333333312" x="4954.647103677295" y="-3019.131264041192"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="277.60223388671875" x="7.912952363077238" xml:space="preserve" y="65.20807251487349">                                  [1]
-layer 1 neuron index, i ∈ {1,...,λ   }</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="7.912952363078148" xml:space="preserve" y="86.80826172385787">                            [1]
+layer 1 neuron, i ∈ {1,...,λ   }</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -944,7 +944,7 @@ layer 1 neuron index, i ∈ {1,...,λ   }</y:NodeLabel>
                   <y:Geometry height="123.1272543048758" width="52.51413333333312" x="4954.647103677295" y="-2611.112885124726"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="69.37645721435547" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.00028991699219" x="6.256921708170012" xml:space="preserve" y="26.87539854526017">1 row
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="69.37645721435547" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.00028991699219" x="6.256921708170921" xml:space="preserve" y="26.875398545260396">1 row
 for
 bias
 value</y:NodeLabel>
@@ -1258,7 +1258,7 @@ to weights and biases of layer 2, SOUGHT</y:NodeLabel>
                       <y:BorderInsets bottom="13" bottomF="13.419317855055397" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
                     </y:GroupNode>
                     <y:GroupNode>
-                      <y:Geometry height="50.0" width="50.0" x="8160.054637162947" y="-2202.4306528694583"/>
+                      <y:Geometry height="50.0" width="50.0" x="6852.909225732657" y="-2160.0113618327"/>
                       <y:Fill color="#CAECFF84" transparent="false"/>
                       <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
                       <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="24.430143356323242" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="50.0" x="0.0" xml:space="preserve" y="0.0">2</y:NodeLabel>
@@ -1277,7 +1277,7 @@ to weights and biases of layer 2, SOUGHT</y:NodeLabel>
                       <y:Geometry height="52.69981025485731" width="421.9109121029021" x="6920.423359065991" y="-2113.771386857114"/>
                       <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                       <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                      <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="93.75452831707571" xml:space="preserve" y="8.005790823839789">                            [2]
+                      <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="93.75452831707571" xml:space="preserve" y="8.005790823840016">                            [2]
 layer 2 neuron, j ∈ {1,...,λ   }</y:NodeLabel>
                     </y:GenericNode>
                   </data>
@@ -1338,7 +1338,7 @@ value</y:NodeLabel>
                       <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
                       <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="85.72057151794434" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.20063781738281" x="23.80428740170464" xml:space="preserve" y="18.283044108931335">Cell for
 
- [2]    [3]
+ [2]    [2]
 ρ    = w
         1,1</y:NodeLabel>
                     </y:GenericNode>
@@ -1347,12 +1347,12 @@ value</y:NodeLabel>
                 <node id="n0::n13::n4::n6">
                   <data key="d6">
                     <y:GenericNode configuration="com.yworks.flowchart.process">
-                      <y:Geometry height="122.286659735807" width="130.80921262079255" x="7065.913669648744" y="-1920.2821965182452"/>
+                      <y:Geometry height="122.286659735807" width="130.80921262079255" x="7065.974208807046" y="-1920.2821965182452"/>
                       <y:Fill hasColor="false" transparent="false"/>
                       <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
                       <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="85.72057151794434" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="83.20063781738281" x="23.80428740170464" xml:space="preserve" y="18.283044108931335">Cell for
 
- [2]    [3]
+ [2]    [2]
 ρ    = w
         i,j</y:NodeLabel>
                     </y:GenericNode>
@@ -1366,7 +1366,7 @@ value</y:NodeLabel>
                       <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
                       <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="72.09993743896484" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="124.0" x="3.4046063103960478" xml:space="preserve" y="25.09336114842108">Cell for
 
-   [2]   [3]
+   [2]   [2]
   ρ   = w
          λ^[1],λ^[2]</y:NodeLabel>
                     </y:GenericNode>
@@ -1375,12 +1375,12 @@ value</y:NodeLabel>
                 <node id="n0::n13::n4::n8">
                   <data key="d6">
                     <y:GenericNode configuration="com.yworks.flowchart.process">
-                      <y:Geometry height="122.286659735807" width="130.80921262079255" x="7211.525058548097" y="-2061.071576602257"/>
+                      <y:Geometry height="122.286659735807" width="130.80921262079255" x="7211.5855977064" y="-2061.071576602257"/>
                       <y:Fill hasColor="false" transparent="false"/>
                       <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
                       <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="85.72057151794434" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.00086975097656" x="9.404171434907767" xml:space="preserve" y="18.283044108931335">Cell for
 
- [2]    [3]
+ [2]    [2]
 ρ    = w
         1,λ^[2]</y:NodeLabel>
                     </y:GenericNode>
@@ -1394,7 +1394,7 @@ value</y:NodeLabel>
                       <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
                       <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="85.72057151794434" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.00086975097656" x="9.404171434907767" xml:space="preserve" y="18.283044108931335">Cell for
 
- [2]    [3]
+ [2]    [2]
 ρ    = w
         λ^[1],1</y:NodeLabel>
                     </y:GenericNode>
@@ -1508,7 +1508,7 @@ value</y:NodeLabel>
                   <y:Geometry height="531.145633221342" width="421.91091210290256" x="1784.7649873475627" y="-2948.2266628886205"/>
                   <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="208.95545605145116" y="263.572816610671"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="208.9554560514514" y="263.572816610671"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -1541,7 +1541,7 @@ a (λ   x 1) matrix (column vector)</y:NodeLabel>
                   <y:Geometry height="59.78672162458474" width="65.81399647502735" x="1837.392717574199" y="-2938.088435634648"/>
                   <y:Fill color="#FFFF00" color2="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.706795295619031" xml:space="preserve" y="3.3771893569091844"> [1](e)
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.7067952956192585" xml:space="preserve" y="3.3771893569091844"> [1](e)
 a
  1</y:NodeLabel>
                 </y:GenericNode>
@@ -1566,7 +1566,7 @@ One can pick the values out of A   </y:NodeLabel>
                   <y:Geometry height="52.69981025485731" width="421.9109121029021" x="1784.825526505865" y="-3000.4660659794426"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="93.75452831707616" xml:space="preserve" y="8.005790823840016">                            [2]
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="93.75452831707594" xml:space="preserve" y="8.005790823839561">                            [2]
 layer 2 neuron, j ∈ {1,...,λ   }</y:NodeLabel>
                 </y:GenericNode>
               </data>
@@ -1577,8 +1577,8 @@ layer 2 neuron, j ∈ {1,...,λ   }</y:NodeLabel>
                   <y:Geometry height="408.01837891646596" width="52.51413333333312" x="1732.3113931725318" y="-2948.6870700526542"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="277.60223388671875" x="7.912952363077693" xml:space="preserve" y="65.20807251487349">                                  [1]
-layer 1 neuron index, i ∈ {1,...,λ   }</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="7.912952363077693" xml:space="preserve" y="86.80826172385787">                            [1]
+layer 1 neuron, i ∈ {1,...,λ   }</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -1588,7 +1588,7 @@ layer 1 neuron index, i ∈ {1,...,λ   }</y:NodeLabel>
                   <y:Geometry height="123.1272543048758" width="52.51413333333312" x="1732.3113931725318" y="-2540.668691136188"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="69.37645721435547" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.00028991699219" x="6.2569217081704664" xml:space="preserve" y="26.87539854526017">1 row
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="69.37645721435547" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.00028991699219" x="6.2569217081704664" xml:space="preserve" y="26.87539854525994">1 row
 for
 bias
 value</y:NodeLabel>
@@ -1601,7 +1601,7 @@ value</y:NodeLabel>
                   <y:Geometry height="122.74706689984077" width="130.80921262079164" x="2075.9272259879754" y="-2539.8280965671192"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.40460631039559" y="59.37353344992039"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.40460631039605" y="59.373533449920615"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -1611,7 +1611,7 @@ value</y:NodeLabel>
                   <y:Geometry height="122.286659735807" width="130.80921262079255" x="2075.9272259879726" y="-2947.766255724586"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.4046063103965" y="59.1433298679035"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="63.40460631039605" y="59.1433298679035"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -1631,7 +1631,7 @@ value</y:NodeLabel>
                   <y:Geometry height="21.734865032771722" width="421.9109121029019" x="1784.7649873475646" y="-2684.6902159047663"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="208.95545605145094" y="8.867432516385861"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="208.95545605145094" y="8.867432516386089"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -1641,7 +1641,7 @@ value</y:NodeLabel>
                   <y:Geometry height="530.2248188932731" width="14.802176278566094" x="1915.5136608100527" y="-2947.766255724586"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283047" y="263.11240944663655"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283047" y="263.1124094466368"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -1651,7 +1651,7 @@ value</y:NodeLabel>
                   <y:Geometry height="530.2248188932731" width="14.802176278566094" x="2061.1250497094097" y="-2947.766255724586"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283047" y="263.11240944663655"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="5.401088139283274" y="263.1124094466368"/>
                 </y:GenericNode>
               </data>
             </node>
@@ -1961,7 +1961,7 @@ value</y:NodeLabel>
                   <y:Geometry height="59.78672162458474" width="65.81399647502735" x="1983.617964456667" y="-2915.266317613363"/>
                   <y:Fill color="#FFFF00" color2="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.706795295619031" xml:space="preserve" y="3.3771893569091844"> [1](e)
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.7067952956192585" xml:space="preserve" y="3.3771893569091844"> [1](e)
 a
  1</y:NodeLabel>
                 </y:GenericNode>
@@ -1985,7 +1985,7 @@ a
                   <y:Geometry height="59.78672162458474" width="65.81399647502735" x="1838.0065755573103" y="-2653.8769989711177"/>
                   <y:Fill color="#FFFF00" color2="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.706795295619031" xml:space="preserve" y="3.3771893569091844"> [1](e)
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.7067952956192585" xml:space="preserve" y="3.3771893569091844"> [1](e)
 a
  λ^[1]</y:NodeLabel>
                 </y:GenericNode>
@@ -1997,7 +1997,7 @@ a
                   <y:Geometry height="59.78672162458474" width="65.81399647502735" x="1984.2318224397775" y="-2631.0548809498328"/>
                   <y:Fill color="#FFFF00" color2="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.706795295619031" xml:space="preserve" y="3.3771893569091844"> [1](e)
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.7067952956192585" xml:space="preserve" y="3.3771893569091844"> [1](e)
 a
  λ^[1]</y:NodeLabel>
                 </y:GenericNode>
@@ -2021,7 +2021,7 @@ a
                   <y:Geometry height="59.78672162458474" width="65.81399647502735" x="1834.0696001053836" y="-2797.2147028318077"/>
                   <y:Fill color="#FFFF00" color2="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.706795295619031" xml:space="preserve" y="3.3771893569091844"> [1](e)
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.7067952956192585" xml:space="preserve" y="3.3771893569091844"> [1](e)
 a
  i</y:NodeLabel>
                 </y:GenericNode>
@@ -2033,7 +2033,7 @@ a
                   <y:Geometry height="59.78672162458474" width="65.81399647502735" x="1980.2948469878518" y="-2774.3925848105227"/>
                   <y:Fill color="#FFFF00" color2="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.706795295619031" xml:space="preserve" y="3.3771893569091844"> [1](e)
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="54.40040588378906" x="5.7067952956192585" xml:space="preserve" y="3.3771893569091844"> [1](e)
 a
  i</y:NodeLabel>
                 </y:GenericNode>
@@ -2249,7 +2249,7 @@ DA</y:NodeLabel>
                   <y:Geometry height="52.69981025485663" width="240.00000000000387" x="2937.9069921843466" y="-2092.4810691670064"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="42.399391174318225" xml:space="preserve" y="16.177847975633767">example e ∈ {1,...,m}</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="42.399391174318225" xml:space="preserve" y="16.177847975633995">example e ∈ {1,...,m}</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2269,7 +2269,7 @@ DA</y:NodeLabel>
                   <y:Geometry height="81.00000000000114" width="74.17635651042087" x="2938.71638500726" y="-2039.7812589121513"/>
                   <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="24.430143356323242" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.00018310546875" x="21.588086702476176" xml:space="preserve" y="28.28492832183906">...</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="24.430143356323242" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.00018310546875" x="21.588086702476176" xml:space="preserve" y="28.284928321838834">...</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2279,7 +2279,7 @@ DA</y:NodeLabel>
                   <y:Geometry height="81.00000000000114" width="74.98574933333498" x="3102.9212428510164" y="-2039.7812589121504"/>
                   <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="24.430143356323242" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.00018310546875" x="21.992783113933" xml:space="preserve" y="28.28492832183906">...</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="24.430143356323242" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.00018310546875" x="21.992783113933" xml:space="preserve" y="28.284928321838834">...</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2291,17 +2291,17 @@ DA</y:NodeLabel>
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="517.9002449022191" width="636.8720319897902" x="2209.8071932618022" y="-1806.7770425392587"/>
+                  <y:Geometry height="476.2820954852996" width="617.3407819897902" x="2219.572818261802" y="-1795.0731200926916"/>
                   <y:Fill color="#CAECFF84" transparent="false"/>
                   <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Noto Sans Mono" fontSize="20" fontStyle="plain" hasLineColor="false" height="31.239974975585938" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="636.8720319897902" x="0.0" xml:space="preserve" y="0.0">   DIFF_ACT2</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Noto Sans Mono" fontSize="20" fontStyle="plain" hasLineColor="false" height="31.239974975585938" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="617.3407819897902" x="0.0" xml:space="preserve" y="0.0">   DIFF_ACT2</y:NodeLabel>
                   <y:Shape type="roundrectangle"/>
                   <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
                   <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-                  <y:BorderInsets bottom="0" bottomF="0.0" left="20" leftF="19.53125" right="0" rightF="0.0" top="42" topF="41.61814941691955"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="14" leftF="14.464943733813925" right="0" rightF="0.0" top="0" topF="0.0"/>
                 </y:GroupNode>
                 <y:GroupNode>
-                  <y:Geometry height="50.0" width="50.0" x="2046.7857843046313" y="-1830.9376182697795"/>
+                  <y:Geometry height="50.0" width="50.0" x="2209.8071932618022" y="-1806.7770425392587"/>
                   <y:Fill color="#CAECFF84" transparent="false"/>
                   <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
                   <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="24.430143356323242" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="50.0" x="0.0" xml:space="preserve" y="0.0">2</y:NodeLabel>
@@ -2317,10 +2317,10 @@ DA</y:NodeLabel>
             <node id="n0::n18::n0">
               <data key="d6">
                 <y:GenericNode configuration="com.yworks.flowchart.process">
-                  <y:Geometry height="279.6425000000006" width="240.0000000000041" x="2311.3175203289493" y="-1666.2191078918968"/>
+                  <y:Geometry height="279.6425000000006" width="240.0000000000041" x="2301.551895328949" y="-1696.1333348622493"/>
                   <y:Fill color="#99CC00" color2="#99CC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="118.00000000000182" y="137.8212500000002">
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="118.00000000000182" y="137.82125000000042">
                     <y:LabelModel>
                       <y:SmartNodeLabelModel distance="4.0"/>
                     </y:LabelModel>
@@ -2334,59 +2334,48 @@ DA</y:NodeLabel>
             <node id="n0::n18::n1">
               <data key="d6">
                 <y:GenericNode configuration="com.yworks.flowchart.process">
-                  <y:Geometry height="279.6425000000004" width="52.51413333333312" x="2258.803386995616" y="-1666.2191078918963"/>
+                  <y:Geometry height="52.69981025485663" width="240.00000000000387" x="2301.551895328949" y="-1748.8331451171057"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="191.20150756835938" x="7.912952363077693" xml:space="preserve" y="44.2204962158205">                      [2]
-row index h ∈ {1,...,λ   }</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="42.399391174318225" xml:space="preserve" y="16.177847975633995">example e ∈ {1,...,m}</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
             <node id="n0::n18::n2">
               <data key="d6">
                 <y:GenericNode configuration="com.yworks.flowchart.process">
-                  <y:Geometry height="52.69981025485663" width="240.00000000000387" x="2311.3175203289493" y="-1718.9189181467532"/>
-                  <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
+                  <y:Geometry height="279.6425000000006" width="52.51413333333312" x="2395.2948286622845" y="-1696.1333348622493"/>
+                  <y:Fill color="#99CC00" color2="#99CC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="42.399391174318225" xml:space="preserve" y="16.177847975633767">example e ∈ {1,...,m}</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="119.200927734375" x="7.912952363077693" xml:space="preserve" y="80.22078613281292">    [2]  [2](e)
+act'   (z      )</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
             <node id="n0::n18::n3">
               <data key="d6">
                 <y:GenericNode configuration="com.yworks.flowchart.process">
-                  <y:Geometry height="279.6425000000006" width="52.51413333333312" x="2405.060453662285" y="-1666.2191078918968"/>
+                  <y:Geometry height="279.6425000000006" width="52.51413333333312" x="2342.7806953289514" y="-1696.1333348622493"/>
                   <y:Fill color="#99CC00" color2="#99CC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="119.200927734375" x="7.912952363077693" xml:space="preserve" y="80.22078613281269">    [2]  [2](e)
-act'   (z      )</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.200347900390625" x="16.085009514872127" xml:space="preserve" y="116.2210760498051">......</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
             <node id="n0::n18::n4">
               <data key="d6">
                 <y:GenericNode configuration="com.yworks.flowchart.process">
-                  <y:Geometry height="279.6425000000006" width="52.51413333333312" x="2352.546320328952" y="-1666.2191078918968"/>
+                  <y:Geometry height="279.6425000000006" width="52.51413333333312" x="2447.8089619956177" y="-1696.1333348622493"/>
                   <y:Fill color="#99CC00" color2="#99CC00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.200347900390625" x="16.085009514872127" xml:space="preserve" y="116.22107604980488">......</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.200347900390625" x="16.085009514872127" xml:space="preserve" y="116.2210760498051">......</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
             <node id="n0::n18::n5">
               <data key="d6">
                 <y:GenericNode configuration="com.yworks.flowchart.process">
-                  <y:Geometry height="279.6425000000006" width="52.51413333333312" x="2457.574586995618" y="-1666.2191078918968"/>
-                  <y:Fill color="#99CC00" color2="#99CC00" transparent="false"/>
-                  <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="270.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="47.200347900390625" x="16.085009514872127" xml:space="preserve" y="116.22107604980488">......</y:NodeLabel>
-                </y:GenericNode>
-              </data>
-            </node>
-            <node id="n0::n18::n6">
-              <data key="d6">
-                <y:GenericNode configuration="com.yworks.flowchart.process">
-                  <y:Geometry height="332.34231025485724" width="250.36170492263955" x="2581.317520328953" y="-1718.9189181467532"/>
+                  <y:Geometry height="332.34231025485724" width="250.36170492263955" x="2571.5518953289525" y="-1748.8331451171057"/>
                   <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="314.5381717681885" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="227.20179748535156" x="11.579953718643992" xml:space="preserve" y="8.902069243334381">      [2]
@@ -2411,13 +2400,24 @@ act   (_) = ReLU(_)</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
-            <node id="n0::n18::n7">
+            <node id="n0::n18::n6">
               <data key="d6">
                 <y:GenericNode configuration="com.yworks.flowchart.process">
-                  <y:Geometry height="52.699810254856516" width="333.4438032472194" x="2244.3384432618022" y="-1356.576607891896"/>
+                  <y:Geometry height="52.699810254856516" width="333.4438032472194" x="2371.291568261802" y="-1386.4908348622484"/>
                   <y:Fill color="#FFFF00" color2="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="256.0020294189453" x="38.72088691413683" xml:space="preserve" y="16.177847975633767">COLLECTED DURING FEED-FORWARD PHASE</y:NodeLabel>
+                </y:GenericNode>
+              </data>
+            </node>
+            <node id="n0::n18::n7">
+              <data key="d6">
+                <y:GenericNode configuration="com.yworks.flowchart.process">
+                  <y:Geometry height="279.64250000000084" width="52.51413333333312" x="2249.0377619956157" y="-1696.133334862249"/>
+                  <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="7.912952363077693" xml:space="preserve" y="22.62032226562542">                            [2]
+layer 2 neuron, i ∈ {1,...,λ   }</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2429,7 +2429,7 @@ act   (_) = ReLU(_)</y:NodeLabel>
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="0">
                 <y:GroupNode>
-                  <y:Geometry height="523.1278935393593" width="160.80921262079164" x="3460.6187223520974" y="-1718.9189181467532"/>
+                  <y:Geometry height="485.62067254421754" width="160.80921262079164" x="3460.6187223520974" y="-1718.9189181467532"/>
                   <y:Fill color="#CAECFF84" transparent="false"/>
                   <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
                   <y:NodeLabel alignment="left" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Noto Sans Mono" fontSize="20" fontStyle="plain" hasLineColor="false" height="58.479949951171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="160.80921262079164" x="0.0" xml:space="preserve" y="0.0">    [3]
@@ -2469,8 +2469,8 @@ act   (_) = ReLU(_)</y:NodeLabel>
                   <y:Geometry height="273.94813333333286" width="52.51413333333335" x="3487.8391743186003" y="-1592.739157940725"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="241.60191345214844" x="7.912952363077693" xml:space="preserve" y="16.173109940592212">     [2]
-... λ    neurons of layer [2] ...</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.40185546875" x="7.912952363077693" xml:space="preserve" y="19.77313893229143">                            [2]
+layer 2 neuron, i ∈ {1,...,λ   }</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2487,10 +2487,10 @@ act   (_) = ReLU(_)</y:NodeLabel>
             <node id="n0::n19::n3">
               <data key="d6">
                 <y:GenericNode configuration="com.yworks.flowchart.process">
-                  <y:Geometry height="77.9999999999983" width="130.80921262079164" x="3475.6187223520974" y="-1288.791024607392"/>
+                  <y:Geometry height="52.699810254856516" width="130.80921262079164" x="3475.6187223520974" y="-1300.998055857392"/>
                   <y:Fill color="#FFFF00" color2="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.00086975097656" x="9.404171434907767" xml:space="preserve" y="28.827942848204657">CURRENT WEIGHTS</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.00086975097656" x="9.404171434907767" xml:space="preserve" y="16.177847975633767">CURRENT WEIGHTS</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2548,7 +2548,7 @@ act   (_) = ReLU(_)</y:NodeLabel>
                   <y:Geometry height="52.69981025485663" width="240.00000000000387" x="4554.2528334222325" y="-1784.8433141930927"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="42.399391174318225" xml:space="preserve" y="16.17784797563388">example e ∈ {1,...,m}</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="42.399391174318225" xml:space="preserve" y="16.177847975633995">example e ∈ {1,...,m}</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2568,7 +2568,7 @@ act   (_) = ReLU(_)</y:NodeLabel>
                   <y:Geometry height="215.77097733333326" width="331.5087009371541" x="4508.498482953658" y="-1474.500653572819"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="167.44114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="292.00238037109375" x="19.75316028303041" xml:space="preserve" y="24.16491714872234">For the logistic regression classifier,
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="167.44114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="292.00238037109375" x="19.75316028303041" xml:space="preserve" y="24.164917148722225">For the logistic regression classifier,
 
       [3]
    act   (_) = sigma(_)
@@ -2587,7 +2587,7 @@ In that case this is the matrix of:
                   <y:Geometry height="142.02824000000032" width="333.44380324721874" x="4507.530931798626" y="-1646.5288935728192"/>
                   <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="134.75291442871094" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="284.80230712890625" x="24.320748059156358" xml:space="preserve" y="3.637662785644693">       [3]
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="134.75291442871094" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="284.80230712890625" x="24.320748059156358" xml:space="preserve" y="3.6376627856445793">       [3]
 The ((λ   = 1) x  m) matrix of
 
      [3]
@@ -2604,7 +2604,7 @@ d act  (η) |              [3]   [3](e)
                   <y:Geometry height="52.699810254856516" width="333.4438032472194" x="4503.380937765986" y="-1228.7296762394856"/>
                   <y:Fill color="#FFFF00" color2="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="256.0020294189453" x="38.72088691413683" xml:space="preserve" y="16.177847975633824">COLLECTED DURING FEED-FORWARD PHASE</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="256.0020294189453" x="38.72088691413683" xml:space="preserve" y="16.177847975633767">COLLECTED DURING FEED-FORWARD PHASE</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2646,7 +2646,7 @@ d act  (η) |              [3]   [3](e)
                   <y:Geometry height="81.0" width="52.51413333333312" x="1878.7510799542258" y="-2039.7812589121495"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="11.200057983398438" x="20.65703767496757" xml:space="preserve" y="30.327942848205566">1</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="11.200057983398438" x="20.65703767496734" xml:space="preserve" y="30.327942848205566">1</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2656,7 +2656,7 @@ d act  (η) |              [3]   [3](e)
                   <y:Geometry height="81.0" width="91.8790517771879" x="2005.325687398966" y="-2039.7812589121495"/>
                   <y:Fill color="#999999" color2="#808080" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.860286712646484" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="76.00048828125" x="7.939281747968835" xml:space="preserve" y="18.069856643676758">  [2](e)
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.860286712646484" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="76.00048828125" x="7.939281747969062" xml:space="preserve" y="18.069856643676758">  [2](e)
 DZ</y:NodeLabel>
                 </y:GenericNode>
               </data>
@@ -2667,7 +2667,7 @@ DZ</y:NodeLabel>
                   <y:Geometry height="52.69981025485663" width="240.00000000000387" x="1931.2652132875576" y="-2092.4810691670064"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="42.399391174318225" xml:space="preserve" y="16.177847975633995">example e ∈ {1,...,m}</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="42.39939117431845" xml:space="preserve" y="16.177847975633995">example e ∈ {1,...,m}</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2723,7 +2723,7 @@ W     x DA
               <y:Geometry height="192.02503345817195" width="246.2262650112898" x="4547.791341063392" y="-2097.0964286416865"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="3.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="151.0970287322998" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="212.8016815185547" x="16.712291746367555" xml:space="preserve" y="20.46400236293607">Multiplication along (e):
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="151.0970287322998" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="212.8016815185547" x="16.712291746367555" xml:space="preserve" y="20.4640023629363">Multiplication along (e):
 
                        [3](e)
 At each cell of each DZ 
@@ -2757,7 +2757,7 @@ yielding a single matrix.</y:NodeLabel>
               <y:Geometry height="131.2832540952927" width="295.2350635892303" x="5815.551462514659" y="-2582.758435005268"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="3.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.0646858215332" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="263.20208740234375" x="16.016488093443513" xml:space="preserve" y="14.60928413687975">Compute dot product of
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.0646858215332" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="263.20208740234375" x="16.016488093443513" xml:space="preserve" y="14.609284136879523">Compute dot product of
 
                        [3]
 DIFF_ACT3_LOSS x ALL_DZ
@@ -2772,7 +2772,7 @@ along (e), yielding a single matrix)</y:NodeLabel>
               <y:Geometry height="81.0" width="108.58530133333397" x="6387.3000763296295" y="-2041.5839119126022"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="3.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.00028991699219" x="34.29250570817021" xml:space="preserve" y="13.9838285446167">Scale
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="40.00028991699219" x="34.29250570817112" xml:space="preserve" y="13.9838285446167">Scale
 by
 1/m</y:NodeLabel>
             </y:GenericNode>
@@ -2784,7 +2784,7 @@ by
               <y:Geometry height="189.21232698394238" width="240.0000000000041" x="5948.307916943632" y="-2095.6900754045737"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="3.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="134.75291442871094" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="176.8013916015625" x="31.59930419922148" xml:space="preserve" y="27.22970627761572">Summation along (e):
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="134.75291442871094" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="176.8013916015625" x="31.59930419922057" xml:space="preserve" y="27.229706277615605">Summation along (e):
 
           [3](e)
 All the DA
@@ -2801,7 +2801,7 @@ matrix.
               <y:Geometry height="189.21232698394238" width="277.38702897570556" x="5524.724174457061" y="-2095.6900754045732"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="3.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="151.0970287322998" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="212.8016815185547" x="32.29267372857521" xml:space="preserve" y="19.057649125821285">Multiplication along (e):
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="151.0970287322998" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="212.8016815185547" x="32.29267372857521" xml:space="preserve" y="19.05764912582117">Multiplication along (e):
 
                        [3](e)
 At each cell of each DA
@@ -2860,7 +2860,7 @@ DA</y:NodeLabel>
                   <y:Geometry height="52.69981025485663" width="240.00000000000387" x="5097.74226622977" y="-2094.283722167459"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="42.399391174318225" xml:space="preserve" y="16.17784797563388">example e ∈ {1,...,m}</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="42.399391174318225" xml:space="preserve" y="16.177847975633995">example e ∈ {1,...,m}</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2880,7 +2880,7 @@ DA</y:NodeLabel>
                   <y:Geometry height="81.00000000000114" width="74.17635651042087" x="5098.551659052684" y="-2041.583911912604"/>
                   <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="24.430143356323242" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.00018310546875" x="21.588086702476176" xml:space="preserve" y="28.284928321838947">...</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="24.430143356323242" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.00018310546875" x="21.588086702476176" xml:space="preserve" y="28.284928321838834">...</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2890,7 +2890,7 @@ DA</y:NodeLabel>
                   <y:Geometry height="81.00000000000114" width="74.98574933333452" x="5262.756516896439" y="-2041.5839119126026"/>
                   <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="24.430143356323242" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.00018310546875" x="21.992783113933" xml:space="preserve" y="28.284928321838947">...</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="24.430143356323242" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="31.00018310546875" x="21.992783113933" xml:space="preserve" y="28.284928321838834">...</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2968,7 +2968,7 @@ DA</y:NodeLabel>
                   <y:Geometry height="172.25486399999983" width="404.25833333333276" x="5461.288522278248" y="-1411.642410899036"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="134.75291442871094" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="385.60333251953125" x="4.0" xml:space="preserve" y="18.750974785644416">For the cross-entropy / negative log-likelihood
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="134.75291442871094" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="385.60333251953125" x="4.0" xml:space="preserve" y="18.75097478564453">For the cross-entropy / negative log-likelihood
 formula for 2 classes, this is the (1 x m) matrix of:
 
       (e)       (e)             (e)         (e)    
@@ -2985,7 +2985,7 @@ formula for 2 classes, this is the (1 x m) matrix of:
                   <y:Geometry height="142.02824" width="317.6849493333334" x="5504.575214278248" y="-1583.670650899036"/>
                   <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="118.40880012512207" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="263.20208740234375" x="27.241430965495056" xml:space="preserve" y="11.809719937438956">The (1 x m) matrix of scalars:
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="118.40880012512207" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="263.20208740234375" x="27.241430965495056" xml:space="preserve" y="11.809719937439013">The (1 x m) matrix of scalars:
 
               (e)
   ∂ loss(η , y   )  |
@@ -3001,7 +3001,7 @@ formula for 2 classes, this is the (1 x m) matrix of:
                   <y:Geometry height="52.699810254856516" width="333.4438032472194" x="5500.994294688361" y="-1209.3875468990361"/>
                   <y:Fill color="#FFFF00" color2="#FFFF00" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="256.0020294189453" x="38.72088691413683" xml:space="preserve" y="16.177847975633824">COLLECTED DURING FEED-FORWARD PHASE</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="256.0020294189453" x="38.72088691413683" xml:space="preserve" y="16.177847975633767">COLLECTED DURING FEED-FORWARD PHASE</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -3042,7 +3042,7 @@ formula for 2 classes, this is the (1 x m) matrix of:
                   <y:Geometry height="52.6998102548564" width="263.0" x="5831.668994309274" y="-2722.865964192961"/>
                   <y:Fill color="#99CC00" color2="#800000" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="129.5" y="24.3499051274282">
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="129.5" y="24.349905127427974">
                     <y:LabelModel>
                       <y:SmartNodeLabelModel distance="4.0"/>
                     </y:LabelModel>
@@ -3059,7 +3059,7 @@ formula for 2 classes, this is the (1 x m) matrix of:
                   <y:Geometry height="52.6998102548564" width="31.0" x="5800.668994309274" y="-2722.865964192961"/>
                   <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="11.200057983398438" x="9.899971008300781" xml:space="preserve" y="16.177847975633767">1</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="11.200057983398438" x="9.899971008300781" xml:space="preserve" y="16.17784797563354">1</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -3069,7 +3069,7 @@ formula for 2 classes, this is the (1 x m) matrix of:
                   <y:Geometry height="52.6998102548564" width="263.0" x="5831.668994309274" y="-2775.565774447818"/>
                   <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="53.899391174316406" xml:space="preserve" y="16.177847975633767">example e ∈ {1,...,m}</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="155.2012176513672" x="53.899391174316406" xml:space="preserve" y="16.17784797563354">example e ∈ {1,...,m}</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -3079,7 +3079,7 @@ formula for 2 classes, this is the (1 x m) matrix of:
                   <y:Geometry height="215.77097733333324" width="333.4438032472201" x="5796.447092685664" y="-3135.9131827144843"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="200.1293716430664" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="292.00238037109375" x="20.720711438063518" xml:space="preserve" y="7.8208028451333576">If
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="200.1293716430664" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="292.00238037109375" x="20.720711438063518" xml:space="preserve" y="7.820802845133585">If
       [3]  
    act   (_)  = sigma(_)
 
@@ -3140,7 +3140,7 @@ loss(_,y)</y:NodeLabel>
               <y:Geometry height="143.0263902658686" width="163.78477314327165" x="3804.7888156669687" y="-2072.597107045536"/>
               <y:Fill color="#FFFF99" color2="#999999" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.0646858215332" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.40098571777344" x="18.69189371274888" xml:space="preserve" y="20.48085222216764">Differentation by
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.0646858215332" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.40098571777344" x="18.691893712749334" xml:space="preserve" y="20.48085222216787">Differentation by
 
  [3]
 ρ
@@ -3203,7 +3203,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::e4" source="n0::n10" target="n0::n16::n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3214,7 +3213,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::e5" source="n0::n11" target="n0::n17::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3225,7 +3223,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::e6" source="n0::n14" target="n0::n21::n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3238,7 +3235,7 @@ would stop here
     <edge id="n0::e7" source="n0::n18" target="n0::n7">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="-205.26194389318312" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="-188.76721863549002" tx="4.547473508864641E-13" ty="104.67427205986178"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -3246,7 +3243,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::e8" source="n0::n19" target="n0::n34">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3311,7 +3307,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::e14" source="n0::n26" target="n0::n15::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3372,7 +3367,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::e20" source="n0::n33" target="n0::n16::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3383,7 +3377,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::e21" source="n0::n12::n5" target="n0::n29::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3394,10 +3387,12 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n13::e0" source="n0::n13::n0" target="n0::n13::n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="100.90883320781904" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="100.90883320781904" tx="0.0" ty="0.0">
+            <y:Point x="7105.152018029926" y="-2185.46577843661"/>
+            <y:Point x="7105.152018029925" y="-2185.46577843661"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -3405,10 +3400,9 @@ would stop here
       </data>
     </edge>
     <edge id="n0::e22" source="n0::n15::n0" target="n0::n13::n4::n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="2.413459949371372" tx="0.0" ty="-139.53158531288977"/>
+          <y:Path sx="0.0" sy="2.413459949371372" tx="-9.094947017729282E-13" ty="-139.53158531288932"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>
@@ -3426,7 +3420,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::e24" source="n0::n16::n4" target="n0::n25">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -3472,7 +3465,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n30::e0" source="n0::n30::n3" target="n0::n30::n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3483,7 +3475,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n30::e1" source="n0::n30::n4" target="n0::n30::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3494,7 +3485,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::e28" source="n0::n31::n0" target="n0::n25">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3515,7 +3505,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n31::e0" source="n0::n31::n3" target="n0::n31::n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3526,7 +3515,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n31::e1" source="n0::n31::n4" target="n0::n31::n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3537,7 +3525,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n20::e0" source="n0::n20::n3" target="n0::n20::n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3548,7 +3535,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n20::e1" source="n0::n20::n4" target="n0::n20::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3559,7 +3545,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::e30" source="n0::n34" target="n0::n22">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3570,7 +3555,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n14::e0" source="n0::n14::n15" target="n0::n14::n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3581,7 +3565,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n14::e1" source="n0::n14::n17" target="n0::n14::n44">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3592,7 +3575,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n14::e2" source="n0::n14::n19" target="n0::n14::n43">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3603,7 +3585,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n14::e3" source="n0::n14::n22" target="n0::n14::n48">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3614,7 +3595,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n14::e4" source="n0::n14::n24" target="n0::n14::n50">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3625,7 +3605,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n14::e5" source="n0::n14::n26" target="n0::n14::n49">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3636,7 +3615,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n14::e6" source="n0::n14::n29" target="n0::n14::n45">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3647,7 +3625,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n14::e7" source="n0::n14::n31" target="n0::n14::n47">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -3658,7 +3635,6 @@ would stop here
       </data>
     </edge>
     <edge id="n0::n14::e8" source="n0::n14::n33" target="n0::n14::n46">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
