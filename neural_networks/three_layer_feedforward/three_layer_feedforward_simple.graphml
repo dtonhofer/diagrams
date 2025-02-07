@@ -894,7 +894,7 @@ elementwise</y:NodeLabel>
               <y:Geometry height="66.39018554687561" width="96.07738720159102" x="-2252.7127545223116" y="-1180.300529591971"/>
               <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="58.479949951171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="51.99993896484375" x="22.038724118373466" xml:space="preserve" y="3.9551177978519263"> [1]
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="58.479949951171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="51.99993896484375" x="22.038724118373466" xml:space="preserve" y="3.9551177978519263"> [2]
 a</y:NodeLabel>
             </y:GenericNode>
           </data>
@@ -1619,7 +1619,7 @@ fuzzy membership value for class 1.</y:NodeLabel>
                   <y:Geometry height="65.69509277343775" width="30.0" x="-2964.72391416629" y="518.3842680376366"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.239974975585938" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.999984741210938" x="7.000007629394531" xml:space="preserve" y="17.227558898925963">1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.239974975585938" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="15.999984741210938" x="7.000007629394531" xml:space="preserve" y="17.22755889892585">1<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -1819,7 +1819,7 @@ this is a value x associated to:
                   <y:Geometry height="449.38287533225366" width="93.18714569421422" x="-1944.946157193127" y="-3075.654598698599"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="71.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="328.052734375" x="10.609197847107225" xml:space="preserve" y="60.66507047862706">neuron layer [l]
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="71.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="328.052734375" x="10.609197847107225" xml:space="preserve" y="60.6650704786266">neuron layer [l]
                        [l]
 row index b in {1,...,λ   }</y:NodeLabel>
                 </y:GenericNode>
@@ -1865,7 +1865,7 @@ column index a in {1,...,λ     }</y:NodeLabel>
                   <y:Geometry height="76.90649981510751" width="152.75" x="-1561.641258354789" y="-3410.880674046605"/>
                   <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.65625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="100.015625" x="26.3671875" xml:space="preserve" y="25.12512490755398">neuron b<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.65625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="100.015625" x="26.3671875" xml:space="preserve" y="25.125124907553527">neuron b<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -1885,7 +1885,7 @@ column index a in {1,...,λ     }</y:NodeLabel>
                   <y:Geometry height="98.6874545373771" width="412.4496273209563" x="-1851.7590114989116" y="-2724.9591779037223"/>
                   <y:Fill hasColor="false" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="71.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="376.060546875" x="18.19454022297805" xml:space="preserve" y="13.359352268688781">A row contains the
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="71.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="376.060546875" x="18.19454022297805" xml:space="preserve" y="13.359352268688326">A row contains the
 weights of the links going into
 neuron b of layer [l]</y:NodeLabel>
                 </y:GenericNode>
@@ -1897,7 +1897,7 @@ neuron b of layer [l]</y:NodeLabel>
                   <y:Geometry height="98.6874545373771" width="123.98351193633971" x="-1726.721879536045" y="-3421.7711514077396"/>
                   <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="71.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="52.0078125" x="35.987849718169855" xml:space="preserve" y="13.359352268688781"> [l]
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="71.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="52.0078125" x="35.987849718169855" xml:space="preserve" y="13.359352268688326"> [l]
 w
  b,a</y:NodeLabel>
                 </y:GenericNode>
@@ -1978,7 +1978,7 @@ W</y:NodeLabel>
                   <y:Geometry height="449.38287533225366" width="93.18714569421422" x="-1944.9461571931283" y="-2135.1883485193734"/>
                   <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="71.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="352.056640625" x="10.609197847107225" xml:space="preserve" y="48.66311735362706">neuron layer [l-1]
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="71.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" rotationAngle="90.0" textColor="#000000" verticalTextPosition="bottom" visible="true" width="352.056640625" x="10.609197847107225" xml:space="preserve" y="48.6631173536266">neuron layer [l-1]
                        [l-1]
 row index a in {1,...,λ     }</y:NodeLabel>
                 </y:GenericNode>
@@ -2060,7 +2060,7 @@ W</y:NodeLabel>
                   <y:Geometry height="76.90649981510751" width="152.75" x="-1579.0584452426415" y="-2477.0425208902184"/>
                   <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.65625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="100.015625" x="26.3671875" xml:space="preserve" y="25.12512490755398">neuron b<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="26.65625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="100.015625" x="26.3671875" xml:space="preserve" y="25.125124907553527">neuron b<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2080,7 +2080,7 @@ W</y:NodeLabel>
                   <y:Geometry height="98.6874545373771" width="123.98351193633971" x="-1744.1390664238975" y="-2487.932998251353"/>
                   <y:Fill color="#C0C0C0" color2="#C0C0C0" transparent="false"/>
                   <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="71.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="52.0078125" x="35.987849718169855" xml:space="preserve" y="13.359352268688781"> [l]
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Liberation Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="71.96875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="52.0078125" x="35.987849718169855" xml:space="preserve" y="13.359352268688326"> [l]
 w
  a,b</y:NodeLabel>
                 </y:GenericNode>
@@ -2135,7 +2135,7 @@ performing 2-class logistic regression
                   <y:Geometry height="77.0" width="795.8163554102284" x="-3817.0718000079673" y="-3756.4016796538776"/>
                   <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="395.259521484375" x="200.2784169629267" xml:space="preserve" y="16.070018768310547">Version of 2025-02-07 14:00</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="395.259521484375" x="200.2784169629267" xml:space="preserve" y="16.070018768310547">Version of 2025-02-07 16:30</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2155,7 +2155,7 @@ performing 2-class logistic regression
                   <y:Geometry height="114.57643093333309" width="990.8379792411499" x="-3817.0718000079673" y="-3679.4016796538776"/>
                   <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="25" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="72.10025787353516" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="826.7530517578125" x="4.0" xml:space="preserve" y="21.238086529899192">Available at:
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="25" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="72.10025787353516" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="826.7530517578125" x="4.0" xml:space="preserve" y="21.238086529898737">Available at:
 https://github.com/dtonhofer/diagrams/tree/master/neural_networks</y:NodeLabel>
                 </y:GenericNode>
               </data>
@@ -2774,7 +2774,6 @@ example.</y:NodeLabel>
       </data>
     </edge>
     <edge id="n0::e36" source="n0::n2" target="n0::n43">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2785,7 +2784,6 @@ example.</y:NodeLabel>
       </data>
     </edge>
     <edge id="n0::e37" source="n0::n3" target="n0::n44">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2796,7 +2794,6 @@ example.</y:NodeLabel>
       </data>
     </edge>
     <edge id="n0::e38" source="n0::n22" target="n0::n28::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2807,7 +2804,6 @@ example.</y:NodeLabel>
       </data>
     </edge>
     <edge id="n0::e39" source="n0::n33" target="n0::n45">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

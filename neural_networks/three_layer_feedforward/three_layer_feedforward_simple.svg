@@ -1071,7 +1071,7 @@
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,3880,4025)" stroke-linecap="butt">
       <path fill="none" d="M-2242.7126 -1180.3005 L-2156.6353 -1180.3005 L-2156.6353 -1113.9104 L-2252.7126 -1113.9104 L-2252.7126 -1170.3005 Z" clip-path="url(#clipPath2)"/>
-      <text x="-2228.6741" font-size="20px" y="-1152.9655" clip-path="url(#clipPath2)" font-family="'Noto Sans Mono'" stroke="none" xml:space="preserve"> [1]</text>
+      <text x="-2228.6741" font-size="20px" y="-1152.9655" clip-path="url(#clipPath2)" font-family="'Noto Sans Mono'" stroke="none" xml:space="preserve"> [2]</text>
       <text x="-2228.6741" font-size="20px" y="-1125.7255" clip-path="url(#clipPath2)" font-family="'Noto Sans Mono'" stroke="none" xml:space="preserve">a</text>
     </g>
     <g transform="matrix(1,0,0,1,3880,4025)" fill-opacity="0.5176" fill="rgb(182,216,235)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(182,216,235)" stroke-opacity="0.5176">
@@ -1853,7 +1853,7 @@
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,3880,4025)" stroke-linecap="butt">
       <path fill="none" d="M-3817.0718 -3756.4016 L-3021.2554 -3756.4016 L-3021.2554 -3679.4016 L-3817.0718 -3679.4016 Z" clip-path="url(#clipPath2)"/>
-      <text x="-3614.7935" font-size="30px" y="-3706.2617" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Version of 2025-02-07 14:00</text>
+      <text x="-3614.7935" font-size="30px" y="-3706.2617" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Version of 2025-02-07 16:30</text>
     </g>
     <g fill="url(#linearGradient102)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,3880,4025)" stroke="url(#linearGradient102)">
       <path d="M-3021.2554 -3756.4016 L-2826.2339 -3756.4016 L-2826.2339 -3679.4016 L-3021.2554 -3679.4016 Z" stroke="none" clip-path="url(#clipPath2)"/>

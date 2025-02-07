@@ -62,7 +62,7 @@ interval [0+ε .. +∞), ε &gt; 0, small</y:NodeLabel>
               <y:Geometry height="199.81455653098737" width="283.0070739203984" x="-3849.2253384745663" y="-3186.7124211818755"/>
               <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" height="140.1998748779297" horizontalTextPosition="center" iconTextGap="4" lineColor="#EEEEEE" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="268.2197265625" x="7.393673678949199" xml:space="preserve" y="29.807340826528616">The "input feature vectors"
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" height="140.1998748779297" horizontalTextPosition="center" iconTextGap="4" lineColor="#EEEEEE" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="268.2197265625" x="7.393673678949199" xml:space="preserve" y="29.80734082652907">The "input feature vectors"
 of (m) examples, arranged
 into a single matrix.
 This can be considered "the 
@@ -1023,7 +1023,7 @@ elementwise</y:NodeLabel>
               <y:Geometry height="66.39018554687561" width="96.07738720159102" x="-2252.7127545223116" y="-1180.300529591971"/>
               <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="58.479949951171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="51.99993896484375" x="22.038724118373466" xml:space="preserve" y="3.9551177978519263"> [1]
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="58.479949951171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="51.99993896484375" x="22.038724118373466" xml:space="preserve" y="3.9551177978519263"> [2]
 A</y:NodeLabel>
             </y:GenericNode>
           </data>
@@ -2437,7 +2437,7 @@ performing 2-class logistic regression
                   <y:Geometry height="77.0" width="795.8163554102284" x="-3822.506588474567" y="-3775.845090213"/>
                   <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="395.259521484375" x="200.2784169629267" xml:space="preserve" y="16.070018768310547">Version of 2025-02-07 14:00</y:NodeLabel>
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="30" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="395.259521484375" x="200.2784169629267" xml:space="preserve" y="16.070018768310547">Version of 2025-02-07 16:30</y:NodeLabel>
                 </y:GenericNode>
               </data>
             </node>
@@ -2457,7 +2457,7 @@ performing 2-class logistic regression
                   <y:Geometry height="114.57643093333309" width="990.8379792411499" x="-3822.506588474567" y="-3698.845090213"/>
                   <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
                   <y:BorderStyle color="#000000" type="line" width="1.0"/>
-                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="25" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="72.10025787353516" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="826.7530517578125" x="4.0" xml:space="preserve" y="21.238086529898737">Available at:
+                  <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="25" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="72.10025787353516" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="826.7530517578125" x="4.0" xml:space="preserve" y="21.238086529899192">Available at:
 https://github.com/dtonhofer/diagrams/tree/master/neural_networks</y:NodeLabel>
                 </y:GenericNode>
               </data>
