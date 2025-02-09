@@ -423,7 +423,7 @@
         <stop stop-opacity="1" stop-color="rgb(255,153,0)" offset="0%"/>
         <stop stop-opacity="1" stop-color="rgb(255,153,0)" offset="100%"/>
       </linearGradient>
-      <linearGradient x1="-792.5732" gradientUnits="userSpaceOnUse" x2="184.5802" y1="-1270.6682" y2="-995.913" id="linearGradient106" spreadMethod="reflect">
+      <linearGradient x1="-792.5732" gradientUnits="userSpaceOnUse" x2="184.5802" y1="-1270.6682" y2="-1047.3187" id="linearGradient106" spreadMethod="reflect">
         <stop stop-opacity="1" stop-color="rgb(183,201,227)" offset="0%"/>
         <stop stop-opacity="1" stop-color="rgb(183,201,227)" offset="100%"/>
       </linearGradient>
@@ -443,7 +443,7 @@
         <stop stop-opacity="1" stop-color="rgb(183,201,227)" offset="0%"/>
         <stop stop-opacity="1" stop-color="rgb(183,201,227)" offset="100%"/>
       </linearGradient>
-      <linearGradient x1="-576.3406" gradientUnits="userSpaceOnUse" x2="145.6792" y1="-1162.7892" y2="-1030.6006" id="linearGradient111" spreadMethod="reflect">
+      <linearGradient x1="-513.4896" gradientUnits="userSpaceOnUse" x2="184.5802" y1="-1190.5789" y2="-1076.0023" id="linearGradient111" spreadMethod="reflect">
         <stop stop-opacity="1" stop-color="rgb(183,201,227)" offset="0%"/>
         <stop stop-opacity="1" stop-color="rgb(183,201,227)" offset="100%"/>
       </linearGradient>
@@ -1359,14 +1359,14 @@
       <text x="308.6834" font-size="20px" y="183.6705" clip-path="url(#clipPath2)" font-family="'Noto Sans Mono'" stroke-dasharray="none" stroke="none" xml:space="preserve">    j,i</text>
     </g>
     <g fill="url(#linearGradient106)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,823,1637)" stroke="url(#linearGradient106)">
-      <path d="M-792.5732 -1270.6682 L184.5802 -1270.6682 L184.5802 -995.913 L-792.5732 -995.913 Z" stroke="none" clip-path="url(#clipPath2)"/>
+      <path d="M-792.5732 -1270.6682 L184.5802 -1270.6682 L184.5802 -1047.3187 L-792.5732 -1047.3187 Z" stroke="none" clip-path="url(#clipPath2)"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,823,1637)" stroke-linecap="butt">
-      <path fill="none" d="M-792.5732 -1270.6682 L184.5802 -1270.6682 L184.5802 -995.913 L-792.5732 -995.913 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M-792.5732 -1270.6682 L184.5802 -1270.6682 L184.5802 -1047.3187 L-792.5732 -1047.3187 Z" clip-path="url(#clipPath2)"/>
       <text x="-786.5732" font-size="25px" y="-1237.9431" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Conventions are adapted from those used in the course</text>
       <text x="-786.5732" font-size="25px" y="-1203.8929" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">"Neural Networks and Deep Learning" by Prof. Andrew Ng.</text>
       <text x="-786.5732" font-size="25px" y="-1169.8429" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve"> </text>
-      <text x="-786.5732" font-size="25px" y="-1135.7927" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Additionally:</text>
+      <text x="-786.5732" font-size="25px" y="-1135.7927" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Note this peculiarity:</text>
     </g>
     <g fill="url(#linearGradient107)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,823,1637)" stroke="url(#linearGradient107)">
       <path d="M-792.5732 -1578.1614 L184.5802 -1578.1614 L184.5802 -1462.2446 L-792.5732 -1462.2446 Z" stroke="none" clip-path="url(#clipPath2)"/>
@@ -1374,14 +1374,14 @@
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,823,1637)" stroke-linecap="butt">
       <path fill="none" d="M-792.5732 -1578.1614 L184.5802 -1578.1614 L184.5802 -1462.2446 L-792.5732 -1462.2446 Z" clip-path="url(#clipPath2)"/>
       <text x="-644.6311" font-size="30px" y="-1528.9929" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" font-weight="bold" xml:space="preserve">Back-propagation in a 2-layer neural network</text>
-      <text x="-644.6311" font-size="30px" y="-1488.1331" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" font-weight="bold" xml:space="preserve">performing 2-class classification</text>
+      <text x="-644.6311" font-size="30px" y="-1488.1331" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" font-weight="bold" xml:space="preserve">performing binary classification</text>
     </g>
     <g fill="url(#linearGradient108)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,823,1637)" stroke="url(#linearGradient108)">
       <path d="M-792.5732 -1462.2446 L12.0434 -1462.2446 L12.0434 -1385.2446 L-792.5732 -1385.2446 Z" stroke="none" clip-path="url(#clipPath2)"/>
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,823,1637)" stroke-linecap="butt">
       <path fill="none" d="M-792.5732 -1462.2446 L12.0434 -1462.2446 L12.0434 -1385.2446 L-792.5732 -1385.2446 Z" clip-path="url(#clipPath2)"/>
-      <text x="-585.8947" font-size="30px" y="-1412.1046" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Version of 2025-02-09 13:00</text>
+      <text x="-585.8947" font-size="30px" y="-1412.1046" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Version of 2025-02-10 00:00</text>
     </g>
     <g fill="url(#linearGradient109)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,823,1637)" stroke="url(#linearGradient109)">
       <path d="M12.0434 -1462.2446 L184.5802 -1462.2446 L184.5802 -1385.2446 L12.0434 -1385.2446 Z" stroke="none" clip-path="url(#clipPath2)"/>
@@ -1399,14 +1399,13 @@
       <text x="-786.5732" font-size="25px" y="-1301.2313" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">https://github.com/dtonhofer/diagrams/tree/master/neural_networks</text>
     </g>
     <g fill="url(#linearGradient111)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,823,1637)" stroke="url(#linearGradient111)">
-      <path d="M-576.3406 -1162.7892 L145.6792 -1162.7892 L145.6792 -1030.6006 L-576.3406 -1030.6006 Z" stroke="none" clip-path="url(#clipPath2)"/>
+      <path d="M-513.4896 -1190.5789 L184.5802 -1190.5789 L184.5802 -1076.0023 L-513.4896 -1076.0023 Z" stroke="none" clip-path="url(#clipPath2)"/>
     </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" stroke-dasharray="6,2" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,823,1637)" stroke-linecap="butt">
-      <path fill="none" d="M-576.3406 -1162.7892 L145.6792 -1162.7892 L145.6792 -1030.6006 L-576.3406 -1030.6006 Z" clip-path="url(#clipPath2)"/>
-      <text x="-545.3305" font-size="20px" y="-1129.7948" clip-path="url(#clipPath2)" font-family="'Noto Sans Mono'" stroke-dasharray="none" stroke="none" xml:space="preserve"> [l]</text>
-      <text x="-545.3305" font-size="20px" y="-1102.5548" clip-path="url(#clipPath2)" font-family="'Noto Sans Mono'" stroke-dasharray="none" stroke="none" xml:space="preserve">λ    := "the number of neurons in layer l", l ∈ {0,1,2}</text>
-      <text x="-545.3305" font-size="20px" y="-1075.3149" clip-path="url(#clipPath2)" font-family="'Noto Sans Mono'" stroke-dasharray="none" stroke="none" xml:space="preserve"> </text>
-      <text x="-545.3305" font-size="20px" y="-1048.075" clip-path="url(#clipPath2)" font-family="'Noto Sans Mono'" stroke-dasharray="none" stroke="none" xml:space="preserve">(layer 0 is the input layer)</text>
+    <g font-size="20px" stroke-linecap="butt" transform="matrix(1,0,0,1,823,1637)" text-rendering="geometricPrecision" font-family="'Noto Sans Mono'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+      <text x="-488.4545" xml:space="preserve" y="-1166.3905" clip-path="url(#clipPath2)" stroke="none"> [l]</text>
+      <text x="-488.4545" xml:space="preserve" y="-1139.1506" clip-path="url(#clipPath2)" stroke="none">λ   := "the number of neurons in layer l", l ∈ {0,1,2}</text>
+      <text x="-488.4545" xml:space="preserve" y="-1111.9106" clip-path="url(#clipPath2)" stroke="none"> </text>
+      <text x="-488.4545" xml:space="preserve" y="-1084.6707" clip-path="url(#clipPath2)" stroke="none">(layer 0 is the input layer)</text>
     </g>
     <g fill="url(#linearGradient112)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,823,1637)" stroke="url(#linearGradient112)">
       <path d="M1617.2411 -1152.532 L1865.5638 -1152.532 L1865.5638 -911.0455 L1617.2411 -911.0455 Z" stroke="none" clip-path="url(#clipPath2)"/>
@@ -1579,10 +1578,10 @@
       <path d="M3601.6331 -222.0214 L3606.6331 -234.0214 L3601.6331 -231.0214 L3596.6331 -234.0214 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M3601.6331 -169.3163 L3601.6331 -134.5447" clip-path="url(#clipPath2)"/>
       <path d="M3601.6331 -126.5447 L3606.6331 -138.5447 L3601.6331 -135.5447 L3596.6331 -138.5447 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="6,2" d="M1479.7524 -1217.2799 L1479.7524 -1066.0999" clip-path="url(#clipPath2)"/>
-      <path stroke-dasharray="6,2" d="M1479.7524 -1058.0999 L1484.7524 -1070.0999 L1479.7524 -1067.0999 L1474.7524 -1070.0999 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M1314.1274 -1217.3029 L1314.1274 -1140.7098 L1314.7524 -1136.3348 L1316.6274 -1133.2098 L1319.7524 -1131.3348 L1324.1274 -1130.7098 L1469.7524 -1130.7098 L1474.1274 -1130.0848 L1477.2524 -1128.2098 L1479.1274 -1125.0848 L1479.7524 -1120.7098 L1479.7524 -1066.1129" clip-path="url(#clipPath2)"/>
       <path d="M1479.7524 -1058.1129 L1484.7524 -1070.1129 L1479.7524 -1067.1129 L1474.7524 -1070.1129 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="6,2" d="M1479.7524 -1217.2799 L1479.7524 -1066.0999" clip-path="url(#clipPath2)"/>
+      <path stroke-dasharray="6,2" d="M1479.7524 -1058.0999 L1484.7524 -1070.0999 L1479.7524 -1067.0999 L1474.7524 -1070.0999 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M1479.7524 -1005.4408 L1479.7524 -937.8046" clip-path="url(#clipPath2)"/>
       <path d="M1479.7524 -929.8046 L1484.7524 -941.8046 L1479.7524 -938.8046 L1474.7524 -941.8046 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M1431.618 -903.4639 L1389.0995 -903.4639" clip-path="url(#clipPath2)"/>
@@ -1590,10 +1589,10 @@
       <path d="M2697.8379 -1070.7261 L2702.8379 -1082.7261 L2697.8379 -1079.7261 L2692.8379 -1082.7261 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M2697.8379 -1018.0567 L2697.8379 -965.7308" clip-path="url(#clipPath2)"/>
       <path d="M2697.8379 -957.7308 L2702.8379 -969.7308 L2697.8379 -966.7308 L2692.8379 -969.7308 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M2697.8379 -905.023 L2697.8379 -835.1015" clip-path="url(#clipPath2)"/>
-      <path d="M2697.8379 -827.1015 L2702.8379 -839.1015 L2697.8379 -836.1015 L2692.8379 -839.1015 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M3561.6345 -402.4915 L3349.7068 -402.4915 L3345.3318 -403.1165 L3342.2068 -404.9915 L3340.3318 -408.1165 L3339.7068 -412.4915 L3339.7068 -788.0279 L3339.0818 -792.4029 L3337.2068 -795.5279 L3334.0818 -797.4029 L3329.7068 -798.0279 L2773.3391 -798.0279" clip-path="url(#clipPath2)"/>
       <path d="M2765.3391 -798.0279 L2777.3391 -793.0279 L2774.3391 -798.0279 L2777.3391 -803.0279 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" d="M2697.8379 -905.023 L2697.8379 -835.1015" clip-path="url(#clipPath2)"/>
+      <path d="M2697.8379 -827.1015 L2702.8379 -839.1015 L2697.8379 -836.1015 L2692.8379 -839.1015 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M1479.7524 -877.1588 L1479.7524 -553.6787" clip-path="url(#clipPath2)"/>
       <path d="M1479.7524 -545.6787 L1484.7524 -557.6787 L1479.7524 -554.6787 L1474.7524 -557.6787 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M2697.8379 -768.9599 L2697.8379 -699.0443" clip-path="url(#clipPath2)"/>
