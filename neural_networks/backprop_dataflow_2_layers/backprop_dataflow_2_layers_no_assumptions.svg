@@ -1201,7 +1201,7 @@
     </g>
     <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,783,1679)" stroke-linecap="butt">
       <path fill="none" d="M-752.2999 -1477.8832 L52.3168 -1477.8832 L52.3168 -1400.8832 L-752.2999 -1400.8832 Z" clip-path="url(#clipPath2)"/>
-      <text x="-545.6213" font-size="30px" y="-1427.7433" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Version of 2025-02-09 13:00</text>
+      <text x="-545.6213" font-size="30px" y="-1427.7433" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" xml:space="preserve">Version of 2025-02-09 14:00</text>
     </g>
     <g fill="url(#linearGradient82)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,783,1679)" stroke="url(#linearGradient82)">
       <path d="M52.3168 -1477.8832 L224.8536 -1477.8832 L224.8536 -1400.8832 L52.3168 -1400.8832 Z" stroke="none" clip-path="url(#clipPath2)"/>
@@ -1744,6 +1744,8 @@
       <path d="M3903.3926 -824.5746 L3908.3926 -836.5746 L3903.3926 -833.5746 L3898.3926 -836.5746 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" stroke-dasharray="6,2" d="M3903.3926 -1263.5431 L3903.3926 -832.5482" clip-path="url(#clipPath2)"/>
       <path stroke-dasharray="6,2" d="M3903.3926 -824.5482 L3908.3926 -836.5482 L3903.3926 -833.5482 L3898.3926 -836.5482 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" d="M3943.3853 -1403.8119 L3991.0146 -1403.8119 L3995.3896 -1403.1869 L3998.5146 -1401.3119 L4000.3896 -1398.1869 L4001.0146 -1393.8119 L4001.0146 -808.2204 L4000.3896 -803.8454 L3998.5146 -800.7204 L3995.3896 -798.8454 L3991.0146 -798.2204 L3959.4885 -798.2204" clip-path="url(#clipPath2)"/>
+      <path d="M3951.4885 -798.2204 L3963.4885 -793.2204 L3960.4885 -798.2204 L3963.4885 -803.2204 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" d="M3903.3926 -771.8821 L3903.3926 -723.9012" clip-path="url(#clipPath2)"/>
       <path d="M3903.3926 -715.9012 L3908.3926 -727.9012 L3903.3926 -724.9012 L3898.3926 -727.9012 Z" clip-path="url(#clipPath2)" stroke="none"/>
       <path fill="none" stroke-dasharray="6,2" d="M3443.8218 -1263.6069 L3443.8218 -1014.1059" clip-path="url(#clipPath2)"/>
