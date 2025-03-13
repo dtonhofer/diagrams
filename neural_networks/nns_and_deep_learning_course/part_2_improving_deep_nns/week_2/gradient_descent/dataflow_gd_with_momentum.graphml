@@ -203,10 +203,9 @@ and Ws,bs</y:NodeLabel>
       </data>
     </node>
     <node id="n16">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
-          <y:Geometry height="23.0" width="57.5" x="836.9560546874995" y="-2185.606779893239"/>
+          <y:Geometry height="23.0" width="57.5" x="836.9560546874995" y="-2187.716154893239"/>
           <y:Fill color="#000000" color2="#000000" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="26.75" y="9.5">
@@ -221,7 +220,6 @@ and Ws,bs</y:NodeLabel>
       </data>
     </node>
     <node id="n17">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="23.0" width="57.5" x="836.9560546874995" y="-1513.4855000153004"/>
@@ -239,7 +237,6 @@ and Ws,bs</y:NodeLabel>
       </data>
     </node>
     <node id="n18">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="23.0" width="57.5" x="1909.5828756029114" y="-2187.716154893239"/>
@@ -257,7 +254,6 @@ and Ws,bs</y:NodeLabel>
       </data>
     </node>
     <node id="n19">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="23.0" width="57.5" x="1911.720554843569" y="-1513.4855000153004"/>
@@ -320,38 +316,27 @@ written dW</y:NodeLabel>
     </node>
     <node id="n24">
       <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.annotation">
-          <y:Geometry height="23.0" width="90.35920427964402" x="1893.1532734630894" y="-2240.716154893239"/>
-          <y:Fill hasColor="false" transparent="false"/>
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="182.8443960826985" width="474.8151316378455" x="808.5810546874994" y="-2405.534619256678"/>
+          <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.61998748779297" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="70.17996215820312" x="10.089621060720447" xml:space="preserve" y="2.6900062561035156">Initialized to 0<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
-          <y:StyleProperties>
-            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
-          </y:StyleProperties>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="167.44114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="457.60406494140625" x="4.0" xml:space="preserve" y="4.0">The sequence of v{t} is the exponentially weighted moving 
+average (EWMA) of the preceding dW{k}, k ≤ t.
+                  
+The sequence of v{t} is thus equivalent to a sequence of
+dW{t} with high frequencies (fast changes) suppressed. This 
+loosely models the velocity vector of a physical mass (having
+momentum) under influence of a force given by the gradient.
+The "pseudo velocity vector" v{t$ is then added to W{t} for
+a position update. Note that large plateaus cannot be traversed
+as the EWMA eventually decays to 0. </y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n25">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="131.5" width="440.5137170567791" x="808.5810546874995" y="-2393.466154893239"/>
-          <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="85.72057151794434" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="436.00384521484375" x="4.0" xml:space="preserve" y="4.0">The sequence of "v{t}" is the exponentially weighted moving 
-average (EWMA) of the sequence of "dW{k}", k ≤ t.
-                  
-The sequence of "v{t}" is thus equivalent to a sequence of
-"dW{t}" with high frequencies (fast changes) suppressed.</y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n26">
-      <data key="d5"/>
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="122.75" width="1061.7637170567791" x="808.5810546874995" y="-2516.216154893239"/>
+          <y:Geometry height="122.75" width="974.662623115808" x="808.5810546874995" y="-2528.284619256678"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.0646858215332" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="623.2057495117188" x="4.0" xml:space="preserve" y="10.342657089233398">This is the dataflow for a single "gradient descent with momentum" step at "time" {t}.
@@ -363,42 +348,56 @@ Similar dataflow applies to the weight matrices for other layers and the bias ve
         </y:GenericNode>
       </data>
     </node>
-    <node id="n27">
-      <data key="d5"/>
+    <node id="n26">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="40.0" width="981.7637170567791" x="808.5810546874995" y="-2556.216154893239"/>
+          <y:Geometry height="40.0" width="894.6626231158082" x="808.5810546874994" y="-2568.284619256678"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.239974975585938" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="735.4189453125" x="4.0" xml:space="preserve" y="4.380012512207031">"Gradient Descent with momentum" for batch / mini-batch / stochastic modes</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="20" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="31.239974975585938" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="785.2792358398438" x="4.0" xml:space="preserve" y="4.380012512207031">"Gradient Descent with momentum" for batch / mini-batch / stochastic modes</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n27">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="80.0" x="1703.2436778033077" y="-2568.284619256678"/>
+          <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="66.64041137695312" x="6.6797943115234375" xml:space="preserve" y="9.827942848205566">2025-03-13</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n28">
-      <data key="d5"/>
       <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="40.0" width="80.0" x="1790.3447717442787" y="-2556.216154893239"/>
-          <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
+        <y:GenericNode configuration="com.yworks.flowchart.annotation">
+          <y:Geometry height="62.4375" width="114.5" x="1881.0828756029114" y="-2285.127723173979"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="66.64041137695312" x="6.6797943115234375" xml:space="preserve" y="9.827942848205566">2025-03-11</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="76.0" x="19.25" xml:space="preserve" y="8.788768768310547"> [μ] 
+v   {0} := 0
+ dW<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
+          </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
     <node id="n29">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="131.5" width="621.25" x="1249.0947717442787" y="-2393.466154893239"/>
+          <y:Geometry height="182.84439608269872" width="499.84749147796265" x="1283.396186325345" y="-2405.534619256678"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="118.40880012512207" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="608.8056030273438" x="4.0" xml:space="preserve" y="4.0">The connection to (physical) momentum is as follows (more tenuous):
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="italic" hasBackgroundColor="false" hasLineColor="false" height="134.75291442871094" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="486.40435791015625" x="4.0" xml:space="preserve" y="4.0">This is a modified version of "classical momentum" as described in:
 
-If one associates "dW{t}" to a physical force, and "v{t}" to physical momentum,
-then there is some similarity between:
+"Some methods of speeding up the convergence of iteration methods"
+Boris T. Polyak
+USSR Computational Mathematics and Mathematical Physics
+December 1964, 4(5), 1–17.
 
-"updating a momentum value by integrating force (applied to a mass m) over time" and
-"updating v{t} by summing (exponentially weighted) dW{t} over multiple ticks"</y:NodeLabel>
+The above is not explicitly formulated to use EWMA.</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -571,7 +570,6 @@ then there is some similarity between:
       </data>
     </edge>
     <edge id="e15" source="n16" target="n6">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -582,7 +580,6 @@ then there is some similarity between:
       </data>
     </edge>
     <edge id="e16" source="n14" target="n17">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -593,7 +590,6 @@ then there is some similarity between:
       </data>
     </edge>
     <edge id="e17" source="n13" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -605,7 +601,6 @@ then there is some similarity between:
       </data>
     </edge>
     <edge id="e18" source="n3" target="n22">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -616,7 +611,6 @@ then there is some similarity between:
       </data>
     </edge>
     <edge id="e19" source="n18" target="n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -627,7 +621,6 @@ then there is some similarity between:
       </data>
     </edge>
     <edge id="e20" source="n3" target="n19">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -647,8 +640,7 @@ then there is some similarity between:
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e22" source="n24" target="n18">
-      <data key="d9"/>
+    <edge id="e22" source="n28" target="n18">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

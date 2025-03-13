@@ -204,7 +204,6 @@ and Ws,bs</y:NodeLabel>
       </data>
     </node>
     <node id="n16">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="23.0" width="57.5" x="906.5376304812423" y="-2049.1624738724013"/>
@@ -222,7 +221,6 @@ and Ws,bs</y:NodeLabel>
       </data>
     </node>
     <node id="n17">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="23.0" width="57.5" x="906.5376304812423" y="-1377.041193994463"/>
@@ -240,7 +238,6 @@ and Ws,bs</y:NodeLabel>
       </data>
     </node>
     <node id="n18">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="23.0" width="57.5" x="2153.5151128396583" y="-2049.1624738724013"/>
@@ -258,7 +255,6 @@ and Ws,bs</y:NodeLabel>
       </data>
     </node>
     <node id="n19">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="23.0" width="57.5" x="2155.6527920803155" y="-1377.041193994463"/>
@@ -418,13 +414,12 @@ is "componentwise"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Label
       </data>
     </node>
     <node id="n31">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="40.0" width="981.7637170567791" x="860.1626304812423" y="-2499.2493879349013"/>
+          <y:Geometry height="40.0" width="981.7637170567791" x="879.4226957695992" y="-2364.7800484854893"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="25.792043685913086" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="730.9132690429688" x="4.0" xml:space="preserve" y="7.103978157043457">Batch / mini-batch / stochastic gradient descent with RMSprop ("root mean square propagation")</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="25.792043685913086" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="780.017822265625" x="4.0" xml:space="preserve" y="7.103978157043457">Batch / mini-batch / stochastic gradient descent with RMSprop ("root mean square propagation")</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -434,34 +429,31 @@ is "componentwise"<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:Label
           <y:Geometry height="51.103909524913206" width="117.0" x="1903.7486254700175" y="-1447.0296272945077"/>
           <y:Fill color="#FFFF99" color2="#FFFF99" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="95.21992492675781" x="10.890037536621094" xml:space="preserve" y="3.1219735307672636">ε
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="44.859962463378906" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="95.21992492675781" x="10.890037536621094" xml:space="preserve" y="3.121973530767036">ε
 arbitrary "keep &gt; 0"
 term, .e.g 10^(-8)<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n33">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="222.18782589803004" width="525.2101647397651" x="860.1626304812424" y="-2336.4993879349004"/>
+          <y:Geometry height="114.33146028323108" width="525.2101647397651" x="879.4226957695993" y="-2202.0300484854884"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="118.40880012512207" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="508.00457763671875" x="4.0" xml:space="preserve" y="4.0">The sequence of "s{t}" is the exponentially weighted moving average
-(EWMA) of the "componentwise squared dW{t}" (and also "componentwise
-squared db{t}").
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.0646858215332" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="472.00421142578125" x="4.0" xml:space="preserve" y="4.0">The sequence of s{t} is the exponentially weighted moving average
+(EWMA) of the componentwise squared dW{t}.
 
-This means each component of "s{t}" contains the approximate "mean
-squared value over the last 1/(1-β) occurring dW{t}", i.e. an estimate
-of the recently occuring squared magnitude of "dW{t}".</y:NodeLabel>
+This means each component of s{t} contains the approximate "mean
+squared value over the last 1/(1-β) occurring dW{t}", i.e. an 
+estimate of the recently occuring squared magnitude of dW{t}.</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n34">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="122.75" width="1061.7637170567791" x="860.1626304812423" y="-2459.2493879349013"/>
+          <y:Geometry height="122.75" width="1061.7637170567791" x="879.4226957695992" y="-2324.7800484854893"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.0646858215332" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="l" textColor="#000000" verticalTextPosition="bottom" visible="true" width="616.0056762695312" x="4.0" xml:space="preserve" y="10.342657089233398">This is the dataflow for a single "gradient descent with RMSprop" step at "time" {t}.
@@ -474,35 +466,26 @@ Similar dataflow applies other weight matrices and the bias vectors.</y:NodeLabe
       </data>
     </node>
     <node id="n35">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="40.0" width="80.0" x="1841.9263475380214" y="-2499.2493879349013"/>
+          <y:Geometry height="40.0" width="80.0" x="1861.1864128263783" y="-2364.7800484854893"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="66.64041137695312" x="6.6797943115234375" xml:space="preserve" y="9.827942848205566">2025-03-11</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="66.64041137695312" x="6.6797943115234375" xml:space="preserve" y="9.827942848205566">2025-03-13</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
     <node id="n36">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="222.18782589803004" width="536.553552317014" x="1385.3727952210074" y="-2336.4993879349004"/>
+          <y:Geometry height="114.33146028323108" width="536.553552317014" x="1404.6328605093643" y="-2202.0300484854884"/>
           <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="200.1293716430664" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="508.00457763671875" x="4.0" xml:space="preserve" y="4.0">If we componentwise-divide the current "dW{t}" by the componentwise 
-square-rooted "s{t}", we obtain a scaled (regularized) "dW_reg{t}" for
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="85.72057151794434" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="479.20428466796875" x="4.0" xml:space="preserve" y="4.0">If we componentwise-divide the current dW{t} by the componentwise 
+square-rooted s{t}, we obtain a scaled (regularized) dW_reg{t} for
 which each component has been individually re-scaled towards 1 in 
-magnitude (but not in sign, so the gradient "dW_reg{t}" still points
-in the general direction of "dW{t}"):
- 
-- Components of "dW{t}" that are &lt; 1 in magnitude are divided by the
-  approximate root-mean-squared value of their recent &lt; 1 magnitudes, 
-  thus their scaled magnitude will be ~1.
-- Components of "dW{t}" that are &gt; 1 in magnitude are divided by the
-  approximate root-mean-squared value of their recent &gt; 1 magnitudes, 
-  thus their magnitude will be ~1.</y:NodeLabel>
+magnitude (but not in sign, so the gradient dW_reg{t} still points
+in the general direction of dW{t}):</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -685,7 +668,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e16" source="n16" target="n6">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -696,7 +678,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e17" source="n14" target="n17">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -707,7 +688,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e18" source="n13" target="n1">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -719,7 +699,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e19" source="n18" target="n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -730,7 +709,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e20" source="n3" target="n19">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -751,7 +729,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e22" source="n24" target="n18">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -762,7 +739,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e23" source="n20" target="n25">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -773,7 +749,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e24" source="n29" target="n22">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -784,7 +759,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e25" source="n28" target="n29">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -795,7 +769,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e26" source="n23" target="n27">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -806,7 +779,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e27" source="n3" target="n28">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -817,7 +789,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e28" source="n28" target="n30">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -828,7 +799,6 @@ in the general direction of "dW{t}"):
       </data>
     </edge>
     <edge id="e29" source="n32" target="n28">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
