@@ -20,14 +20,14 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="2012.5713103008536" width="3111.853414203277" x="-77.53561385692797" y="-1133.3488470178975"/>
+              <y:Geometry height="2030.2060821366845" width="3111.853414203277" x="-77.53561385692797" y="-1133.3488470178975"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasLineColor="false" height="31.239974975585938" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="3111.853414203277" x="0.0" xml:space="preserve" y="0.0">Diagram 1</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="32" bottomF="32.01075999639875" left="0" leftF="5.684341886080802E-14" right="0" rightF="0.0" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="5.684341886080802E-14" right="0" rightF="0.0" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="-77.53561385692797" y="-1133.3488470178975"/>
@@ -260,23 +260,23 @@ Y = 1: input belongs to class 1</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="347.2264003753662" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="342.40289306640625" x="4.0" xml:space="preserve" y="4.0">Possible interpretation 1: "predicted label"
 - - - - - - - - - - - - - - - - - - - - - -
 
-Try to match Y{j} as close as possible.
+Try to match Y(j) as close as possible.
 
 We want:
 
-  Y{j} = 0 =&gt; AL{j} should be near 0
-  Y{j} = 1 =&gt; AL{j} should be near 1
+  Y(j) = 0 =&gt; AL(j) should be near 0
+  Y(j) = 1 =&gt; AL(j) should be near 1
 
-and the loss would then be (omitting "{j}" for
+and the loss would then be (omitting "(j)" for
 readability):
 
-  LOSS = - [ (1-Y)∙log(1-AL) + Y∙log(AL) ]
+  LOSS = -( (1-Y)∙log(1-AL) + Y∙log(AL) )
 
 because in that case:
 
   Y = 0 and AL near 0 =&gt; LOSS near 0
-  Y = 1 and AL near 1 =&gt; LOSS near 0
   Y = 0 and AL near 1 =&gt; LOSS arbitrarily large
+  Y = 1 and AL near 1 =&gt; LOSS near 0
   Y = 1 and AL near 0 =&gt; LOSS arbitrarily large</y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
@@ -305,17 +305,16 @@ because in that case:
               <y:Geometry height="200.327490592829" width="390.3037230410946" x="1884.946760553236" y="-21.072993643270138"/>
               <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="183.78525733947754" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="356.80303955078125" x="4.0" xml:space="preserve" y="4.0">In the "estimated probability" interpretation,
-LOSS is computed as (using vector operations):
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="167.44114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="356.80303955078125" x="4.0" xml:space="preserve" y="4.0">LOSS is computed as (using vector operations):
 
-  LOSS = -( (1-Y)∙log(AL) + Y∙log(1-AL) )
+  LOSS = -( (1-Y)∙log(1-AL) + Y∙log(AL) )
 
 Or using a case distinction instead of a formula,
-for the single example {j}:
+for the single example (j):
 
-            ⎧ Y{j}=0 =&gt; -log(AL{j})
-  LOSS{j} = ⎥
-            ⎩ Y{j}=1 =&gt; -log(1-AL{j})
+            ⎧ Y(j)=0 =&gt; -log(1-AL(j))
+  LOSS(j) = ⎥
+            ⎩ Y(j)=1 =&gt; -log(AL(j))
 </y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
@@ -1209,9 +1208,9 @@ as a "logit value".
 
 The logit function works on a probability:
 
-                       p 
-   logit(p) :=  log(-------)
-                      1-p
+                      p 
+   logit(p) =  log(-------)
+                     1-p
 
 it is the (natural) logarithm of the odds
 of an event with probability p. 
@@ -1237,39 +1236,43 @@ of sigma(_). Thus:
         <node id="n0::n45">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.annotation">
-              <y:Geometry height="525.8297513256231" width="436.25245294981937" x="2087.311578021952" y="257.5538269609344"/>
+              <y:Geometry height="580.0078281468152" width="401.98919059076366" x="2104.44320920148" y="257.5538269609343"/>
               <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="494.323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="364.00311279296875" x="4.0" xml:space="preserve" y="4.000000000000057">This is the vector of
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="559.6998863220215" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="385.60333251953125" x="4.0" xml:space="preserve" y="4.0">This is the vector of
 
 "negative log likelihood" (or "cross entropy")
 
-for a single prediction.
+for single predictions.
 
-For input X{j}, if we judge that the true label
-is "0" with probability AL{j} (and thus that the
-true label is "1" with probability 1-AL{j}) and
-make a random choice to state "it will be 0"
-or "it will be 1" based on that probability,
-then the probability of "predicting correctly" is:
+If, for example j, we judge that Y(j) = 1 with
+probability AL(j) (and thus that Y(j) = 0 with
+probability 1-AL(j)) and make the random choice
+to state "Y(j) will be 1" or "Y(j) will be 0" 
+based on that probability, then the probability
+of being correct is:
 
-                               ⎧ Y{j}=0 =&gt; AL{j}
-  P("Y{j} predicted"|X{j},ℾ) = ⎥
-                               ⎩ Y{j}=1 =&gt; 1-AL{j}
+                                  ⎧ Y(j)=1 =&gt; AL(j)
+  P("Y(j) pred.corr." | X(j),ℾ) = ⎥
+                                  ⎩ Y(j)=0 =&gt; 1-AL(j)
 
 or expressed as a formula:
 
-  P("Y{j} predicted"|X{j},ℾ)
+  P("Y(j) pred.corr" | X(j),ℾ)
 
-  = (1-Y)∙AL{j} + Y∙(1-AL{j})
+  = (1-Y(j))∙(1-AL(j)) + Y(j)∙AL(j)
 
-The "negative log likelihood" for this case of a
-single probability (rather than a product of
+The "negative log likelihood" for this case
+(single probability rather than a product of
 probabilities) is
 
-  -log( (1-Y{j})∙AL{j} + Y{j}∙(1-AL{j}) )
+  -log( (1-Y)∙(1-AL(j)) + Y∙AL(j)
 
-which due to Y{j} ∈ {0,1} is exactly LOSS{j}</y:NodeLabel>
+As Y(j) ∈ {0,1} this is equal to:
+
+  -( (1-Y(j)∙log(1-AL(j)) + Y(j)∙log(AL(j)) )
+
+  = LOSS(j)</y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
                 <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
@@ -1280,40 +1283,38 @@ which due to Y{j} ∈ {0,1} is exactly LOSS{j}</y:NodeLabel>
         <node id="n0::n46">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.annotation">
-              <y:Geometry height="485.8150425653572" width="351.69257511144383" x="2546.1664118044782" y="254.5444656242811"/>
+              <y:Geometry height="462.44410746601943" width="355.94183603859597" x="2544.041781340902" y="254.5444656242811"/>
               <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="461.6352005004883" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="328.00274658203125" x="4.0" xml:space="preserve" y="4.0">This is the "negative log likelihood"
-of the probability of correctly predicting
-the whole batch, scaled by 1/m.
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="445.2910861968994" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="328.00274658203125" x="4.0" xml:space="preserve" y="4.0">J is the mean over the LOSS(j) but is also
+simply the "negative log likelihood" of the
+probability of correctly predicting all
+examples in the batch, scaled by 1/m.
 
-If, for each example j, we judge that the
-true label is "0" with probability AL{j}
-(and thus that the true label is "1" with
-probability 1-AL{j}) and make the random
-choice to state "it will be 0" or "it will 
-be 1" based on those probabilities, then the 
-probability of being correct for every 
-example in the batch, is:
+Indeed:
 
-   PRODUCT P( "Y{j} predicted" | X{j},ℾ)
-      j 
+If, for each example j, we judge that
+Y(j) = 1 with probability AL(j) (and thus 
+that Y(j) = 0 with probability 1-AL(j)) 
+and make the random choice to state "Y(j) 
+will be 1" or "Y(j) will be 0" based on that
+probability, then the probability of being
+correct for every example in the batch, is:
+
+  PRODUCT P( "Y(j) pred.corr." | X(j),ℾ)
+     j 
 
 The "negative log likelihood" of the above is
 
-   - SUM log( P( "Y{j} predicted" | X{j},ℾ) )
-      j
+  -SUM log(P( "Y(j) pred.corr." | X{j},ℾ))
+    j
 
-   =
+   = -SUM LOSS(j)
+       j
 
-   - SUM LOSS{j}
-      j
-
-By scaling by 1/m, we obtain J, which has the
-form of a mean over the individual LOSS{j}.</y:NodeLabel>
+By scaling by 1/m, we obtain J.</y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
-                <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
               </y:StyleProperties>
             </y:GenericNode>
           </data>
@@ -1381,43 +1382,46 @@ W    x b    x W    x b
         <node id="n0::n49">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.annotation">
-              <y:Geometry height="574.657876325623" width="375.2358701683622" x="1682.0757078535894" y="257.55382696093443"/>
+              <y:Geometry height="624.3034081578525" width="375.2358701683622" x="1682.0757078535894" y="257.5538269609345"/>
               <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="559.6998863220215" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="364.00311279296875" x="4.0" xml:space="preserve" y="4.0">Possible interpretation 2: "estimated probability"
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="608.7322292327881" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="371.20318603515625" x="4.0" xml:space="preserve" y="4.0">Possible interpretation 2: "estimated probability"
 - - - - - - - - - - - - - - - - - - - - - - - - -
 
-For example {j}, AL{j} is an estimate of a
+For example (j), AL(j) is an estimate of a
 probability:
 
-  AL{j} = P("the true label of input X{j} is 0"|ℾ)
+  AL(j) = P("the true label of input X(j) is 1"|ℾ)
 
-  or expressed differently
+  or expressed differently:
 
-  AL{j} = P("Y{j} = 0"|X{j},ℾ)
+  AL(j) = P("Y(j) = 1"|X(j),ℾ)
+
+Note that this is the probability for membership in
+class 1, not in class 0 (an arbitrary choice)
 
 We are trying to emulate a "Bayes classifier".
 For such a classifier, the most successful 
-strategy at predicting the true label Y{j} when
-being presented with X{j}.is to propose label "0"
-with probability AL{j}.
+strategy at predicting the true label Y(j) when
+being presented with X(j) is to propose label "1"
+with probability AL(j).
 
 We want:
 
-  Y{j} = 0  =&gt;  AL{j} should be near 1
-  Y{j} = 1  =&gt;  AL{j} should be near 0
+  Y(j) = 0  =&gt;  AL(j) should be near 0
+  Y(j) = 1  =&gt;  AL(j) should be near 1
 
-and the loss would then be (omitting "{j}" for
+and the loss would then be (omitting "(j)" for
 readability):
 
-  LOSS = - [ (1-Y)∙log(AL) + Y∙log(1-AL) ]
+  LOSS = -( (1-Y)∙log(1-AL) + Y∙log(AL) )
 
 because in that case:
 
-  Y = 0 and AL near 1 =&gt; LOSS near 0
-  Y = 1 and AL near 0 =&gt; LOSS near 0
-  Y = 0 and AL near 0 =&gt; LOSS arbitrarily large
-  Y = 1 and AL near 1 =&gt; LOSS arbitrarily large</y:NodeLabel>
+  Y = 0 and AL near 0 =&gt; LOSS near 0
+  Y = 0 and AL near 1 =&gt; LOSS arbitrarily large
+  Y = 1 and AL near 1 =&gt; LOSS near 0
+  Y = 1 and AL near 0 =&gt; LOSS arbitrarily large</y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
                 <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
@@ -1440,7 +1444,6 @@ because in that case:
           </data>
         </node>
         <node id="n0::n51">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
               <y:Geometry height="209.12695962732937" width="1117.3263245033113" x="-41.38356255844383" y="-1087.1088720423115"/>
@@ -1451,7 +1454,7 @@ because in that case:
 ▶ negative log likelihood to compute LOSS and COST
 ▶ "batch processing" over m examples (examples occupy the 2nd dimension of the matrices)
 
-Version of 2025-04-01</y:NodeLabel>
+Version of 2025-04-01/2</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -1550,7 +1553,6 @@ Z   ∈ ]-oo...+oo[</y:NodeLabel>
       </data>
     </edge>
     <edge id="n0::e7" source="n0::n6" target="n0::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1593,7 +1595,6 @@ Z   ∈ ]-oo...+oo[</y:NodeLabel>
       </data>
     </edge>
     <edge id="n0::e11" source="n0::n8" target="n0::n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1647,7 +1648,6 @@ Z   ∈ ]-oo...+oo[</y:NodeLabel>
       </data>
     </edge>
     <edge id="n0::e16" source="n0::n14" target="n0::n52">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-0.8119425138472707" sy="-5.447788033240499" tx="67.6182134518915" ty="3.1712296375432274">

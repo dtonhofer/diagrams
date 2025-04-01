@@ -13,22 +13,21 @@
   <key attr.name="description" attr.type="string" for="edge" id="d9"/>
   <key for="edge" id="d10" yfiles.type="edgegraphics"/>
   <graph edgedefault="directed" id="G">
-    <data key="d0"/>
+    <data key="d0" xml:space="preserve"/>
     <node id="n0" yfiles.foldertype="group">
       <data key="d4" xml:space="preserve"/>
-      <data key="d5"/>
       <data key="d6">
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="1032.1894649132819" width="2174.136087233182" x="-252.00809269534648" y="-44.08632139144913"/>
+              <y:Geometry height="1004.2668159066595" width="2389.548807611726" x="-252.00809269534648" y="-44.08632139144913"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasLineColor="false" height="31.239974975585938" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="2174.136087233182" x="0.0" xml:space="preserve" y="0.0">Diagram 2</y:NodeLabel>
+              <y:NodeLabel alignment="center" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="20" fontStyle="plain" hasLineColor="false" height="31.239974975585938" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="2389.548807611726" x="0.0" xml:space="preserve" y="0.0">Diagram 2</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="187" rightF="187.4900713719212" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="825.4100836177677" y="912.5536720845577"/>
@@ -152,25 +151,24 @@ slices</y:NodeLabel>
         <node id="n0::n10">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.annotation">
-              <y:Geometry height="240.97906251869745" width="410.75983808844535" x="536.4111314763813" y="732.1240810031354"/>
+              <y:Geometry height="213.05641351207498" width="428.2114937175844" x="527.6853036618115" y="732.1240810031354"/>
               <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="232.81760025024414" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="400.00347900390625" x="4.0" xml:space="preserve" y="4.0">Per-example slices of
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="200.1293716430664" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="421.60369873046875" x="4.0" xml:space="preserve" y="4.0">Per-example slices of:
+                                 "ANN's estimates of"
 
-                     [2]
-⎧  AL{j}  ⎫   ⎧   σ(Z   )⎫   ⎧ P("Y{j} = 0" | X{j},ℾ) ⎫
-⎥         ⎥   ⎥          ⎥   ⎥                        ⎥
-⎥         ⎥ = ⎥          ⎥ = ⎥                        ⎥
-⎥         ⎥   ⎥      [2] ⎥   ⎥                        ⎥
-⎩ 1-AL{j} ⎭   ⎩ 1-σ(Z   )⎭   ⎩ P("Y{j} = 1" | X{j},ℾ) ⎭
+⎧ 1-AL(j) ⎫   ⎧ 1-σ(Z^[2])  ⎫   ⎧ P("Y(j) = 0" | X(j),ℾ) ⎫
+⎥         ⎥ = ⎥             ⎥ = ⎥                        ⎥
+⎩  AL(j)  ⎭   ⎩  σ(Z^[2])   ⎭   ⎩ P("Y(j) = 1" | X(j),ℾ) ⎭
 
-The slices have the quality of
-probabilities because: 
+The slices have the quality of probabilities because:
+ 
 - the cases are exhaustive, and
 - the values are between 0 and 1, and
 - the values sum to 1.</y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+                <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
               </y:StyleProperties>
             </y:GenericNode>
           </data>
@@ -213,13 +211,14 @@ log</y:NodeLabel>
               <y:Geometry height="97.3125" width="125.09592880794708" x="987.6329733701004" y="732.1240810031354"/>
               <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="85.72057151794434" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.00086975097656" x="4.0" xml:space="preserve" y="4.0">⎧ -log(AL)   ⎫
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="85.72057151794434" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="112.00086975097656" x="4.0" xml:space="preserve" y="4.0">⎧ -log(1-AL) ⎫
 |            |
-⎩ -log(1-AL) ⎭
+⎩ -log(AL)   ⎭
 
 both ∈ ]0...+∞[</y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+                <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
               </y:StyleProperties>
             </y:GenericNode>
           </data>
@@ -227,7 +226,7 @@ both ∈ ]0...+∞[</y:NodeLabel>
         <node id="n0::n15">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="82.1875" width="160.45206751910882" x="1219.23036985424" y="384.35348732034095"/>
+              <y:Geometry height="82.1875" width="160.45206751910882" x="1247.1530188608626" y="384.35348732034095"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="69.37645721435547" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="119.200927734375" x="20.62556989236691" xml:space="preserve" y="6.405521392822266">Compare Y and AL
@@ -251,6 +250,7 @@ if the true label is 0 then [1,0]^T
 if the true label is 1 then [0,1]^T</y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+                <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
               </y:StyleProperties>
             </y:GenericNode>
           </data>
@@ -276,6 +276,7 @@ slices</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="90.40069580078125" x="4.0" xml:space="preserve" y="4.0">AL ∈ ]0...1[</y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+                <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
               </y:StyleProperties>
             </y:GenericNode>
           </data>
@@ -311,6 +312,7 @@ Y = 0: input belongs to class 0
 Y = 1: input belongs to class 1</y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+                <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
               </y:StyleProperties>
             </y:GenericNode>
           </data>
@@ -318,7 +320,7 @@ Y = 1: input belongs to class 1</y:NodeLabel>
         <node id="n0::n22">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="60.3125" width="147.95206751910882" x="1596.0091142875317" y="395.29098732034095"/>
+              <y:Geometry height="60.3125" width="147.95206751910882" x="1623.9317632941543" y="395.29098732034095"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="53.0323429107666" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.40098571777344" x="10.775540900667693" xml:space="preserve" y="3.640078544616699">Mean over 
@@ -330,7 +332,7 @@ the LOSS vector</y:NodeLabel>
         <node id="n0::n23">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.card">
-              <y:Geometry height="60.3125" width="105.0" x="1432.8423015563367" y="395.29098732034095"/>
+              <y:Geometry height="60.3125" width="105.0" x="1460.7649505629593" y="395.29098732034095"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="76.00057983398438" x="14.499710083007812" xml:space="preserve" y="11.812135696411133">   LOSS
@@ -341,7 +343,7 @@ the LOSS vector</y:NodeLabel>
         <node id="n0::n24">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.card">
-              <y:Geometry height="60.3125" width="105.0" x="1802.1279945378355" y="395.29098732034095"/>
+              <y:Geometry height="60.3125" width="105.0" x="1830.0506435444581" y="395.29098732034095"/>
               <y:Fill color="#99CCFF" color2="#99CCFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="c" textColor="#000000" verticalTextPosition="bottom" visible="true" width="68.80052185058594" x="18.09973907470703" xml:space="preserve" y="11.812135696411133">    J
@@ -352,7 +354,7 @@ the LOSS vector</y:NodeLabel>
         <node id="n0::n25">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="32.1875" width="105.0" x="1802.1279945378355" y="455.60348732034095"/>
+              <y:Geometry height="32.1875" width="105.0" x="1830.0506435444581" y="455.60348732034095"/>
               <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="37.02423095703125" x="33.987884521484375" xml:space="preserve" y="5.921692848205566">scalar<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -362,7 +364,7 @@ the LOSS vector</y:NodeLabel>
         <node id="n0::n26">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
-              <y:Geometry height="32.1875" width="105.0" x="1432.8423015563367" y="455.60348732034095"/>
+              <y:Geometry height="32.1875" width="105.0" x="1460.7649505629593" y="455.60348732034095"/>
               <y:Fill color="#B7C9E3" color2="#B7C9E3" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="20.344114303588867" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="41.860260009765625" x="31.569869995117188" xml:space="preserve" y="5.921692848205566">( 1, m )<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -372,25 +374,24 @@ the LOSS vector</y:NodeLabel>
         <node id="n0::n27">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.annotation">
-              <y:Geometry height="139.26804211108083" width="315.9913830584637" x="1141.4607120845621" y="732.1240810031354"/>
+              <y:Geometry height="114.92632025677608" width="319.4817141842914" x="1167.6381955282714" y="732.1240810031354"/>
               <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="118.40880012512207" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="299.20245361328125" x="4.0" xml:space="preserve" y="4.0">The scalar product over pairwise example
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.0646858215332" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="299.20245361328125" x="4.0" xml:space="preserve" y="4.0">The scalar product over pairwise example
 slices yields:
 
-  LOSS = -( (1-Y)∙log(AL) + Y∙log(1-AL) )
+  LOSS = -( (1-Y)∙log(1-AL) + Y∙log(AL) )
 
-This is exactly what we want for the
-"estimated probability" interpretation,
+This is exactly what we want.
 </y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+                <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
               </y:StyleProperties>
             </y:GenericNode>
           </data>
         </node>
         <node id="n0::n28">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.flowchart.process">
               <y:Geometry height="114.92632025677608" width="730.6075745033112" x="-237.00809269534648" y="2.153653584136805"/>
@@ -398,7 +399,7 @@ This is exactly what we want for the
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="24" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.06371307373047" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="709.0941162109375" x="4.0" xml:space="preserve" y="4.0">Variation using a "one-hot" representation for the "true labels"
 
-Version of 2025-04-01</y:NodeLabel>
+Version of 2025-04-01/2</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
@@ -410,6 +411,25 @@ Version of 2025-04-01</y:NodeLabel>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.688228607177734" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="tl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="126.40098571777344" x="4.0" xml:space="preserve" y="4.0"> [2]
 Z   ∈ ]-oo...+oo[</y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
+                <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n0::n30">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.flowchart.annotation">
+              <y:Geometry height="114.92632025677608" width="347.0065708355794" x="1188.7583797273799" y="56.38971220574888"/>
+              <y:Fill color="#EEEEEE" color2="#EEEEEE" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Noto Sans Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="102.0646858215332" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="bl" textColor="#000000" verticalTextPosition="bottom" visible="true" width="306.40252685546875" x="4.0" xml:space="preserve" y="8.861634435242877">If we choose the rows of the ONE-HOT
+matrix like this (which seems preferable
+to the converse [ Y, 1-Y ]) and we want
+to build the LOSS formula using the scalar
+product, then we are forced to choose the 
+rows of the PROBAS matrix as given below.</y:NodeLabel>
               <y:StyleProperties>
                 <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="0"/>
               </y:StyleProperties>
@@ -461,7 +481,6 @@ Z   ∈ ]-oo...+oo[</y:NodeLabel>
       </data>
     </edge>
     <edge id="n0::e4" source="n0::n5" target="n0::n15">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="42.33571544338383" sy="0.0" tx="0.0" ty="0.0"/>
@@ -512,7 +531,6 @@ Z   ∈ ]-oo...+oo[</y:NodeLabel>
       </data>
     </edge>
     <edge id="n0::e9" source="n0::n12" target="n0::n15">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="48.24072966281119" sy="0.0" tx="0.0" ty="0.0"/>
@@ -543,7 +561,6 @@ Z   ∈ ]-oo...+oo[</y:NodeLabel>
       </data>
     </edge>
     <edge id="n0::e12" source="n0::n15" target="n0::n27">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -614,7 +631,6 @@ Z   ∈ ]-oo...+oo[</y:NodeLabel>
       </data>
     </edge>
     <edge id="n0::e19" source="n0::n3" target="n0::n29">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
