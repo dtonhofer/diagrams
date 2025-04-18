@@ -1306,7 +1306,7 @@ correct for every example in the batch, is:
 
 The "negative log likelihood" of the above is
 
-  -SUM log(P( "Y(j) pred.corr." | X{j},ℾ))
+  -SUM log(P( "Y(j) pred.corr." | X(j),ℾ))
     j
 
    = -SUM LOSS(j)
@@ -1454,7 +1454,7 @@ because in that case:
 ▶ negative log likelihood to compute LOSS and COST
 ▶ "batch processing" over m examples (examples occupy the 2nd dimension of the matrices)
 
-Version of 2025-04-01/2</y:NodeLabel>
+Version of 2025-04-04</y:NodeLabel>
             </y:GenericNode>
           </data>
         </node>
